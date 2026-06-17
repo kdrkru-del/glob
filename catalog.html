@@ -33,6 +33,18 @@
 
       <nav class="nav" id="site-nav" aria-label="Main navigation">
         <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+        <div class="nav-submenu" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
+            <span data-i18n="nav.about">About us</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <a class="nav-submenu-link" href="index.html#about-introduction" data-i18n="nav.about.introduction">Introduction</a>
+            <a class="nav-submenu-link" href="index.html#about-history" data-i18n="nav.about.history">Corporation History</a>
+            <a class="nav-submenu-link" href="index.html#about-certificate" data-i18n="nav.about.certificate">Certificate</a>
+            <a class="nav-submenu-link" href="index.html#about-mission" data-i18n="nav.about.mission">Mission</a>
+          </div>
+        </div>
         <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
         <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a class="nav-link is-current" href="catalog.html" data-i18n="nav.catalog">Catalog</a>

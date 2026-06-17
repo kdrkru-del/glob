@@ -211,6 +211,11 @@ const translations = {
     "markets.textile.text": "Fabrics, apparel, home textiles, decor, and production runs.",
     "markets.textile.title": "Textiles & home",
     "markets.title": "Export categories aligned with your market, timeline, and shipment requirements.",
+    "nav.about": "About us",
+    "nav.about.certificate": "Certificate",
+    "nav.about.history": "Corporation History",
+    "nav.about.introduction": "Introduction",
+    "nav.about.mission": "Mission",
     "nav.catalog": "Catalog",
     "nav.documents": "Documents",
     "nav.home": "Home",
@@ -519,6 +524,11 @@ const translations = {
     "markets.textile.text": "Ткани, одежда, домашний текстиль, декор и серийные партии.",
     "markets.textile.title": "Текстиль и дом",
     "markets.title": "Экспортные направления под рынок, сроки и требования поставки.",
+    "nav.about": "О компании",
+    "nav.about.certificate": "Сертификаты",
+    "nav.about.history": "История компании",
+    "nav.about.introduction": "Введение",
+    "nav.about.mission": "Миссия",
     "nav.catalog": "Каталог",
     "nav.documents": "Документы",
     "nav.home": "Главная",
@@ -827,6 +837,11 @@ const translations = {
     "markets.textile.text": "Vải, quần áo, dệt gia dụng, trang trí và đơn hàng sản xuất.",
     "markets.textile.title": "Dệt may và nhà ở",
     "markets.title": "Danh mục xuất khẩu theo thị trường, tiến độ và yêu cầu lô hàng.",
+    "nav.about": "Về chúng tôi",
+    "nav.about.certificate": "Chứng nhận",
+    "nav.about.history": "Lịch sử công ty",
+    "nav.about.introduction": "Giới thiệu",
+    "nav.about.mission": "Sứ mệnh",
     "nav.catalog": "Danh mục",
     "nav.documents": "Chứng từ",
     "nav.home": "Trang chủ",
@@ -950,6 +965,7 @@ const descriptionMeta = document.querySelector('meta[name="description"]');
 const languageButtons = document.querySelectorAll("[data-lang]");
 const navigation = document.querySelector(".nav");
 const navigationToggle = document.querySelector(".nav-toggle");
+const navigationSubmenus = document.querySelectorAll("[data-mobile-submenu]");
 
 const translate = (language, key) => {
   return translations[language]?.[key] || translations.en?.[key] || "";
@@ -1013,15 +1029,36 @@ languageButtons.forEach((button) => {
   });
 });
 
+const closeNavigationSubmenus = () => {
+  navigationSubmenus.forEach((submenu) => {
+    submenu.classList.remove("is-open");
+    submenu.querySelector(".nav-submenu-toggle")?.setAttribute("aria-expanded", "false");
+  });
+};
+
+navigationSubmenus.forEach((submenu) => {
+  const submenuToggle = submenu.querySelector(".nav-submenu-toggle");
+
+  submenuToggle?.addEventListener("click", () => {
+    const isOpen = submenu.classList.toggle("is-open");
+    submenuToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+});
+
 navigationToggle?.addEventListener("click", () => {
   const isOpen = navigation.classList.toggle("is-open");
   navigationToggle.setAttribute("aria-expanded", String(isOpen));
+
+  if (!isOpen) {
+    closeNavigationSubmenus();
+  }
 });
 
 navigation?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navigation.classList.remove("is-open");
     navigationToggle?.setAttribute("aria-expanded", "false");
+    closeNavigationSubmenus();
   });
 });
 
