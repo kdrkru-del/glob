@@ -956,7 +956,7 @@ const translate = (language, key) => {
 };
 
 const applyLanguage = (language) => {
-  const currentLanguage = translations[language] ? language : "ru";
+  const currentLanguage = translations[language] ? language : "en";
   const title = translate(currentLanguage, `meta.${pageName}.title`);
   const description = translate(currentLanguage, `meta.${pageName}.description`);
 
