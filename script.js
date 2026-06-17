@@ -27,6 +27,17 @@ const translations = {
     "assurance.kicker": "Quality Assurance Framework",
     "assurance.text": "We check batch parameters, production context, packaging, labeling, and documents before the cargo moves to port.",
     "assurance.title": "A serious shipment starts before the contract is signed.",
+    "about.certificate.text": "Certificates and official company documents will be added separately after verification.",
+    "about.certificate.title": "Certificate",
+    "about.history.text": "The company is developing as a practical bridge between Vietnamese suppliers and overseas buyers, with a focus on disciplined communication, transparent terms, and controlled shipment preparation.",
+    "about.history.title": "Corporation History",
+    "about.introduction.text": "We help international buyers work with Vietnam through one coordinated export desk: sourcing, verification, quality control, documents, and logistics preparation.",
+    "about.introduction.title": "Introduction",
+    "about.kicker": "About us",
+    "about.mission.text": "Our mission is to make export from Vietnam more reliable for international buyers by controlling supplier selection, documentation, product readiness, and shipment coordination.",
+    "about.mission.title": "Mission",
+    "about.text": "Globerion Group supports importers with sourcing, supplier checks, shipment coordination, documents, and export control from Vietnam.",
+    "about.title": "A Vietnam export desk built for international buyers.",
     "brand.tagline": "Bridging Markets",
     "catalog.agro.item1": "Robusta / Arabica",
     "catalog.agro.item2": "Cashew kernels",
@@ -115,15 +126,15 @@ const translations = {
     "hero.secondary": "View Catalog",
     "home.directory.importers.text": "Sourcing, supplier checks, deal terms, and order support.",
     "home.directory.importers.title": "Importers",
-    "home.directory.kicker": "Work structure",
+    "home.directory.kicker": "Service directions",
     "home.directory.logistics.text": "Routes, FCL, LCL, air freight, consolidation, and dispatch control.",
     "home.directory.logistics.title": "Logistics",
     "home.directory.quality.text": "Supplier, sample, batch, packaging, and labeling checks.",
     "home.directory.quality.title": "Quality control",
     "home.directory.suppliers.text": "An invitation for factories, manufacturers, and trading houses to cooperate.",
     "home.directory.suppliers.title": "Vietnamese suppliers",
-    "home.directory.text": "The home page gives an overview, while the details live in dedicated site sections.",
-    "home.directory.title": "Sections for every participant in the shipment.",
+    "home.directory.text": "Choose the area that matches your task: sourcing, supplier cooperation, catalog requests, logistics, or quality control.",
+    "home.directory.title": "One export desk for sourcing, suppliers, logistics, and quality control.",
     "importers.cta.button": "Request shipment",
     "importers.cta.kicker": "Start a project",
     "importers.cta.text": "We will return with clarifying questions, possible sourcing logic, and a support format.",
@@ -221,6 +232,7 @@ const translations = {
     "nav.home": "Home",
     "nav.importers": "Importers",
     "nav.logistics": "Logistics",
+    "nav.operations": "Logistics & Quality",
     "nav.quality": "Quality",
     "nav.request": "Request shipment",
     "nav.suppliers": "Suppliers",
@@ -428,15 +440,15 @@ const translations = {
     "hero.secondary": "Перейти в каталог",
     "home.directory.importers.text": "Сорсинг, проверка поставщиков, условия сделки и сопровождение заказа.",
     "home.directory.importers.title": "Импортерам",
-    "home.directory.kicker": "Структура работы",
+    "home.directory.kicker": "Направления работы",
     "home.directory.logistics.text": "Маршруты, FCL, LCL, авиадоставка, консолидация и контроль отгрузки.",
     "home.directory.logistics.title": "Логистика",
     "home.directory.quality.text": "Проверка поставщика, образцов, партии, упаковки и маркировки.",
     "home.directory.quality.title": "Контроль качества",
     "home.directory.suppliers.text": "Приглашение фабрик, производителей и торговых домов к сотрудничеству.",
     "home.directory.suppliers.title": "Поставщикам Вьетнама",
-    "home.directory.text": "Главная страница дает обзор, а детали вынесены в отдельные направления сайта.",
-    "home.directory.title": "Разделы для разных участников поставки.",
+    "home.directory.text": "Выберите направление под вашу задачу: сорсинг, работа с поставщиками, запрос по каталогу, логистика или контроль качества.",
+    "home.directory.title": "Единый экспортный офис для сорсинга, поставщиков, логистики и контроля качества.",
     "importers.cta.button": "Запросить поставку",
     "importers.cta.kicker": "Начать проект",
     "importers.cta.text": "Мы вернемся с перечнем уточнений, возможной логикой поиска и форматом сопровождения.",
@@ -524,6 +536,17 @@ const translations = {
     "markets.textile.text": "Ткани, одежда, домашний текстиль, декор и серийные партии.",
     "markets.textile.title": "Текстиль и дом",
     "markets.title": "Экспортные направления под рынок, сроки и требования поставки.",
+    "about.certificate.text": "Сертификаты и официальные документы компании будут добавлены отдельно после проверки.",
+    "about.certificate.title": "Сертификаты",
+    "about.history.text": "Компания развивается как практический мост между поставщиками Вьетнама и международными покупателями, с фокусом на дисциплину коммуникации, прозрачные условия и контролируемую подготовку поставки.",
+    "about.history.title": "История компании",
+    "about.introduction.text": "Мы помогаем международным покупателям работать с Вьетнамом через единый экспортный офис: сорсинг, проверка, контроль качества, документы и подготовка логистики.",
+    "about.introduction.title": "Введение",
+    "about.kicker": "О компании",
+    "about.mission.text": "Наша миссия — сделать экспорт из Вьетнама надежнее для международных покупателей за счет контроля выбора поставщика, документов, готовности товара и координации поставки.",
+    "about.mission.title": "Миссия",
+    "about.text": "Globerion Group сопровождает импортеров: сорсинг, проверка поставщиков, координация поставки, документы и экспортный контроль из Вьетнама.",
+    "about.title": "Вьетнамский экспортный офис для международных покупателей.",
     "nav.about": "О компании",
     "nav.about.certificate": "Сертификаты",
     "nav.about.history": "История компании",
@@ -534,6 +557,7 @@ const translations = {
     "nav.home": "Главная",
     "nav.importers": "Импортёрам",
     "nav.logistics": "Логистика",
+    "nav.operations": "Логистика и контроль",
     "nav.quality": "Контроль",
     "nav.request": "Запросить поставку",
     "nav.suppliers": "Поставщикам",
@@ -741,15 +765,15 @@ const translations = {
     "hero.secondary": "Mở danh mục",
     "home.directory.importers.text": "Tìm nguồn, kiểm tra nhà cung cấp, điều kiện giao dịch và hỗ trợ đơn hàng.",
     "home.directory.importers.title": "Nhà nhập khẩu",
-    "home.directory.kicker": "Cấu trúc làm việc",
+    "home.directory.kicker": "Hướng dịch vụ",
     "home.directory.logistics.text": "Tuyến vận chuyển, FCL, LCL, hàng không, gom hàng và kiểm soát giao hàng.",
     "home.directory.logistics.title": "Vận chuyển",
     "home.directory.quality.text": "Kiểm tra nhà cung cấp, mẫu, lô hàng, bao bì và nhãn mác.",
     "home.directory.quality.title": "Kiểm soát chất lượng",
     "home.directory.suppliers.text": "Lời mời hợp tác dành cho nhà máy, nhà sản xuất và công ty thương mại.",
     "home.directory.suppliers.title": "Nhà cung cấp Việt Nam",
-    "home.directory.text": "Trang chủ cung cấp tổng quan, còn chi tiết nằm trong các mục riêng của website.",
-    "home.directory.title": "Các mục dành cho từng bên tham gia lô hàng.",
+    "home.directory.text": "Chọn hướng phù hợp với nhu cầu của bạn: tìm nguồn hàng, hợp tác nhà cung cấp, yêu cầu danh mục, logistics hoặc kiểm soát chất lượng.",
+    "home.directory.title": "Một bộ phận xuất khẩu cho sourcing, nhà cung cấp, logistics và kiểm soát chất lượng.",
     "importers.cta.button": "Yêu cầu lô hàng",
     "importers.cta.kicker": "Bắt đầu dự án",
     "importers.cta.text": "Chúng tôi sẽ phản hồi với các câu hỏi làm rõ, logic tìm nguồn và hình thức hỗ trợ.",
@@ -837,6 +861,17 @@ const translations = {
     "markets.textile.text": "Vải, quần áo, dệt gia dụng, trang trí và đơn hàng sản xuất.",
     "markets.textile.title": "Dệt may và nhà ở",
     "markets.title": "Danh mục xuất khẩu theo thị trường, tiến độ và yêu cầu lô hàng.",
+    "about.certificate.text": "Chứng nhận và tài liệu chính thức của công ty sẽ được bổ sung riêng sau khi xác minh.",
+    "about.certificate.title": "Chứng nhận",
+    "about.history.text": "Công ty đang phát triển như một cầu nối thực tế giữa nhà cung cấp Việt Nam và người mua quốc tế, tập trung vào giao tiếp kỷ luật, điều khoản minh bạch và chuẩn bị lô hàng có kiểm soát.",
+    "about.history.title": "Lịch sử công ty",
+    "about.introduction.text": "Chúng tôi giúp người mua quốc tế làm việc với Việt Nam thông qua một bộ phận xuất khẩu thống nhất: tìm nguồn, xác minh, kiểm soát chất lượng, chứng từ và chuẩn bị logistics.",
+    "about.introduction.title": "Giới thiệu",
+    "about.kicker": "Về chúng tôi",
+    "about.mission.text": "Sứ mệnh của chúng tôi là giúp xuất khẩu từ Việt Nam đáng tin cậy hơn cho người mua quốc tế bằng cách kiểm soát lựa chọn nhà cung cấp, chứng từ, mức sẵn sàng của hàng hóa và điều phối lô hàng.",
+    "about.mission.title": "Sứ mệnh",
+    "about.text": "Globerion Group hỗ trợ nhà nhập khẩu về tìm nguồn, kiểm tra nhà cung cấp, điều phối lô hàng, chứng từ và kiểm soát xuất khẩu từ Việt Nam.",
+    "about.title": "Bộ phận xuất khẩu Việt Nam dành cho người mua quốc tế.",
     "nav.about": "Về chúng tôi",
     "nav.about.certificate": "Chứng nhận",
     "nav.about.history": "Lịch sử công ty",
@@ -847,6 +882,7 @@ const translations = {
     "nav.home": "Trang chủ",
     "nav.importers": "Nhà nhập khẩu",
     "nav.logistics": "Logistics",
+    "nav.operations": "Logistics & Chất lượng",
     "nav.quality": "Chất lượng",
     "nav.request": "Yêu cầu lô hàng",
     "nav.suppliers": "Nhà cung cấp",
@@ -1033,15 +1069,25 @@ const closeNavigationSubmenus = () => {
   navigationSubmenus.forEach((submenu) => {
     submenu.classList.remove("is-open");
     submenu.querySelector(".nav-submenu-toggle")?.setAttribute("aria-expanded", "false");
+    submenu.querySelector(".nav-submenu-panel")?.removeAttribute("style");
   });
 };
 
 navigationSubmenus.forEach((submenu) => {
   const submenuToggle = submenu.querySelector(".nav-submenu-toggle");
+  const submenuPanel = submenu.querySelector(".nav-submenu-panel");
 
   submenuToggle?.addEventListener("click", () => {
     const isOpen = submenu.classList.toggle("is-open");
     submenuToggle.setAttribute("aria-expanded", String(isOpen));
+
+    if (isOpen) {
+      submenuPanel?.style.setProperty("visibility", "visible");
+      submenuPanel?.style.setProperty("opacity", "1");
+      submenuPanel?.style.setProperty("transform", "translateY(0)");
+    } else {
+      submenuPanel?.removeAttribute("style");
+    }
   });
 });
 
