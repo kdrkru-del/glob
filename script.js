@@ -952,7 +952,7 @@ const navigation = document.querySelector(".nav");
 const navigationToggle = document.querySelector(".nav-toggle");
 
 const translate = (language, key) => {
-  return translations[language]?.[key] || translations.ru[key] || "";
+  return translations[language]?.[key] || translations.en?.[key] || "";
 };
 
 const applyLanguage = (language) => {

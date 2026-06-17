@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Проверка поставщиков, образцов, партий, упаковки, маркировки и экспортной готовности до отгрузки."
+    content="Supplier, sample, batch, packaging, labeling, and export readiness checks before dispatch."
   />
   <meta name="theme-color" content="#071412" />
-  <title>GLOBERION GROUP — контроль качества поставок</title>
+  <title>GLOBERION GROUP — shipment quality control</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
@@ -25,28 +25,28 @@
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </button>
 
-      <nav class="nav" id="site-nav" aria-label="Основная навигация">
-        <a class="nav-link" href="index.html" data-i18n="nav.home">Главная</a>
-        <a class="nav-link" href="importers.html" data-i18n="nav.importers">Импортерам</a>
-        <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Поставщикам</a>
-        <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Каталог</a>
-        <a class="nav-link" href="logistics.html" data-i18n="nav.logistics">Логистика</a>
-        <a class="nav-link is-current" href="quality.html" data-i18n="nav.quality">Контроль</a>
-        <a class="nav-link" href="documents.html" data-i18n="nav.documents">Документы</a>
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
+        <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
+        <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+        <a class="nav-link" href="logistics.html" data-i18n="nav.logistics">Logistics</a>
+        <a class="nav-link is-current" href="quality.html" data-i18n="nav.quality">Quality</a>
+        <a class="nav-link" href="documents.html" data-i18n="nav.documents">Documents</a>
 
-        <div class="lang-switch" aria-label="Выбор языка">
+        <div class="lang-switch" aria-label="Language selection">
           <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
           <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
           <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
         </div>
 
-        <a class="nav-action" href="index.html#request" data-i18n="nav.request">Запросить поставку</a>
+        <a class="nav-action" href="index.html#request" data-i18n="nav.request">Request shipment</a>
       </nav>
     </div>
   </header>
@@ -54,12 +54,9 @@
   <main>
     <section class="page-hero quality-hero" aria-labelledby="quality-title">
       <div class="container page-hero-inner" data-reveal>
-        <p class="eyebrow" data-i18n="qualityPage.hero.eyebrow">Контроль качества</p>
-        <h1 id="quality-title" data-i18n="qualityPage.hero.title">Надежность поставки закладывается до подписания контракта.</h1>
-        <p data-i18n="qualityPage.hero.text">
-          Проверяем коммерческие условия, образцы, спецификацию, упаковку, маркировку и партию до того,
-          как груз уйдет в экспортную логистику.
-        </p>
+        <p class="eyebrow" data-i18n="qualityPage.hero.eyebrow">Quality control</p>
+        <h1 id="quality-title" data-i18n="qualityPage.hero.title">Shipment reliability is built before the contract is signed.</h1>
+        <p data-i18n="qualityPage.hero.text">We check commercial terms, samples, specification, packaging, labeling, and batch before the cargo moves into export logistics.</p>
       </div>
     </section>
 
@@ -67,24 +64,18 @@
       <div class="container detail-grid">
         <div class="detail-main" data-reveal>
           <p class="section-kicker" data-i18n="qualityPage.intro.kicker">Quality Assurance Framework</p>
-          <h2 data-i18n="qualityPage.intro.title">Контроль нужен не только в день инспекции.</h2>
-          <p data-i18n="qualityPage.intro.text1">
-            Если критерии приемки не зафиксированы заранее, инспекция превращается в спор после производства.
-            Поэтому мы начинаем с проверки поставщика, образца, спецификации и упаковки.
-          </p>
-          <p data-i18n="qualityPage.intro.text2">
-            Задача контроля — снизить риск несоответствия партии, задержек, некорректной маркировки и документов,
-            которые могут повлиять на импорт в стране назначения.
-          </p>
+          <h2 data-i18n="qualityPage.intro.title">Control is needed beyond the inspection day.</h2>
+          <p data-i18n="qualityPage.intro.text1">If acceptance criteria are not fixed in advance, inspection becomes a dispute after production. That is why we start with supplier, sample, specification, and packaging checks.</p>
+          <p data-i18n="qualityPage.intro.text2">The purpose of control is to reduce the risk of batch mismatch, delays, incorrect labeling, and documents that can affect import in the destination country.</p>
         </div>
 
         <aside class="detail-panel" data-reveal>
-          <span data-i18n="qualityPage.panel.title">Что проверяем</span>
+          <span data-i18n="qualityPage.panel.title">What we check</span>
           <ul class="detail-list">
-            <li data-i18n="qualityPage.panel.item1">Поставщика и коммерческую готовность</li>
-            <li data-i18n="qualityPage.panel.item2">Образцы и критерии приемки</li>
-            <li data-i18n="qualityPage.panel.item3">Количество, внешний вид и упаковку</li>
-            <li data-i18n="qualityPage.panel.item4">Маркировку и экспортную готовность</li>
+            <li data-i18n="qualityPage.panel.item1">Supplier and commercial readiness</li>
+            <li data-i18n="qualityPage.panel.item2">Samples and acceptance criteria</li>
+            <li data-i18n="qualityPage.panel.item3">Quantity, appearance, and packaging</li>
+            <li data-i18n="qualityPage.panel.item4">Labeling and export readiness</li>
           </ul>
         </aside>
       </div>
@@ -93,31 +84,31 @@
     <section class="section service-section">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="qualityPage.scope.kicker">Этапы контроля</p>
-          <h2 data-i18n="qualityPage.scope.title">Проверка строится вокруг конкретного товара и риска.</h2>
-          <p data-i18n="qualityPage.scope.text">Не каждый проект требует одинаковой глубины контроля, поэтому объем проверки задается под сделку.</p>
+          <p class="section-kicker" data-i18n="qualityPage.scope.kicker">Control stages</p>
+          <h2 data-i18n="qualityPage.scope.title">The check is built around the specific product and risk.</h2>
+          <p data-i18n="qualityPage.scope.text">Not every project needs the same depth of control, so the scope is set for the deal.</p>
         </div>
 
         <div class="service-grid">
           <article class="service-card" data-reveal>
             <span>01</span>
-            <h3 data-i18n="qualityPage.service1.title">Коммерческий фильтр</h3>
-            <p data-i18n="qualityPage.service1.text">Сравниваем предложения и проверяем, насколько поставщик готов к реальной экспортной сделке.</p>
+            <h3 data-i18n="qualityPage.service1.title">Commercial filter</h3>
+            <p data-i18n="qualityPage.service1.text">We compare offers and check how ready the supplier is for a real export deal.</p>
           </article>
           <article class="service-card" data-reveal>
             <span>02</span>
-            <h3 data-i18n="qualityPage.service2.title">Контроль образца</h3>
-            <p data-i18n="qualityPage.service2.text">Фиксируем параметры товара, упаковку, маркировку и критерии приемки до производства партии.</p>
+            <h3 data-i18n="qualityPage.service2.title">Sample control</h3>
+            <p data-i18n="qualityPage.service2.text">We lock product parameters, packaging, labeling, and acceptance criteria before batch production.</p>
           </article>
           <article class="service-card" data-reveal>
             <span>03</span>
-            <h3 data-i18n="qualityPage.service3.title">Инспекция партии</h3>
-            <p data-i18n="qualityPage.service3.text">Организуем проверку количества, внешнего вида, соответствия заказу и готовности к отгрузке.</p>
+            <h3 data-i18n="qualityPage.service3.title">Batch inspection</h3>
+            <p data-i18n="qualityPage.service3.text">We arrange checks for quantity, appearance, order compliance, and dispatch readiness.</p>
           </article>
           <article class="service-card" data-reveal>
             <span>04</span>
-            <h3 data-i18n="qualityPage.service4.title">Отчетность</h3>
-            <p data-i18n="qualityPage.service4.text">Передаем структурированный статус по результатам проверки и вопросам, которые нужно закрыть.</p>
+            <h3 data-i18n="qualityPage.service4.title">Reporting</h3>
+            <p data-i18n="qualityPage.service4.text">We provide a structured status on check results and questions to close.</p>
           </article>
         </div>
       </div>
@@ -126,22 +117,22 @@
     <section class="section cta-band">
       <div class="container note-grid">
         <div data-reveal>
-          <p class="section-kicker" data-i18n="qualityPage.cta.kicker">Проверить поставку</p>
-          <h2 data-i18n="qualityPage.cta.title">Опишите товар и текущий этап сделки.</h2>
+          <p class="section-kicker" data-i18n="qualityPage.cta.kicker">Check a shipment</p>
+          <h2 data-i18n="qualityPage.cta.title">Describe the product and current deal stage.</h2>
         </div>
-        <p data-reveal data-i18n="qualityPage.cta.text">Мы предложим, что стоит проверить до оплаты, производства или передачи груза перевозчику.</p>
-        <a class="btn btn-primary" href="index.html#request" data-i18n="qualityPage.cta.button">Запросить проверку</a>
+        <p data-reveal data-i18n="qualityPage.cta.text">We will suggest what should be checked before payment, production, or carrier handover.</p>
+        <a class="btn btn-primary" href="index.html#request" data-i18n="qualityPage.cta.button">Request check</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. Экспорт товаров из Вьетнама.</span></span>
+      <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. Exports from Vietnam.</span></span>
       <div class="footer-links">
-        <a href="importers.html" data-i18n="nav.importers">Импортерам</a>
-        <a href="documents.html" data-i18n="nav.documents">Документы</a>
-        <a href="index.html#request" data-i18n="nav.request">Запросить поставку</a>
+        <a href="importers.html" data-i18n="nav.importers">Importers</a>
+        <a href="documents.html" data-i18n="nav.documents">Documents</a>
+        <a href="index.html#request" data-i18n="nav.request">Request shipment</a>
       </div>
     </div>
   </footer>
