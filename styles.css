@@ -1112,24 +1112,110 @@ h3 {
   font-size: 0.9rem;
 }
 
+.company-details {
+  line-height: 1.5;
+}
+
+.company-details strong {
+  display: block;
+  color: var(--champagne);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.company-details a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.company-details a:hover,
+.company-details a:focus-visible {
+  color: var(--gold);
+  outline: none;
+}
+
+.company-details-request {
+  max-width: 680px;
+  margin-top: 28px;
+  padding: 22px;
+  border: 1px solid rgba(229, 189, 102, 0.24);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(244, 230, 193, 0.08), rgba(255, 255, 255, 0.025)),
+    rgba(7, 20, 18, 0.48);
+  box-shadow: 0 22px 70px rgba(3, 12, 13, 0.22);
+  backdrop-filter: blur(12px);
+}
+
+.company-details-request dl {
+  display: grid;
+  gap: 13px;
+  margin: 18px 0 0;
+}
+
+.company-details-request dl div {
+  display: grid;
+  grid-template-columns: minmax(128px, 0.34fr) minmax(0, 1fr);
+  gap: 16px;
+  padding-top: 13px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.company-details-request dt {
+  color: rgba(244, 230, 193, 0.76);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.company-details-request dd {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+}
+
 .site-footer {
-  padding: 34px 0;
+  padding: 38px 0;
   color: rgba(255, 255, 255, 0.72);
   background: #06100e;
 }
 
 .footer-inner {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 22px;
+  gap: 28px;
   flex-wrap: wrap;
+}
+
+.footer-company {
+  display: grid;
+  gap: 14px;
+  max-width: 760px;
+}
+
+.company-details-footer {
+  display: flex;
+  gap: 8px 16px;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.82rem;
+}
+
+.company-details-footer strong {
+  flex-basis: 100%;
+  color: rgba(244, 230, 193, 0.88);
+  font-size: 0.84rem;
+}
+
+.company-details-footer span {
+  position: relative;
 }
 
 .footer-links {
   display: flex;
   gap: 18px;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .footer-links a {
@@ -1717,6 +1803,25 @@ html.js [data-reveal].is-visible {
     bottom: 12px;
     left: 12px;
     min-width: 0;
+  }
+
+  .company-details-request {
+    padding: 18px;
+  }
+
+  .company-details-request dl div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .company-details-footer {
+    display: grid;
+    gap: 7px;
+  }
+
+  .footer-inner,
+  .footer-links {
+    justify-content: flex-start;
   }
 
   .page-hero-inner {

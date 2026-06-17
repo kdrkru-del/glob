@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Contact GLOBERION GROUP to discuss sourcing, export support, quality control, documents, and logistics from Vietnam."
+  />
+  <meta name="theme-color" content="#071412" />
+  <title>GLOBERION GROUP — contacts</title>
+  <link rel="icon" type="image/png" href="assets/logo-mark.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body data-page="contacts">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Globerion Group — Bridging Markets">
+        <img class="brand-logo" src="assets/logo-mark.png" alt="Globerion Group" />
+        <span class="brand-copy">
+          <span class="brand-title">Globerion Group</span>
+          <span class="brand-tagline" data-i18n="brand.tagline">Bridging Markets</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
+        <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
+        <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+        <a class="nav-link" href="logistics.html" data-i18n="nav.logistics">Logistics</a>
+        <a class="nav-link" href="quality.html" data-i18n="nav.quality">Quality</a>
+        <a class="nav-link is-current" href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+
+        <div class="lang-switch" aria-label="Language selection">
+          <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+          <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
+        </div>
+
+        <a class="nav-action" href="contacts.html#request" data-i18n="nav.request">Request shipment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero logistics-hero" aria-labelledby="contacts-title">
+      <div class="container page-hero-inner" data-reveal>
+        <p class="eyebrow" data-i18n="nav.contacts">Contacts</p>
+        <h1 id="contacts-title" data-i18n="request.title">Tell us what shipment you need from Vietnam.</h1>
+        <p data-i18n="request.text">Describe the product, volume, and destination market. We will return with clarifying questions, possible routes, and a commercial offer format.</p>
+      </div>
+    </section>
+
+    <section class="section request" id="request">
+      <div class="container request-grid">
+        <div data-reveal>
+          <p class="section-kicker" data-i18n="request.kicker">Private Export Desk</p>
+          <h2 data-i18n="request.title">Tell us what shipment you need from Vietnam.</h2>
+          <p data-i18n="request.text">Describe the product, volume, and destination market. We will return with clarifying questions, possible routes, and a commercial offer format.</p>
+          <div class="company-details company-details-request" aria-label="Official company contact details">
+            <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
+            <dl>
+              <div>
+                <dt>Tax code</dt>
+                <dd>0319519047</dd>
+              </div>
+              <div>
+                <dt>Address</dt>
+                <dd>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</dd>
+              </div>
+              <div>
+                <dt>Russian language</dt>
+                <dd><a href="tel:+84794689910">+84 794 689 910</a> · Phone / WhatsApp / Zalo</dd>
+              </div>
+              <div>
+                <dt>Vietnamese and English language</dt>
+                <dd><a href="tel:+84779199274">+84 779 199 274</a> · Phone / WhatsApp / Zalo</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <form class="request-form" data-reveal>
+          <div class="field">
+            <label for="name" data-i18n="form.name">Name</label>
+            <input id="name" name="name" type="text" placeholder="How should we address you" data-i18n-placeholder="form.name.placeholder" required />
+          </div>
+          <div class="field">
+            <label for="contact" data-i18n="form.contact">Contact</label>
+            <input id="contact" name="contact" type="text" placeholder="Email, Telegram, or phone" data-i18n-placeholder="form.contact.placeholder" required />
+          </div>
+          <div class="field">
+            <label for="category" data-i18n="form.category">Product category</label>
+            <select id="category" name="category" required>
+              <option value="" data-i18n="form.category.placeholder">Choose a category</option>
+              <option data-i18n="markets.agro.title">Agricultural goods &amp; food</option>
+              <option data-i18n="markets.fmcg.title">FMCG &amp; private label</option>
+              <option data-i18n="markets.textile.title">Textiles &amp; home</option>
+              <option data-i18n="markets.industrial.title">Industrial goods</option>
+              <option data-i18n="form.category.supplier">Supplier cooperation</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="details" data-i18n="form.details">Brief task details</label>
+            <textarea id="details" name="details" placeholder="Product, volume, destination country, timing" data-i18n-placeholder="form.details.placeholder"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" data-i18n="form.submit">Send request</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-company">
+        <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. Exports from Vietnam.</span></span>
+        <div class="company-details company-details-footer" aria-label="Official company details">
+          <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
+          <span>Tax code: 0319519047</span>
+          <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
+          <span><a href="tel:+84794689910">+84 794 689 910</a> — Russian language</span>
+          <span><a href="tel:+84779199274">+84 779 199 274</a> — Vietnamese and English language</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="importers.html" data-i18n="nav.importers">Importers</a>
+        <a href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
+        <a href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
