@@ -158,6 +158,17 @@ select {
   outline: none;
 }
 
+.nav-combo {
+  gap: 5px;
+  white-space: normal;
+  text-align: center;
+}
+
+.nav-combo-separator {
+  color: var(--champagne);
+  font-weight: 820;
+}
+
 .lang-switch {
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1274,6 +1285,12 @@ h3 {
   background:
     linear-gradient(90deg, rgba(7, 20, 18, 0.94), rgba(7, 20, 18, 0.56)),
     url("https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?auto=format&fit=crop&w=1800&q=82") center / cover;
+}
+
+.about-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 20, 18, 0.94), rgba(7, 20, 18, 0.58)),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=82") center / cover;
 }
 
 .documents-hero {
