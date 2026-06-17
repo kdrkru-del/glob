@@ -33,7 +33,18 @@
 
       <nav class="nav" id="site-nav" aria-label="Main navigation">
         <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
-        <a class="nav-link is-current" href="about.html" data-i18n="nav.about">About us</a>
+        <div class="nav-submenu is-current" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle is-current" type="button" aria-expanded="false">
+            <span data-i18n="nav.about">About us</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <a class="nav-submenu-link" href="about.html#about-introduction" data-i18n="nav.about.introduction">Introduction</a>
+            <a class="nav-submenu-link" href="about.html#about-history" data-i18n="nav.about.history">Corporation History</a>
+            <a class="nav-submenu-link" href="about.html#about-certificate" data-i18n="nav.about.certificate">Certificate</a>
+            <a class="nav-submenu-link" href="about.html#about-mission" data-i18n="nav.about.mission">Mission</a>
+          </div>
+        </div>
         <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
         <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Catalog</a>
@@ -81,7 +92,7 @@
             <h3 data-i18n="about.introduction.title">Introduction</h3>
             <p data-i18n="about.introduction.text">We help international buyers work with Vietnam through one coordinated export desk: sourcing, verification, quality control, documents, and logistics preparation.</p>
           </article>
-          <article class="about-card" id="about-history" data-reveal>
+          <article class="about-card" data-reveal>
             <span>02</span>
             <h3 data-i18n="about.history.title">Corporation History</h3>
             <p data-i18n="about.history.text">The company is developing as a practical bridge between Vietnamese suppliers and overseas buyers, with a focus on disciplined communication, transparent terms, and controlled shipment preparation.</p>
@@ -96,7 +107,7 @@
             <h3 data-i18n="about.certificate.title">Certificate</h3>
             <p data-i18n="about.certificate.text">Certificates and official company documents will be added separately after verification.</p>
           </article>
-          <article class="about-card" id="about-mission" data-reveal>
+          <article class="about-card" data-reveal>
             <span>04</span>
             <h3 data-i18n="about.mission.title">Mission</h3>
             <p data-i18n="about.mission.text">Our mission is to make export from Vietnam more reliable for international buyers by controlling supplier selection, documentation, product readiness, and shipment coordination.</p>
@@ -107,6 +118,76 @@
             </ul>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section company-history-section" id="about-history" aria-labelledby="company-history-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker" data-i18n="historyBlock.kicker">Company History</p>
+          <h2 id="company-history-title" data-i18n="historyBlock.title">A trade bridge between Vietnam and international markets.</h2>
+          <p data-i18n="historyBlock.text">VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED was created to connect Vietnamese producers with overseas importers through clear communication, supplier coordination, quality control, and export support.</p>
+        </div>
+
+        <div class="history-grid">
+          <article class="history-card" data-reveal>
+            <span>01</span>
+            <h3 data-i18n="historyBlock.foundation.title">Foundation</h3>
+            <p data-i18n="historyBlock.foundation.text">The company is built around a practical trade mission: helping international buyers work with Vietnam safely, clearly, and efficiently.</p>
+          </article>
+          <article class="history-card" data-reveal>
+            <span>02</span>
+            <h3 data-i18n="historyBlock.network.title">Supplier Network</h3>
+            <p data-i18n="historyBlock.network.text">We focus on communication with manufacturers, exporters, and trading partners who can prepare goods for international shipments.</p>
+          </article>
+          <article class="history-card" data-reveal>
+            <span>03</span>
+            <h3 data-i18n="historyBlock.quality.title">Quality Focus</h3>
+            <p data-i18n="historyBlock.quality.text">Product readiness, packaging, labeling, and shipment documentation are treated as part of one controlled export process.</p>
+          </article>
+          <article class="history-card" data-reveal>
+            <span>04</span>
+            <h3 data-i18n="historyBlock.trade.title">International Trade</h3>
+            <p data-i18n="historyBlock.trade.text">The company supports buyers who need a reliable local desk for sourcing, verification, and export coordination from Vietnam.</p>
+          </article>
+        </div>
+
+        <p class="history-closing" data-reveal data-i18n="historyBlock.closing">Globerion Group continues to develop as a reliable partner for importing products from Vietnam with transparent communication and structured shipment support.</p>
+      </div>
+    </section>
+
+    <section class="section mission-section" id="about-mission" aria-labelledby="mission-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker" data-i18n="missionBlock.kicker">Mission</p>
+          <h2 id="mission-title" data-i18n="missionBlock.title">Making trade with Vietnamese suppliers clearer, safer, and better organized.</h2>
+          <p data-i18n="missionBlock.text">The mission of VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED is to help international buyers work with Vietnamese suppliers through reliable sourcing, transparent communication, quality attention, documents, and export shipment support.</p>
+        </div>
+
+        <div class="mission-grid">
+          <article class="mission-card" data-reveal>
+            <span aria-hidden="true">01</span>
+            <h3 data-i18n="missionBlock.sourcing.title">Reliable Sourcing</h3>
+            <p data-i18n="missionBlock.sourcing.text">We connect buyers with suitable Vietnamese suppliers and help clarify product, volume, and cooperation requirements.</p>
+          </article>
+          <article class="mission-card" data-reveal>
+            <span aria-hidden="true">02</span>
+            <h3 data-i18n="missionBlock.quality.title">Quality &amp; Documentation</h3>
+            <p data-i18n="missionBlock.quality.text">We pay attention to product information, quality expectations, export documents, and shipment readiness.</p>
+          </article>
+          <article class="mission-card" data-reveal>
+            <span aria-hidden="true">03</span>
+            <h3 data-i18n="missionBlock.communication.title">Clear Communication</h3>
+            <p data-i18n="missionBlock.communication.text">We help reduce uncertainty by keeping supplier communication structured, transparent, and professional.</p>
+          </article>
+          <article class="mission-card" data-reveal>
+            <span aria-hidden="true">04</span>
+            <h3 data-i18n="missionBlock.partnership.title">Long-Term Partnership</h3>
+            <p data-i18n="missionBlock.partnership.text">We build business relationships designed for repeat cooperation, stable supply, and responsible export support.</p>
+          </article>
+        </div>
+
+        <p class="mission-closing" data-reveal data-i18n="missionBlock.closing">VIET BRIDGE is committed to becoming a reliable partner for international companies importing products from Vietnam.</p>
       </div>
     </section>
 

@@ -2008,10 +2008,12 @@ html.js [data-reveal].is-visible {
   .nav-submenu-panel {
     display: grid;
     gap: 4px;
-    width: min(280px, 78%);
+    width: calc(100% - 22px);
     max-height: 0;
-    margin: 0 auto;
+    margin-left: 22px;
+    padding-left: 14px;
     overflow: hidden;
+    border-left: 1px solid rgba(229, 189, 102, 0.28);
     opacity: 0;
     transition: max-height 0.24s ease, opacity 0.18s ease, padding-top 0.24s ease;
   }
@@ -2025,7 +2027,7 @@ html.js [data-reveal].is-visible {
   .nav-submenu-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 36px;
     padding: 8px 12px;
     border-radius: 6px;
@@ -2033,7 +2035,7 @@ html.js [data-reveal].is-visible {
     background: rgba(255, 255, 255, 0.035);
     font-size: 0.84rem;
     font-weight: 780;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     transition: color 0.2s ease, background 0.2s ease;
   }
@@ -2148,6 +2150,174 @@ html.js [data-reveal].is-visible {
   box-shadow: 0 0 0 4px rgba(229, 189, 102, 0.14);
 }
 
+.company-history-section {
+  position: relative;
+  overflow: hidden;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(229, 189, 102, 0.14), transparent 28%),
+    linear-gradient(135deg, rgba(7, 20, 18, 0.98), rgba(8, 36, 31, 0.94)),
+    var(--deep);
+}
+
+.company-history-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 54px 54px;
+  pointer-events: none;
+}
+
+.company-history-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.company-history-section h2 {
+  color: var(--white);
+}
+
+.company-history-section .section-head p:last-child {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.history-card {
+  min-height: 270px;
+  padding: 26px;
+  border: 1px solid rgba(229, 189, 102, 0.18);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.035)),
+    rgba(255, 255, 255, 0.04);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.24);
+}
+
+.history-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 34px;
+  margin-bottom: 32px;
+  border-radius: var(--radius);
+  color: var(--obsidian);
+  background: linear-gradient(135deg, var(--champagne), rgba(229, 189, 102, 0.76));
+  font-weight: 900;
+}
+
+.history-card h3 {
+  color: var(--white);
+}
+
+.history-card p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.history-closing {
+  max-width: 860px;
+  margin: 26px 0 0;
+  padding: 20px 24px;
+  border: 1px solid rgba(229, 189, 102, 0.22);
+  border-radius: var(--radius);
+  color: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 1.02rem;
+  font-weight: 680;
+  line-height: 1.65;
+}
+
+.mission-section {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 82% 14%, rgba(229, 189, 102, 0.14), transparent 28%),
+    linear-gradient(180deg, rgba(247, 245, 239, 0.96), rgba(232, 238, 231, 0.82)),
+    var(--porcelain);
+}
+
+.mission-section::before {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: 60px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(184, 130, 46, 0.16);
+  border-radius: 50%;
+  box-shadow: 0 0 0 44px rgba(184, 130, 46, 0.045);
+  pointer-events: none;
+}
+
+.mission-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.mission-card {
+  position: relative;
+  min-height: 270px;
+  padding: 28px;
+  border: 1px solid rgba(16, 32, 29, 0.12);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.76)),
+    var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.mission-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 34px;
+  margin-bottom: 32px;
+  border-radius: var(--radius);
+  color: var(--obsidian);
+  background: linear-gradient(135deg, var(--champagne), rgba(229, 189, 102, 0.72));
+  font-weight: 900;
+}
+
+.mission-card h3 {
+  max-width: 220px;
+}
+
+.mission-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.mission-closing {
+  max-width: 860px;
+  margin: 26px 0 0;
+  padding: 20px 24px;
+  border: 1px solid rgba(184, 130, 46, 0.2);
+  border-radius: var(--radius);
+  color: var(--deep);
+  background: rgba(255, 255, 255, 0.68);
+  font-size: 1.02rem;
+  font-weight: 720;
+  line-height: 1.65;
+  box-shadow: 0 14px 42px rgba(7, 20, 18, 0.06);
+}
+
 @media (min-width: 1321px) {
   .nav-submenu {
     position: relative;
@@ -2232,14 +2402,18 @@ html.js [data-reveal].is-visible {
 }
 
 @media (max-width: 1320px) {
-  .about-grid {
+  .about-grid,
+  .history-grid,
+  .mission-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 640px) {
   .about-actions,
-  .about-grid {
+  .about-grid,
+  .history-grid,
+  .mission-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2251,6 +2425,26 @@ html.js [data-reveal].is-visible {
   .about-card {
     min-height: auto;
     padding: 22px;
+  }
+
+  .history-card {
+    min-height: auto;
+    padding: 22px;
+  }
+
+  .mission-card {
+    min-height: auto;
+    padding: 22px;
+  }
+
+  .history-closing {
+    padding: 18px;
+    font-size: 0.98rem;
+  }
+
+  .mission-closing {
+    padding: 18px;
+    font-size: 0.98rem;
   }
 }
 
