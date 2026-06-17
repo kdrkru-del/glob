@@ -2118,6 +2118,36 @@ html.js [data-reveal].is-visible {
   color: var(--muted);
 }
 
+.about-card-points {
+  display: grid;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px solid rgba(16, 32, 29, 0.1);
+  list-style: none;
+}
+
+.about-card-points li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--deep);
+  font-size: 0.9rem;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
+.about-card-points li::before {
+  content: "";
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--champagne);
+  box-shadow: 0 0 0 4px rgba(229, 189, 102, 0.14);
+}
+
 @media (min-width: 1321px) {
   .nav-submenu {
     position: relative;
