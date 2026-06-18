@@ -2150,6 +2150,71 @@ html.js [data-reveal].is-visible {
   box-shadow: 0 0 0 4px rgba(229, 189, 102, 0.14);
 }
 
+.certificate-section {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(242, 239, 229, 0.9)),
+    var(--surface);
+}
+
+.certificate-section::before {
+  content: "";
+  position: absolute;
+  right: 7%;
+  top: 72px;
+  width: 210px;
+  height: 280px;
+  border: 1px solid rgba(16, 32, 29, 0.08);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0)),
+    repeating-linear-gradient(180deg, rgba(16, 32, 29, 0.08) 0 1px, transparent 1px 18px);
+  opacity: 0.42;
+  transform: rotate(5deg);
+  pointer-events: none;
+}
+
+.certificate-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.certificate-card {
+  min-height: 245px;
+  padding: 26px;
+  border: 1px dashed rgba(184, 130, 46, 0.34);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.7)),
+    var(--white);
+  box-shadow: 0 18px 50px rgba(7, 20, 18, 0.07);
+}
+
+.certificate-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 34px;
+  margin-bottom: 30px;
+  border-radius: var(--radius);
+  color: var(--obsidian);
+  background: rgba(229, 189, 102, 0.5);
+  font-weight: 900;
+}
+
+.certificate-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .company-history-section {
   position: relative;
   overflow: hidden;
@@ -2403,6 +2468,7 @@ html.js [data-reveal].is-visible {
 
 @media (max-width: 1320px) {
   .about-grid,
+  .certificate-grid,
   .history-grid,
   .mission-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2412,6 +2478,7 @@ html.js [data-reveal].is-visible {
 @media (max-width: 640px) {
   .about-actions,
   .about-grid,
+  .certificate-grid,
   .history-grid,
   .mission-grid {
     grid-template-columns: 1fr;
@@ -2428,6 +2495,11 @@ html.js [data-reveal].is-visible {
   }
 
   .history-card {
+    min-height: auto;
+    padding: 22px;
+  }
+
+  .certificate-card {
     min-height: auto;
     padding: 22px;
   }
