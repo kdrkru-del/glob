@@ -10,8 +10,8 @@
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — premium exports from Vietnam</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260618-vi-font-2" />
-  <script src="script.js?v=20260618-vi-text-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260618-nav-3" />
+  <script src="script.js?v=20260618-final-1" defer></script>
 </head>
 
 <body data-page="home">
@@ -25,13 +25,13 @@
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-aria-label="aria.menu.open" aria-expanded="false" aria-controls="site-nav">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </button>
 
-      <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <nav class="nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.nav.main">
         <a class="nav-link is-current" href="index.html" data-i18n="nav.home">Home</a>
         <div class="nav-submenu" data-mobile-submenu>
           <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
@@ -48,10 +48,20 @@
         <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
         <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Catalog</a>
-        <a class="nav-link nav-combo" href="logistics.html"><span data-i18n="nav.logistics">Logistics</span><span class="nav-combo-separator" data-i18n="nav.combo.separator">&amp;</span><span data-i18n="nav.quality">Quality</span></a>
+        <div class="nav-submenu nav-submenu-operations" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
+            <span data-i18n="nav.operations">Operations</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <a class="nav-submenu-link" href="logistics.html" data-i18n="nav.logistics">Logistics</a>
+            <a class="nav-submenu-link" href="quality.html" data-i18n="nav.qualityControl">Quality Control</a>
+            <a class="nav-submenu-link" href="documents.html" data-i18n="nav.documents">Documents</a>
+          </div>
+        </div>
         <a class="nav-link" href="contacts.html" data-i18n="nav.contacts">Contacts</a>
 
-        <div class="lang-switch" aria-label="Language selection">
+        <div class="lang-switch" aria-label="Language selection" data-i18n-aria-label="aria.languageSelection">
           <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
           <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
           <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
@@ -80,38 +90,38 @@
 
       <div class="container hero-inner">
         <div class="hero-content" data-reveal>
-          <p class="eyebrow" data-i18n="hero.eyebrow">Vietnam Export Desk</p>
-          <h1 id="hero-title" data-i18n="hero.title">Reliable Export Solutions From Vietnam</h1>
-          <p class="hero-lead" data-i18n="hero.lead">We help international buyers source, verify, and export Vietnamese products with confidence.</p>
+          <p class="eyebrow" data-i18n="home.hero.eyebrow">Vietnam export operations</p>
+          <h1 id="hero-title" data-i18n="home.hero.title">Sourcing and export coordination from Vietnam.</h1>
+          <p class="hero-lead" data-i18n="home.hero.lead">One operating desk for supplier search, quality control, documents, and shipment handover.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#request">
-              <span data-i18n="hero.primary">Discuss a Shipment</span>
+              <span data-i18n="home.hero.primary">Discuss a Shipment</span>
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </a>
-            <a class="btn btn-secondary" href="catalog.html" data-i18n="hero.secondary">View Catalog</a>
+            <a class="btn btn-secondary" href="catalog.html" data-i18n="home.hero.secondary">View Catalog</a>
           </div>
         </div>
 
         <div class="hero-intel" data-reveal>
           <div>
-            <span data-i18n="hero.intel.route.label">Route</span>
-            <strong data-i18n="hero.intel.route.value">Vietnam → Your Market</strong>
+            <span data-i18n="home.hero.intel.route.label">Route</span>
+            <strong data-i18n="home.hero.intel.route.value">Vietnam → Your Market</strong>
           </div>
           <div>
-            <span data-i18n="hero.intel.mode.label">Format</span>
-            <strong data-i18n="hero.intel.mode.value">FCL · LCL · Air</strong>
+            <span data-i18n="home.hero.intel.mode.label">Format</span>
+            <strong data-i18n="home.hero.intel.mode.value">FCL · LCL · Air</strong>
           </div>
           <div>
-            <span data-i18n="hero.intel.control.label">Control</span>
-            <strong data-i18n="hero.intel.control.value">Sourcing · QC · Docs</strong>
+            <span data-i18n="home.hero.intel.control.label">Control</span>
+            <strong data-i18n="home.hero.intel.control.value">Sourcing · QC · Docs</strong>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="prestige-strip" aria-label="Key advantages">
+    <section class="prestige-strip" aria-label="Key advantages" data-i18n-aria-label="aria.advantages">
       <div class="container prestige-grid">
         <div data-reveal>
           <span data-i18n="prestige.item1.label">Operating model</span>
@@ -172,10 +182,10 @@
     <section class="section request" id="request">
       <div class="container request-grid">
         <div data-reveal>
-          <p class="section-kicker" data-i18n="request.kicker">Private Export Desk</p>
-          <h2 data-i18n="request.title">Tell us what shipment you need from Vietnam.</h2>
-          <p data-i18n="request.text">Describe the product, volume, and destination market. We will return with clarifying questions, possible routes, and a commercial offer format.</p>
-          <div class="company-details company-details-request" aria-label="Official company contact details">
+          <p class="section-kicker" data-i18n="home.request.kicker">Project request</p>
+          <h2 data-i18n="home.request.title">Describe the shipment you want to prepare.</h2>
+          <p data-i18n="home.request.text">Share the product, volume, destination market, and timing. We will identify the questions needed to structure the next step.</p>
+          <div class="company-details company-details-request" aria-label="Official company contact details" data-i18n-aria-label="aria.contactDetails">
             <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
             <dl>
               <div>
@@ -236,18 +246,19 @@
           <img class="footer-logo-mark" src="assets/logo-mark.png" alt="" aria-hidden="true" />
           <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. Exports from Vietnam.</span></span>
         </div>
-        <div class="company-details company-details-footer" aria-label="Official company details">
+        <div class="company-details company-details-footer" aria-label="Official company details" data-i18n-aria-label="aria.companyDetails">
           <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
-          <span>Tax code: 0319519047</span>
+          <span><span data-i18n="contacts.details.taxCode">Tax code</span>: 0319519047</span>
           <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
-          <span><a href="tel:+84794689910">+84 794 689 910</a> — Phone / WhatsApp / Zalo, Russian language</span>
-          <span><a href="tel:+84779199274">+84 779 199 274</a> — Phone / WhatsApp / Zalo, Vietnamese and English language</span>
+          <span><a href="tel:+84794689910">+84 794 689 910</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.russian">Russian language</span></span>
+          <span><a href="tel:+84779199274">+84 779 199 274</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.vietnameseEnglish">Vietnamese and English language</span></span>
         </div>
       </div>
       <div class="footer-links">
         <a href="importers.html" data-i18n="nav.importers">Importers</a>
         <a href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+        <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
       </div>
     </div>
   </footer>

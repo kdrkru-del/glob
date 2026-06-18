@@ -10,8 +10,8 @@
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — contacts</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260618-vi-font-2" />
-  <script src="script.js?v=20260618-vi-text-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260618-nav-3" />
+  <script src="script.js?v=20260618-final-1" defer></script>
 </head>
 
 <body data-page="contacts">
@@ -25,13 +25,13 @@
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-aria-label="aria.menu.open" aria-expanded="false" aria-controls="site-nav">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </button>
 
-      <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <nav class="nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.nav.main">
         <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
         <div class="nav-submenu" data-mobile-submenu>
           <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
@@ -48,10 +48,20 @@
         <a class="nav-link" href="importers.html" data-i18n="nav.importers">Importers</a>
         <a class="nav-link" href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a class="nav-link" href="catalog.html" data-i18n="nav.catalog">Catalog</a>
-        <a class="nav-link nav-combo" href="logistics.html"><span data-i18n="nav.logistics">Logistics</span><span class="nav-combo-separator" data-i18n="nav.combo.separator">&amp;</span><span data-i18n="nav.quality">Quality</span></a>
+        <div class="nav-submenu nav-submenu-operations" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
+            <span data-i18n="nav.operations">Operations</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <a class="nav-submenu-link" href="logistics.html" data-i18n="nav.logistics">Logistics</a>
+            <a class="nav-submenu-link" href="quality.html" data-i18n="nav.qualityControl">Quality Control</a>
+            <a class="nav-submenu-link" href="documents.html" data-i18n="nav.documents">Documents</a>
+          </div>
+        </div>
         <a class="nav-link is-current" href="contacts.html" data-i18n="nav.contacts">Contacts</a>
 
-        <div class="lang-switch" aria-label="Language selection">
+        <div class="lang-switch" aria-label="Language selection" data-i18n-aria-label="aria.languageSelection">
           <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
           <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
           <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
@@ -65,9 +75,9 @@
   <main>
     <section class="page-hero logistics-hero" aria-labelledby="contacts-title">
       <div class="container page-hero-inner" data-reveal>
-        <p class="eyebrow" data-i18n="nav.contacts">Contacts</p>
-        <h1 id="contacts-title" data-i18n="request.title">Tell us what shipment you need from Vietnam.</h1>
-        <p data-i18n="request.text">Describe the product, volume, and destination market. We will return with clarifying questions, possible routes, and a commercial offer format.</p>
+        <p class="eyebrow" data-i18n="contacts.hero.eyebrow">Official contacts</p>
+        <h1 id="contacts-title" data-i18n="contacts.hero.title">Contact GLOBERION GROUP</h1>
+        <p data-i18n="contacts.hero.text">Official company information and direct contacts for business inquiries.</p>
       </div>
     </section>
 
@@ -75,10 +85,10 @@
       <img class="company-watermark contact-brand-mark" src="assets/logo-mark.png" alt="" aria-hidden="true" />
       <div class="container request-grid">
         <div data-reveal>
-          <p class="section-kicker" data-i18n="request.kicker">Private Export Desk</p>
-          <h2 data-i18n="request.title">Tell us what shipment you need from Vietnam.</h2>
-          <p data-i18n="request.text">Describe the product, volume, and destination market. We will return with clarifying questions, possible routes, and a commercial offer format.</p>
-          <div class="company-details company-details-request" aria-label="Official company contact details">
+          <p class="section-kicker" data-i18n="contacts.details.kicker">Company details</p>
+          <h2 data-i18n="contacts.details.title">Official details and contact channels</h2>
+          <p data-i18n="contacts.details.text">Use the company information below for business correspondence and choose the appropriate language contact.</p>
+          <div class="company-details company-details-request" aria-label="Official company contact details" data-i18n-aria-label="aria.contactDetails">
             <div class="brand-legal-notice brand-legal-notice-dark">
               <strong data-i18n="brandLegal.title">Brand and legal entity</strong>
               <p data-i18n="brandLegal.text">For the purposes of this website and international business communications, Globerion Group is the commercial brand used by VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED for sourcing and export support. The official company details published on this website belong to VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED.</p>
@@ -86,20 +96,20 @@
             <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
             <dl>
               <div>
-                <dt>Tax code</dt>
+                <dt data-i18n="contacts.details.taxCode">Tax code</dt>
                 <dd>0319519047</dd>
               </div>
               <div>
-                <dt>Address</dt>
+                <dt data-i18n="contacts.details.address">Address</dt>
                 <dd>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</dd>
               </div>
               <div>
-                <dt>Russian language</dt>
-                <dd><a href="tel:+84794689910">+84 794 689 910</a> · Phone / WhatsApp / Zalo</dd>
+                <dt data-i18n="contacts.details.russian">Russian language</dt>
+                <dd><a href="tel:+84794689910">+84 794 689 910</a> · <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span></dd>
               </div>
               <div>
-                <dt>Vietnamese and English language</dt>
-                <dd><a href="tel:+84779199274">+84 779 199 274</a> · Phone / WhatsApp / Zalo</dd>
+                <dt data-i18n="contacts.details.vietnameseEnglish">Vietnamese and English language</dt>
+                <dd><a href="tel:+84779199274">+84 779 199 274</a> · <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span></dd>
               </div>
             </dl>
           </div>
@@ -143,18 +153,19 @@
           <img class="footer-logo-mark" src="assets/logo-mark.png" alt="" aria-hidden="true" />
           <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. Exports from Vietnam.</span></span>
         </div>
-        <div class="company-details company-details-footer" aria-label="Official company details">
+        <div class="company-details company-details-footer" aria-label="Official company details" data-i18n-aria-label="aria.companyDetails">
           <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
-          <span>Tax code: 0319519047</span>
+          <span><span data-i18n="contacts.details.taxCode">Tax code</span>: 0319519047</span>
           <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
-          <span><a href="tel:+84794689910">+84 794 689 910</a> — Phone / WhatsApp / Zalo, Russian language</span>
-          <span><a href="tel:+84779199274">+84 779 199 274</a> — Phone / WhatsApp / Zalo, Vietnamese and English language</span>
+          <span><a href="tel:+84794689910">+84 794 689 910</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.russian">Russian language</span></span>
+          <span><a href="tel:+84779199274">+84 779 199 274</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.vietnameseEnglish">Vietnamese and English language</span></span>
         </div>
       </div>
       <div class="footer-links">
         <a href="importers.html" data-i18n="nav.importers">Importers</a>
         <a href="suppliers.html" data-i18n="nav.suppliers">Suppliers</a>
         <a href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+        <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
       </div>
     </div>
   </footer>

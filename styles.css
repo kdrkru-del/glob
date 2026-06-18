@@ -2136,7 +2136,8 @@ html.js [data-reveal].is-visible {
   }
 
   .nav-submenu-link:hover,
-  .nav-submenu-link:focus-visible {
+  .nav-submenu-link:focus-visible,
+  .nav-submenu-link.is-current {
     color: var(--champagne);
     background: rgba(229, 189, 102, 0.1);
     outline: none;
@@ -2589,10 +2590,16 @@ html.js [data-reveal].is-visible {
   }
 
   .nav-submenu-link:hover,
-  .nav-submenu-link:focus-visible {
+  .nav-submenu-link:focus-visible,
+  .nav-submenu-link.is-current {
     color: var(--champagne);
     background: rgba(229, 189, 102, 0.1);
     outline: none;
+  }
+
+  .nav-submenu-operations .nav-submenu-panel {
+    right: 0;
+    left: auto;
   }
 }
 
