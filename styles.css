@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap");
+
 :root {
   --obsidian: #071412;
   --carbon: #0d1e1b;
@@ -39,6 +41,15 @@ body {
   font-family: Inter, "Segoe UI", Arial, sans-serif;
   line-height: 1.62;
   overflow-x: hidden;
+}
+
+html[lang="vi"] body,
+html[lang="vi"] button,
+html[lang="vi"] input,
+html[lang="vi"] textarea,
+html[lang="vi"] select,
+:lang(vi) {
+  font-family: "Be Vietnam Pro", "Noto Sans", "Segoe UI", Arial, sans-serif;
 }
 
 body::selection {
@@ -400,6 +411,30 @@ h1 {
   letter-spacing: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 700;
+}
+
+html[lang="vi"] h1,
+html[lang="vi"] h2,
+html[lang="vi"] h3,
+html[lang="vi"] .brand-title,
+h1:lang(vi),
+h2:lang(vi),
+h3:lang(vi) {
+  font-family: "Be Vietnam Pro", "Noto Sans", "Segoe UI", Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  font-kerning: normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: normal;
+}
+
+html[lang="vi"] h1,
+html[lang="vi"] .page-hero h1,
+h1:lang(vi),
+.page-hero h1:lang(vi) {
+  line-height: 1.1 !important;
 }
 
 h2 {
@@ -2198,6 +2233,51 @@ html.js [data-reveal].is-visible {
   color: var(--muted);
   font-size: 1.08rem;
   line-height: 1.72;
+}
+
+.brand-legal-notice {
+  max-width: 760px;
+  margin-top: 26px;
+  padding: 18px 20px;
+  border: 1px solid rgba(184, 130, 46, 0.22);
+  border-left: 3px solid var(--champagne);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 12px 34px rgba(7, 20, 18, 0.05);
+}
+
+.brand-legal-notice strong {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--deep);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brand-legal-notice p,
+.introduction-content .brand-legal-notice p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.91rem;
+  line-height: 1.6;
+}
+
+.brand-legal-notice-dark {
+  margin: 0 0 20px;
+  border-color: rgba(229, 189, 102, 0.24);
+  border-left-color: var(--champagne);
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: none;
+}
+
+.brand-legal-notice-dark strong {
+  color: var(--champagne);
+}
+
+.brand-legal-notice-dark p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .certificate-section {
