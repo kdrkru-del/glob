@@ -67,7 +67,7 @@
           <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
         </div>
 
-        <a class="nav-action" href="index.html#request" data-i18n="nav.request">Request shipment</a>
+        <a class="nav-action" href="contacts.html#request" data-i18n="nav.request">Request shipment</a>
       </nav>
     </div>
   </header>
@@ -94,7 +94,7 @@
           <h1 id="hero-title" data-i18n="home.hero.title">Sourcing and export coordination from Vietnam.</h1>
           <p class="hero-lead" data-i18n="home.hero.lead">One operating desk for supplier search, quality control, documents, and shipment handover.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#request">
+            <a class="btn btn-primary" href="contacts.html#request">
               <span data-i18n="home.hero.primary">Discuss a Shipment</span>
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -179,62 +179,14 @@
       </div>
     </section>
 
-    <section class="section request" id="request">
-      <div class="container request-grid">
+    <section class="section cta-band" id="request">
+      <div class="container note-grid">
         <div data-reveal>
           <p class="section-kicker" data-i18n="home.request.kicker">Project request</p>
           <h2 data-i18n="home.request.title">Describe the shipment you want to prepare.</h2>
-          <p data-i18n="home.request.text">Share the product, volume, destination market, and timing. We will identify the questions needed to structure the next step.</p>
-          <div class="company-details company-details-request" aria-label="Official company contact details" data-i18n-aria-label="aria.contactDetails">
-            <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
-            <dl>
-              <div>
-                <dt>Tax code</dt>
-                <dd>0319519047</dd>
-              </div>
-              <div>
-                <dt>Address</dt>
-                <dd>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</dd>
-              </div>
-              <div>
-                <dt>Russian language</dt>
-                <dd><a href="tel:+84794689910">+84 794 689 910</a> · Phone / WhatsApp / Zalo</dd>
-              </div>
-              <div>
-                <dt>Vietnamese and English language</dt>
-                <dd><a href="tel:+84779199274">+84 779 199 274</a> · Phone / WhatsApp / Zalo</dd>
-              </div>
-            </dl>
-          </div>
         </div>
-
-        <form class="request-form" data-reveal>
-          <div class="field">
-            <label for="name" data-i18n="form.name">Name</label>
-            <input id="name" name="name" type="text" placeholder="How should we address you" data-i18n-placeholder="form.name.placeholder" required />
-          </div>
-          <div class="field">
-            <label for="contact" data-i18n="form.contact">Contact</label>
-            <input id="contact" name="contact" type="text" placeholder="Email, Telegram, or phone" data-i18n-placeholder="form.contact.placeholder" required />
-          </div>
-          <div class="field">
-            <label for="category" data-i18n="form.category">Product category</label>
-            <select id="category" name="category" required>
-              <option value="" data-i18n="form.category.placeholder">Choose a category</option>
-              <option data-i18n="markets.agro.title">Agricultural goods &amp; food</option>
-              <option data-i18n="markets.fmcg.title">FMCG &amp; private label</option>
-              <option data-i18n="markets.textile.title">Textiles &amp; home</option>
-              <option data-i18n="markets.industrial.title">Industrial goods</option>
-              <option data-i18n="form.category.supplier">Supplier cooperation</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="details" data-i18n="form.details">Brief task details</label>
-            <textarea id="details" name="details" placeholder="Product, volume, destination country, timing" data-i18n-placeholder="form.details.placeholder"></textarea>
-          </div>
-          <button class="btn btn-primary" type="submit" data-i18n="form.submit">Send request</button>
-          <p class="form-note" role="status" aria-live="polite"></p>
-        </form>
+        <p data-reveal data-i18n="home.request.text">Share the product, volume, destination market, and timing. We will identify the questions needed to structure the next step.</p>
+        <a class="btn btn-primary" href="contacts.html#request" data-i18n="home.request.button">Open request form</a>
       </div>
     </section>
   </main>
