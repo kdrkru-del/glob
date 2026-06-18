@@ -689,6 +689,164 @@ h3 {
   padding-top: 86px;
 }
 
+.trade-corridor {
+  overflow: hidden;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 84% 18%, rgba(229, 189, 102, 0.16), transparent 22rem),
+    radial-gradient(circle at 10% 90%, rgba(46, 166, 127, 0.12), transparent 24rem),
+    linear-gradient(135deg, #071412, #102e27 62%, #0b211d);
+}
+
+.trade-corridor::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.16;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 54px 54px;
+  pointer-events: none;
+}
+
+.trade-corridor-shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(360px, 0.68fr);
+  gap: clamp(44px, 7vw, 92px);
+  align-items: center;
+}
+
+.corridor-copy {
+  max-width: 760px;
+}
+
+.corridor-copy h2 {
+  max-width: 720px;
+}
+
+.corridor-copy > p:not(.section-kicker) {
+  max-width: 690px;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1.06rem;
+}
+
+.corridor-route {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(64px, 0.42fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  max-width: 620px;
+  margin: 30px 0;
+}
+
+.corridor-route > div {
+  min-height: 92px;
+  padding: 18px 20px;
+  border: 1px solid rgba(229, 189, 102, 0.24);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.corridor-route span:not(.corridor-route-line) {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.corridor-route strong {
+  display: block;
+  color: var(--white);
+  font-size: 1.12rem;
+}
+
+.corridor-route-line {
+  position: relative;
+  height: 2px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.corridor-route-line::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 42%;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  animation: lineTravel 2.8s linear infinite;
+}
+
+.corridor-panel {
+  padding: 30px;
+  border: 1px solid rgba(229, 189, 102, 0.24);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(244, 230, 193, 0.08), rgba(255, 255, 255, 0.025)),
+    rgba(255, 255, 255, 0.07);
+  box-shadow: 0 30px 90px rgba(3, 12, 13, 0.38);
+  backdrop-filter: blur(16px);
+}
+
+.corridor-panel-kicker {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.corridor-panel > strong {
+  display: block;
+  max-width: 420px;
+  margin-bottom: 14px;
+  color: var(--white);
+  font-size: 1.28rem;
+  line-height: 1.35;
+}
+
+.corridor-panel > p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.corridor-tags {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.corridor-tags li {
+  min-height: 64px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius);
+  color: rgba(255, 255, 255, 0.88);
+  background: rgba(7, 20, 18, 0.42);
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.corridor-panel .corridor-note {
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(229, 189, 102, 0.18);
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
 .section-head {
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(320px, 0.52fr);
@@ -1536,6 +1694,66 @@ h3 {
     var(--carbon);
 }
 
+.russia-catalog {
+  background:
+    radial-gradient(circle at 92% 8%, rgba(229, 189, 102, 0.12), transparent 22rem),
+    linear-gradient(180deg, #edf2eb, var(--porcelain));
+  border-top: 1px solid rgba(16, 32, 29, 0.08);
+}
+
+.russia-product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.russia-product-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--bronze), var(--gold), var(--jade));
+}
+
+.trade-compliance {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(320px, 0.82fr);
+  gap: 44px;
+  align-items: center;
+  margin-top: 28px;
+  padding: 28px 30px;
+  border: 1px solid rgba(229, 189, 102, 0.22);
+  border-radius: var(--radius);
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(7, 20, 18, 0.98), rgba(17, 43, 37, 0.94)),
+    var(--carbon);
+  box-shadow: var(--shadow-soft);
+}
+
+.trade-compliance span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--gold);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.trade-compliance strong {
+  display: block;
+  max-width: 520px;
+  font-size: 1.14rem;
+  line-height: 1.4;
+}
+
+.trade-compliance p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .note-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.68fr) auto;
@@ -1661,6 +1879,8 @@ html.js [data-reveal].is-visible {
   .hero-inner,
   .command-grid,
   .supplier-grid,
+  .trade-corridor-shell,
+  .trade-compliance,
   .detail-grid,
   .documents-grid,
   .request-grid,
@@ -1671,6 +1891,10 @@ html.js [data-reveal].is-visible {
 
   .supplier-cta-grid {
     gap: 30px;
+  }
+
+  .trade-corridor-shell {
+    gap: 34px;
   }
 
   .supplier-cta-action {
@@ -1890,10 +2114,31 @@ html.js [data-reveal].is-visible {
   .process-card,
   .assurance-card,
   .catalog-card,
+  .corridor-panel,
+  .trade-compliance,
   .detail-panel,
   .supplier-panel,
   .route-board {
     padding: 22px;
+  }
+
+  .corridor-route {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .corridor-route-line {
+    width: 2px;
+    height: 28px;
+    justify-self: center;
+  }
+
+  .corridor-route-line::after {
+    display: none;
+  }
+
+  .corridor-tags {
+    grid-template-columns: 1fr;
   }
 
   .document-stamp {
