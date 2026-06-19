@@ -10,8 +10,8 @@
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — contacts</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260618-trade-1" />
-  <script src="script.js?v=20260618-trade-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260618-b2b-1" />
+  <script src="script.js?v=20260618-b2b-1" defer></script>
 </head>
 
 <body data-page="contacts">
@@ -117,25 +117,64 @@
 
         <form class="request-form" data-reveal>
           <div class="field">
-            <label for="name" data-i18n="form.name">Name</label>
-            <input id="name" name="name" type="text" placeholder="How should we address you" data-i18n-placeholder="form.name.placeholder" required />
+            <label for="name" data-i18n="form.name">Contact person</label>
+            <input id="name" name="name" type="text" placeholder="Name and position" data-i18n-placeholder="form.name.placeholder" required />
           </div>
           <div class="field">
             <label for="contact" data-i18n="form.contact">Contact</label>
             <input id="contact" name="contact" type="text" placeholder="Email, Telegram, or phone" data-i18n-placeholder="form.contact.placeholder" required />
           </div>
           <div class="field">
-            <label for="category" data-i18n="form.category">Product category</label>
+            <label for="category" data-i18n="form.category">Service direction</label>
             <select id="category" name="category" required>
-              <option value="" data-i18n="form.category.placeholder">Choose a category</option>
-              <option data-i18n="markets.agro.title">Agricultural goods &amp; food</option>
-              <option data-i18n="markets.fmcg.title">FMCG &amp; private label</option>
-              <option data-i18n="markets.textile.title">Textiles &amp; home</option>
-              <option data-i18n="markets.industrial.title">Industrial goods</option>
-              <option data-i18n="form.category.russiaVietnam">Russia → Vietnam supply</option>
-              <option data-i18n="form.category.supplier">Supplier cooperation</option>
+              <option value="" data-i18n="form.category.placeholder">Choose a service</option>
+              <option value="export-vietnam" data-i18n="form.category.exportVietnam">Export from Vietnam</option>
+              <option value="russia-vietnam" data-i18n="form.category.russiaVietnam">Russia → Vietnam</option>
+              <option value="supplier-search" data-i18n="form.category.supplier">Supplier search</option>
+              <option value="buyer-search" data-i18n="form.category.buyerSearch">Buyer search in Vietnam</option>
+              <option value="logistics-quality" data-i18n="form.category.logisticsQuality">Logistics, documents &amp; quality support</option>
             </select>
           </div>
+
+          <div class="market-entry-form-fields" data-market-entry-fields hidden>
+            <p class="form-section-title" data-i18n="form.marketEntry.intro">Product information for preliminary Vietnam market review</p>
+
+            <div class="field">
+              <label for="company-country" data-i18n="form.companyCountry">Company and country</label>
+              <input id="company-country" name="companyCountry" type="text" placeholder="Company name and country of registration" data-i18n-placeholder="form.companyCountry.placeholder" data-market-entry-required />
+            </div>
+
+            <div class="field">
+              <label for="product-name" data-i18n="form.productName">Product name</label>
+              <input id="product-name" name="productName" type="text" placeholder="Commercial product name" data-i18n-placeholder="form.productName.placeholder" data-market-entry-required />
+            </div>
+
+            <div class="field">
+              <label for="product-specs" data-i18n="form.productSpecs">Description and specifications</label>
+              <textarea id="product-specs" name="productSpecs" placeholder="Composition, format, packaging, shelf life, technical parameters" data-i18n-placeholder="form.productSpecs.placeholder" data-market-entry-required></textarea>
+            </div>
+
+            <div class="field">
+              <label for="price-moq" data-i18n="form.priceMoq">Price and minimum order</label>
+              <input id="price-moq" name="priceMoq" type="text" placeholder="Indicative price, currency, Incoterms, and MOQ" data-i18n-placeholder="form.priceMoq.placeholder" data-market-entry-required />
+            </div>
+
+            <div class="field">
+              <label for="product-capacity" data-i18n="form.productCapacity">Production capabilities</label>
+              <textarea id="product-capacity" name="productCapacity" placeholder="Monthly capacity, lead time, and available volume" data-i18n-placeholder="form.productCapacity.placeholder"></textarea>
+            </div>
+
+            <div class="field">
+              <label for="export-experience" data-i18n="form.exportExperience">Export experience</label>
+              <textarea id="export-experience" name="exportExperience" placeholder="Markets, shipment history, or no previous exports" data-i18n-placeholder="form.exportExperience.placeholder"></textarea>
+            </div>
+
+            <div class="field">
+              <label for="product-documents" data-i18n="form.productDocuments">Certificates and documents</label>
+              <textarea id="product-documents" name="productDocuments" placeholder="Available certificates, test reports, origin, and export documents" data-i18n-placeholder="form.productDocuments.placeholder"></textarea>
+            </div>
+          </div>
+
           <div class="field">
             <label for="details" data-i18n="form.details">Brief task details</label>
             <textarea id="details" name="details" placeholder="Product, volume, origin, destination, timing" data-i18n-placeholder="form.details.placeholder"></textarea>
