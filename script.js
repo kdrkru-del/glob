@@ -391,14 +391,19 @@ const translations = {
     "nav.services": "Services",
     "services.card1.text": "We help international buyers identify Vietnamese suppliers, review products, align documents, and prepare export shipments.",
     "services.card1.title": "Export from Vietnam",
+    "services.card1.button": "Request export support",
     "services.card2.text": "We help Vietnamese companies source Russian products within product categories that can move forward after customs, logistics, and document review.",
     "services.card2.title": "Import to Vietnam from Russia",
+    "services.card2.button": "Arrange Russia → Vietnam supply",
     "services.card3.text": "We identify Vietnamese manufacturers for export projects and Russian suppliers interested in the Vietnamese market.",
     "services.card3.title": "Supplier Search",
+    "services.card3.button": "Find a supplier",
     "services.card4.text": "We help suppliers approach importers, distributors, trading companies, and other buyers in Vietnam.",
     "services.card4.title": "Buyer Search in Vietnam",
+    "services.card4.button": "Find buyers in Vietnam",
     "services.card5.text": "We coordinate communication, specifications, certification, shipment readiness, and quality control at the operating level.",
     "services.card5.title": "Logistics, Documents & Quality",
+    "services.card5.button": "Request trade support",
     "services.cta.button": "Send request",
     "services.cta.kicker": "Start a trade project",
     "services.cta.text": "We will review the request, identify the required commercial and document checkpoints, and suggest the next practical step.",
@@ -914,14 +919,19 @@ const translations = {
     "nav.services": "Услуги",
     "services.card1.text": "Помогаем зарубежным покупателям находить вьетнамских поставщиков, проверять товары, согласовывать документы и готовить экспортные поставки.",
     "services.card1.title": "Экспорт из Вьетнама",
+    "services.card1.button": "Запросить экспорт из Вьетнама",
     "services.card2.text": "Помогаем вьетнамским компаниям закупать российские товары в тех категориях, которые могут быть реализованы после проверки таможенных, логистических и документальных условий.",
     "services.card2.title": "Импорт во Вьетнам из России",
+    "services.card2.button": "Организовать поставку во Вьетнам",
     "services.card3.text": "Ищем вьетнамских производителей для экспортных проектов и российских поставщиков, заинтересованных во вьетнамском рынке.",
     "services.card3.title": "Поиск поставщиков",
+    "services.card3.button": "Найти поставщика",
     "services.card4.text": "Помогаем поставщикам выходить на импортёров, дистрибьюторов, торговые компании и других покупателей во Вьетнаме.",
     "services.card4.title": "Поиск покупателей во Вьетнаме",
+    "services.card4.button": "Найти покупателей во Вьетнаме",
     "services.card5.text": "Координируем коммуникацию, спецификации, сертификацию, готовность отгрузки и контроль качества на операционном уровне.",
     "services.card5.title": "Логистика, документы и контроль качества",
+    "services.card5.button": "Запросить сопровождение",
     "services.cta.button": "Отправить запрос",
     "services.cta.kicker": "Начать торговый проект",
     "services.cta.text": "Мы рассмотрим запрос, определим необходимые коммерческие и документальные точки контроля и предложим следующий практический шаг.",
@@ -1437,14 +1447,19 @@ const translations = {
     "nav.services": "Dịch vụ",
     "services.card1.text": "Chúng tôi hỗ trợ người mua quốc tế tìm nhà cung cấp tại Việt Nam, rà soát sản phẩm, đồng bộ chứng từ và chuẩn bị lô hàng xuất khẩu.",
     "services.card1.title": "Xuất khẩu từ Việt Nam",
+    "services.card1.button": "Yêu cầu hỗ trợ xuất khẩu",
     "services.card2.text": "Chúng tôi hỗ trợ doanh nghiệp Việt Nam tìm nguồn hàng từ Nga trong các nhóm sản phẩm có thể triển khai sau khi rà soát hải quan, logistics và chứng từ.",
     "services.card2.title": "Nhập khẩu vào Việt Nam từ Nga",
+    "services.card2.button": "Tổ chức cung ứng Nga → Việt Nam",
     "services.card3.text": "Chúng tôi tìm nhà sản xuất Việt Nam cho dự án xuất khẩu và nhà cung cấp Nga quan tâm đến thị trường Việt Nam.",
     "services.card3.title": "Tìm kiếm nhà cung cấp",
+    "services.card3.button": "Tìm nhà cung cấp",
     "services.card4.text": "Chúng tôi hỗ trợ nhà cung cấp tiếp cận nhà nhập khẩu, nhà phân phối, công ty thương mại và các bên mua khác tại Việt Nam.",
     "services.card4.title": "Tìm kiếm người mua tại Việt Nam",
+    "services.card4.button": "Tìm người mua tại Việt Nam",
     "services.card5.text": "Chúng tôi điều phối giao tiếp, thông số sản phẩm, chứng nhận, mức độ sẵn sàng giao hàng và kiểm soát chất lượng ở cấp vận hành.",
     "services.card5.title": "Logistics, chứng từ và chất lượng",
+    "services.card5.button": "Yêu cầu hỗ trợ thương mại",
     "services.cta.button": "Gửi yêu cầu",
     "services.cta.kicker": "Bắt đầu dự án thương mại",
     "services.cta.text": "Chúng tôi sẽ xem xét yêu cầu, xác định các điểm kiểm tra thương mại và chứng từ cần thiết, rồi đề xuất bước đi thực tế tiếp theo.",
@@ -1805,6 +1820,13 @@ document.querySelectorAll("[data-year]").forEach((element) => {
 });
 
 const buyerSearchCategory = "buyer-search";
+const requestCategories = new Set([
+  "export-vietnam",
+  "russia-vietnam",
+  "supplier-search",
+  "buyer-search",
+  "logistics-quality"
+]);
 
 const syncMarketEntryFields = (form) => {
   const category = form.querySelector('select[name="category"]');
@@ -1826,8 +1848,12 @@ document.querySelectorAll(".request-form").forEach((form) => {
   const category = form.querySelector('select[name="category"]');
   const requestedCategory = new URLSearchParams(window.location.search).get("category");
 
-  if (category && requestedCategory === buyerSearchCategory) {
-    category.value = buyerSearchCategory;
+  if (category && requestCategories.has(requestedCategory)) {
+    const requestedOption = category.querySelector(`option[value="${requestedCategory}"]`);
+
+    if (requestedOption) {
+      category.value = requestedCategory;
+    }
   }
 
   syncMarketEntryFields(form);
