@@ -62,7 +62,7 @@ const translations = {
     "about.mission.point2": "Protect buyer confidence",
     "about.mission.point3": "Keep every shipment structured",
     "about.mission.title": "Mission",
-    "historyBlock.closing": "Today, VIET BRIDGE continues to develop as a reliable partner for companies looking to import products from Vietnam.",
+    "historyBlock.closing": "Today, GLOBERION GROUP continues to develop as a reliable partner for companies looking to import products from Vietnam.",
     "historyBlock.foundation.text": "The company was founded with the idea of building a practical and reliable connection between Vietnam’s production potential and international demand.",
     "historyBlock.foundation.title": "Foundation",
     "historyBlock.kicker": "Company History",
@@ -70,13 +70,13 @@ const translations = {
     "historyBlock.network.title": "Supplier Network",
     "historyBlock.quality.text": "Our approach is based on product verification, supplier communication, documentation support, and attention to quality requirements before shipment.",
     "historyBlock.quality.title": "Quality Focus",
-    "historyBlock.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED was established as a trading bridge between Vietnamese suppliers and international buyers. The company was created to support importers who are looking for reliable Vietnamese products, transparent communication, and organized export cooperation. Our work is focused on connecting customers with suitable manufacturers, helping verify product information, coordinating documentation, and supporting the export process from Vietnam to global markets.",
+    "historyBlock.text": "GLOBERION GROUP was established as a trading bridge between Vietnamese suppliers and international buyers. The company supports importers looking for reliable Vietnamese products, transparent communication, and organized export cooperation. Our work focuses on connecting customers with suitable manufacturers, verifying product information, coordinating documentation, and supporting exports from Vietnam to global markets.",
     "historyBlock.title": "A trading bridge between Vietnamese suppliers and international buyers.",
     "historyBlock.trade.text": "We help foreign buyers communicate with Vietnamese suppliers, clarify product details, and organize export cooperation in a clear and professional way.",
     "historyBlock.trade.title": "International Trade",
     "missionBlock.communication.text": "We support communication between buyers and suppliers to reduce misunderstandings and make cooperation more transparent.",
     "missionBlock.communication.title": "Clear Communication",
-    "missionBlock.closing": "VIET BRIDGE is committed to becoming a reliable partner for international companies importing products from Vietnam.",
+    "missionBlock.closing": "GLOBERION GROUP is committed to becoming a reliable partner for international companies importing products from Vietnam.",
     "missionBlock.kicker": "Our Mission",
     "missionBlock.partnership.text": "We aim to build stable business relationships based on trust, responsibility, and professional support.",
     "missionBlock.partnership.title": "Long-Term Partnership",
@@ -84,7 +84,7 @@ const translations = {
     "missionBlock.quality.title": "Quality & Documentation",
     "missionBlock.sourcing.text": "We help customers find suitable Vietnamese suppliers and products according to their business needs.",
     "missionBlock.sourcing.title": "Reliable Sourcing",
-    "missionBlock.text": "VIET BRIDGE helps importers connect with Vietnamese suppliers, verify product information, coordinate documentation, and organize export cooperation with confidence.",
+    "missionBlock.text": "GLOBERION GROUP helps importers connect with Vietnamese suppliers, verify product information, coordinate documentation, and organize export cooperation with confidence.",
     "missionBlock.title": "Our mission is to make international sourcing from Vietnam clearer, safer, and more efficient for global buyers.",
     "brand.tagline": "Bridging Markets",
     "brandLegal.text": "For the purposes of this website and international business communications, Globerion Group is the commercial brand used by VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED for sourcing and export support. The official company details published on this website belong to VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED.",
@@ -423,7 +423,7 @@ const translations = {
     "services.export.text": "We help international buyers work with Vietnam through a structured operating process: sourcing, verification, commercial review, documents, and shipment preparation.",
     "services.export.title": "Export support from Vietnam for international buyers.",
     "services.hero.eyebrow": "Services",
-    "services.hero.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED works as a commercial bridge for supplier search, buyer search, trade coordination, logistics, documents, and quality support.",
+    "services.hero.text": "GLOBERION GROUP works as a commercial bridge for supplier search, buyer search, trade coordination, logistics, documents, and quality support.",
     "services.hero.title": "B2B trade services built around real import and export tasks.",
     "services.intro.kicker": "Service model",
     "services.intro.text1": "The company helps international buyers source from Vietnam and helps Russian suppliers and Vietnamese buyers develop Russia → Vietnam trade projects.",
@@ -882,7 +882,7 @@ const translations = {
     "certificateBlock.supplier.title": "Документы поставщиков",
     "certificateBlock.text": "Сертификаты и документы поставщиков будут добавлены после проверки. Раздел подготовлен для официальных документов компании, файлов поставщиков, сертификатов продукции и экспортной документации.",
     "certificateBlock.title": "Проверенные документы будут добавлены после оценки поставщиков.",
-    "historyBlock.closing": "Сегодня VIET BRIDGE развивается как надёжный партнёр для компаний, которые хотят импортировать товары из Вьетнама.",
+    "historyBlock.closing": "Сегодня GLOBERION GROUP развивается как надёжный партнёр для компаний, которые хотят импортировать товары из Вьетнама.",
     "historyBlock.foundation.text": "Компания была создана с идеей построить практичную и надёжную связь между производственным потенциалом Вьетнама и спросом зарубежных рынков.",
     "historyBlock.foundation.title": "Основание компании",
     "historyBlock.kicker": "История компании",
@@ -890,13 +890,13 @@ const translations = {
     "historyBlock.network.title": "Сеть поставщиков",
     "historyBlock.quality.text": "Наш подход основан на проверке информации о продукции, коммуникации с поставщиками, сопровождении документов и внимании к требованиям качества перед отгрузкой.",
     "historyBlock.quality.title": "Фокус на качестве",
-    "historyBlock.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED была создана как торговый мост между вьетнамскими поставщиками и международными покупателями. Компания основана для того, чтобы помогать импортёрам находить надёжные вьетнамские товары, выстраивать прозрачную коммуникацию с поставщиками и организовывать экспортное сотрудничество. Наша работа направлена на подбор производителей, проверку информации о продукции, сопровождение документов и поддержку экспортных поставок из Вьетнама на международные рынки.",
+    "historyBlock.text": "GLOBERION GROUP создана как торговый мост между вьетнамскими поставщиками и международными покупателями. Компания помогает импортёрам находить надёжные вьетнамские товары, выстраивать прозрачную коммуникацию с поставщиками и организовывать экспортное сотрудничество. Наша работа направлена на подбор производителей, проверку информации о продукции, сопровождение документов и поддержку экспортных поставок из Вьетнама на международные рынки.",
     "historyBlock.title": "Торговый мост между вьетнамскими поставщиками и международными покупателями.",
     "historyBlock.trade.text": "Мы помогаем зарубежным покупателям общаться с вьетнамскими поставщиками, уточнять характеристики продукции и организовывать экспортное сотрудничество профессионально и прозрачно.",
     "historyBlock.trade.title": "Международная торговля",
     "missionBlock.communication.text": "Мы поддерживаем коммуникацию между покупателями и поставщиками, чтобы снизить риск недопонимания и сделать сотрудничество более прозрачным.",
     "missionBlock.communication.title": "Понятная коммуникация",
-    "missionBlock.closing": "VIET BRIDGE стремится стать надёжным партнёром для международных компаний, импортирующих товары из Вьетнама.",
+    "missionBlock.closing": "GLOBERION GROUP стремится стать надёжным партнёром для международных компаний, импортирующих товары из Вьетнама.",
     "missionBlock.kicker": "Наша миссия",
     "missionBlock.partnership.text": "Мы стремимся строить стабильные деловые отношения, основанные на доверии, ответственности и профессиональной поддержке.",
     "missionBlock.partnership.title": "Долгосрочное партнёрство",
@@ -904,7 +904,7 @@ const translations = {
     "missionBlock.quality.title": "Качество и документы",
     "missionBlock.sourcing.text": "Мы помогаем клиентам находить подходящих вьетнамских поставщиков и товары под их бизнес-задачи.",
     "missionBlock.sourcing.title": "Надёжный подбор поставщиков",
-    "missionBlock.text": "VIET BRIDGE помогает импортёрам находить вьетнамских поставщиков, проверять информацию о продукции, сопровождать документы и организовывать экспортное сотрудничество с уверенностью.",
+    "missionBlock.text": "GLOBERION GROUP помогает импортёрам находить вьетнамских поставщиков, проверять информацию о продукции, сопровождать документы и организовывать экспортное сотрудничество с уверенностью.",
     "missionBlock.title": "Наша миссия — сделать закупку товаров из Вьетнама для международных покупателей более понятной, безопасной и эффективной.",
     "nav.about": "О компании",
     "nav.about.certificate": "Сертификаты",
@@ -951,7 +951,7 @@ const translations = {
     "services.export.text": "Помогаем зарубежным покупателям работать с Вьетнамом через структурированный процесс: поиск, проверка, коммерческое согласование, документы и подготовка отгрузки.",
     "services.export.title": "Экспортное сопровождение из Вьетнама для зарубежных покупателей.",
     "services.hero.eyebrow": "Услуги",
-    "services.hero.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED работает как торговый мост для поиска поставщиков, поиска покупателей, торговой координации, логистики, документов и контроля качества.",
+    "services.hero.text": "GLOBERION GROUP работает как торговый мост для поиска поставщиков, поиска покупателей, торговой координации, логистики, документов и контроля качества.",
     "services.hero.title": "B2B-услуги, выстроенные вокруг реальных задач импорта и экспорта.",
     "services.intro.kicker": "Сервисная модель",
     "services.intro.text1": "Компания помогает зарубежным покупателям закупать во Вьетнаме и помогает российским поставщикам и вьетнамским покупателям развивать проекты Россия → Вьетнам.",
@@ -1410,7 +1410,7 @@ const translations = {
     "certificateBlock.supplier.title": "Tài liệu nhà cung cấp",
     "certificateBlock.text": "Chứng nhận và tài liệu nhà cung cấp sẽ được bổ sung sau khi xác minh. Phần này được chuẩn bị cho giấy tờ chính thức của công ty, hồ sơ nhà cung cấp, chứng nhận sản phẩm và tài liệu liên quan đến xuất khẩu.",
     "certificateBlock.title": "Tài liệu đã xác minh sẽ được bổ sung sau khi đánh giá nhà cung cấp.",
-    "historyBlock.closing": "Ngày nay, VIET BRIDGE tiếp tục phát triển như một đối tác đáng tin cậy cho các công ty muốn nhập khẩu sản phẩm từ Việt Nam.",
+    "historyBlock.closing": "Ngày nay, GLOBERION GROUP tiếp tục phát triển như một đối tác đáng tin cậy cho các công ty muốn nhập khẩu sản phẩm từ Việt Nam.",
     "historyBlock.foundation.text": "Công ty được xây dựng với mục tiêu tạo ra một kết nối thực tế và đáng tin cậy giữa năng lực sản xuất của Việt Nam và nhu cầu của thị trường quốc tế.",
     "historyBlock.foundation.title": "Thành lập công ty",
     "historyBlock.kicker": "Lịch sử công ty",
@@ -1418,13 +1418,13 @@ const translations = {
     "historyBlock.network.title": "Mạng lưới nhà cung cấp",
     "historyBlock.quality.text": "Cách tiếp cận của chúng tôi dựa trên việc xác minh thông tin sản phẩm, giao tiếp với nhà cung cấp, hỗ trợ tài liệu và chú trọng đến các yêu cầu chất lượng trước khi giao hàng.",
     "historyBlock.quality.title": "Tập trung vào chất lượng",
-    "historyBlock.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED được thành lập như một cầu nối thương mại giữa các nhà cung cấp Việt Nam và khách hàng quốc tế. Công ty được thành lập nhằm hỗ trợ các nhà nhập khẩu tìm kiếm sản phẩm Việt Nam đáng tin cậy, xây dựng giao tiếp minh bạch với nhà cung cấp và tổ chức hoạt động xuất khẩu một cách chuyên nghiệp. Công việc của chúng tôi tập trung vào việc kết nối khách hàng với nhà sản xuất phù hợp, hỗ trợ xác minh thông tin sản phẩm, chuẩn bị tài liệu và đồng hành trong quá trình xuất khẩu từ Việt Nam ra thị trường quốc tế.",
+    "historyBlock.text": "GLOBERION GROUP được xây dựng như một cầu nối thương mại giữa các nhà cung cấp Việt Nam và khách hàng quốc tế. Công ty hỗ trợ các nhà nhập khẩu tìm kiếm sản phẩm Việt Nam đáng tin cậy, xây dựng giao tiếp minh bạch với nhà cung cấp và tổ chức hoạt động xuất khẩu một cách chuyên nghiệp. Công việc của chúng tôi tập trung vào việc kết nối khách hàng với nhà sản xuất phù hợp, xác minh thông tin sản phẩm, chuẩn bị chứng từ và đồng hành trong quá trình xuất khẩu từ Việt Nam ra thị trường quốc tế.",
     "historyBlock.title": "Cầu nối thương mại giữa các nhà cung cấp Việt Nam và khách hàng quốc tế.",
     "historyBlock.trade.text": "Chúng tôi hỗ trợ khách hàng nước ngoài giao tiếp với nhà cung cấp Việt Nam, làm rõ thông tin sản phẩm và tổ chức hợp tác xuất khẩu một cách rõ ràng, chuyên nghiệp.",
     "historyBlock.trade.title": "Thương mại quốc tế",
     "missionBlock.communication.text": "Chúng tôi hỗ trợ giao tiếp giữa người mua và nhà cung cấp nhằm giảm thiểu hiểu lầm và giúp quá trình hợp tác minh bạch hơn.",
     "missionBlock.communication.title": "Giao tiếp rõ ràng",
-    "missionBlock.closing": "VIET BRIDGE cam kết trở thành đối tác đáng tin cậy cho các công ty quốc tế nhập khẩu sản phẩm từ Việt Nam.",
+    "missionBlock.closing": "GLOBERION GROUP cam kết trở thành đối tác đáng tin cậy cho các công ty quốc tế nhập khẩu sản phẩm từ Việt Nam.",
     "missionBlock.kicker": "Sứ mệnh của chúng tôi",
     "missionBlock.partnership.text": "Chúng tôi hướng đến việc xây dựng các mối quan hệ kinh doanh ổn định dựa trên sự tin cậy, trách nhiệm và hỗ trợ chuyên nghiệp.",
     "missionBlock.partnership.title": "Quan hệ hợp tác lâu dài",
@@ -1432,7 +1432,7 @@ const translations = {
     "missionBlock.quality.title": "Chất lượng và tài liệu",
     "missionBlock.sourcing.text": "Chúng tôi giúp khách hàng tìm kiếm nhà cung cấp và sản phẩm Việt Nam phù hợp với nhu cầu kinh doanh của họ.",
     "missionBlock.sourcing.title": "Tìm nguồn hàng đáng tin cậy",
-    "missionBlock.text": "VIET BRIDGE hỗ trợ các nhà nhập khẩu kết nối với nhà cung cấp Việt Nam, xác minh thông tin sản phẩm, chuẩn bị tài liệu và tổ chức hợp tác xuất khẩu một cách tự tin.",
+    "missionBlock.text": "GLOBERION GROUP hỗ trợ các nhà nhập khẩu kết nối với nhà cung cấp Việt Nam, xác minh thông tin sản phẩm, chuẩn bị chứng từ và tổ chức hợp tác xuất khẩu một cách tự tin.",
     "missionBlock.title": "Sứ mệnh của chúng tôi là giúp việc tìm nguồn hàng từ Việt Nam trở nên rõ ràng, an toàn và hiệu quả hơn đối với khách hàng quốc tế.",
     "nav.about": "Về chúng tôi",
     "nav.about.certificate": "Chứng nhận",
@@ -1479,7 +1479,7 @@ const translations = {
     "services.export.text": "Chúng tôi giúp người mua quốc tế làm việc với Việt Nam theo quy trình có cấu trúc: tìm nguồn, xác minh, rà soát thương mại, chứng từ và chuẩn bị giao hàng.",
     "services.export.title": "Hỗ trợ xuất khẩu từ Việt Nam cho người mua quốc tế.",
     "services.hero.eyebrow": "Dịch vụ",
-    "services.hero.text": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED hoạt động như cầu nối thương mại cho tìm kiếm nhà cung cấp, tìm kiếm người mua, điều phối thương mại, logistics, chứng từ và kiểm soát chất lượng.",
+    "services.hero.text": "GLOBERION GROUP hoạt động như cầu nối thương mại cho tìm kiếm nhà cung cấp, tìm kiếm người mua, điều phối thương mại, logistics, chứng từ và kiểm soát chất lượng.",
     "services.hero.title": "Dịch vụ thương mại B2B được xây dựng quanh các nhiệm vụ nhập khẩu và xuất khẩu thực tế.",
     "services.intro.kicker": "Mô hình dịch vụ",
     "services.intro.text1": "Công ty hỗ trợ người mua quốc tế tìm nguồn hàng từ Việt Nam, đồng thời hỗ trợ nhà cung cấp Nga và người mua Việt Nam phát triển các dự án Nga → Việt Nam.",
@@ -1612,6 +1612,9 @@ const currentNavPage = ["importers", "suppliers", "catalog", "services"].include
     ? "logistics"
     : pageName;
 const requestHref = pageName === "contacts" ? "#request" : "contacts.html#request";
+const footerCompanyName = pageName === "contacts"
+  ? "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED"
+  : "GLOBERION GROUP";
 
 const renderSharedChrome = () => {
   const header = document.querySelector(".site-header");
@@ -1662,7 +1665,7 @@ const renderSharedChrome = () => {
             <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. B2B trade services with Vietnam.</span></span>
           </div>
           <div class="company-details company-details-footer" aria-label="Official company details" data-i18n-aria-label="aria.companyDetails">
-            <strong>VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED</strong>
+            <strong>${footerCompanyName}</strong>
             <span><span data-i18n="contacts.details.taxCode">Tax code</span>: 0319519047</span>
             <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
             <span><a href="tel:+84794689910">+84 794 689 910</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.russian">Russian language</span></span>
