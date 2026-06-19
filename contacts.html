@@ -10,8 +10,8 @@
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — contacts</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260619-services-3" />
-  <script src="script.js?v=20260619-services-3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260619-products-1" />
+  <script src="script.js?v=20260619-products-1" defer></script>
 </head>
 
 <body data-page="contacts">
@@ -142,8 +142,8 @@
             </select>
           </div>
 
-          <div class="market-entry-form-fields" data-market-entry-fields hidden>
-            <p class="form-section-title" data-i18n="form.marketEntry.intro">Product information for preliminary Vietnam market review</p>
+          <div class="market-entry-form-fields" data-product-inquiry-fields hidden>
+            <p class="form-section-title" data-i18n="form.productInquiry.intro">Product information for preliminary trade review</p>
 
             <div class="field">
               <label for="company-country" data-i18n="form.companyCountry">Company and country</label>
@@ -156,13 +156,33 @@
             </div>
 
             <div class="field">
+              <label for="product-category" data-i18n="form.productCategory">Selected product category</label>
+              <input id="product-category" name="productCategory" type="text" placeholder="Product category or direction" data-i18n-placeholder="form.productCategory.placeholder" data-product-category data-market-entry-required />
+            </div>
+
+            <div class="field">
               <label for="product-specs" data-i18n="form.productSpecs">Description and specifications</label>
               <textarea id="product-specs" name="productSpecs" placeholder="Composition, format, packaging, shelf life, technical parameters" data-i18n-placeholder="form.productSpecs.placeholder" data-market-entry-required></textarea>
             </div>
 
             <div class="field">
-              <label for="price-moq" data-i18n="form.priceMoq">Price and minimum order</label>
-              <input id="price-moq" name="priceMoq" type="text" placeholder="Indicative price, currency, Incoterms, and MOQ" data-i18n-placeholder="form.priceMoq.placeholder" data-market-entry-required />
+              <label for="required-volume" data-i18n="form.requiredVolume">Required volume</label>
+              <input id="required-volume" name="requiredVolume" type="text" placeholder="Quantity, unit, and preferred order frequency" data-i18n-placeholder="form.requiredVolume.placeholder" data-market-entry-required />
+            </div>
+
+            <div class="field">
+              <label for="packaging-requirements" data-i18n="form.packagingRequirements">Preferred packaging</label>
+              <input id="packaging-requirements" name="packagingRequirements" type="text" placeholder="Bulk, industrial, retail, private label, or other format" data-i18n-placeholder="form.packagingRequirements.placeholder" />
+            </div>
+
+            <div class="field">
+              <label for="target-budget" data-i18n="form.targetBudget">Target price or budget</label>
+              <input id="target-budget" name="targetBudget" type="text" placeholder="Target price, currency, budget, and preferred Incoterms" data-i18n-placeholder="form.targetBudget.placeholder" />
+            </div>
+
+            <div class="field">
+              <label for="destination-market" data-i18n="form.destinationMarket">Destination country or city</label>
+              <input id="destination-market" name="destinationMarket" type="text" placeholder="Country, city, port, or delivery point" data-i18n-placeholder="form.destinationMarket.placeholder" data-market-entry-required />
             </div>
 
             <div class="field">
