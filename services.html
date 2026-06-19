@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Export from Vietnam, Russia to Vietnam supply support, supplier search, buyer search in Vietnam, and logistics, documents, and quality coordination."
+    content="Supplier search, buyer search, export, import, sourcing, logistics, documents, quality control, market research, negotiations, and full B2B trade support."
   />
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — B2B trade services with Vietnam</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260619-brand-1" />
-  <script src="script.js?v=20260619-brand-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260619-services-2" />
+  <script src="script.js?v=20260619-services-2" defer></script>
 </head>
 
 <body data-page="services">
@@ -33,8 +33,37 @@
 
       <nav class="nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.nav.main">
         <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
-        <a class="nav-link" href="about.html" data-i18n="nav.about">About us</a>
-        <a class="nav-link is-current" href="services.html" data-i18n="nav.services">Services</a>
+        <div class="nav-submenu" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
+            <span data-i18n="nav.about">About us</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <a class="nav-submenu-link" href="about.html#about-introduction" data-i18n="nav.about.introduction">Introduction</a>
+            <a class="nav-submenu-link" href="about.html#about-history" data-i18n="nav.about.history">Corporation History</a>
+            <a class="nav-submenu-link" href="about.html#about-certificate" data-i18n="nav.about.certificate">Certificate</a>
+            <a class="nav-submenu-link" href="about.html#about-mission" data-i18n="nav.about.mission">Mission</a>
+          </div>
+        </div>
+        <div class="nav-submenu nav-submenu-services is-current" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle is-current" type="button" aria-expanded="false">
+            <span data-i18n="nav.services">Services</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+              <a class="nav-submenu-link" href="services.html#supplier-search" data-i18n="nav.services.supplierSearch">Supplier Search</a>
+              <a class="nav-submenu-link" href="services.html#buyer-search" data-i18n="nav.services.buyerSearch">Buyer Search</a>
+              <a class="nav-submenu-link" href="services.html#export-vietnam" data-i18n="nav.services.exportVietnam">Export from Vietnam</a>
+              <a class="nav-submenu-link" href="services.html#import-russia-vietnam" data-i18n="nav.services.importRussiaVietnam">Import to Vietnam from Russia</a>
+              <a class="nav-submenu-link" href="services.html#product-sourcing" data-i18n="nav.services.productSourcing">Product Sourcing</a>
+              <a class="nav-submenu-link" href="services.html#logistics-coordination" data-i18n="nav.services.logisticsCoordination">Logistics Coordination</a>
+              <a class="nav-submenu-link" href="services.html#documentation-certificates" data-i18n="nav.services.documentationCertificates">Documentation &amp; Certificates</a>
+              <a class="nav-submenu-link" href="services.html#quality-control" data-i18n="nav.services.qualityControl">Quality Control</a>
+              <a class="nav-submenu-link" href="services.html#market-research" data-i18n="nav.services.marketResearch">Market Research</a>
+              <a class="nav-submenu-link" href="services.html#business-communication" data-i18n="nav.services.businessCommunication">Business Communication &amp; Negotiations</a>
+              <a class="nav-submenu-link" href="services.html#full-b2b-support" data-i18n="nav.services.fullB2BSupport">Full B2B Trade Support</a>
+          </div>
+        </div>
         <a class="nav-link" href="logistics.html" data-i18n="nav.logisticsQuality">Logistics &amp; Quality</a>
         <a class="nav-link" href="contacts.html" data-i18n="nav.contacts">Contacts</a>
 
@@ -58,273 +87,189 @@
       </div>
     </section>
 
-    <section class="section detail-section">
-      <div class="container detail-grid">
-        <div class="detail-main" data-reveal>
-          <p class="section-kicker" data-i18n="services.intro.kicker">Service model</p>
-          <h2 data-i18n="services.intro.title">One structure for both directions of work.</h2>
-          <p data-i18n="services.intro.text1">The company helps international buyers source from Vietnam and helps Russian suppliers and Vietnamese buyers develop Russia → Vietnam trade projects.</p>
-          <p data-i18n="services.intro.text2">Each project is structured around product feasibility, supplier or buyer search, documents, route planning, and quality control.</p>
-        </div>
-
-        <aside class="detail-panel" data-reveal>
-          <span data-i18n="services.panel.title">Core directions</span>
-          <ul class="detail-list">
-            <li data-i18n="services.panel.item1">Export from Vietnam</li>
-            <li data-i18n="services.panel.item2">Import to Vietnam from Russia</li>
-            <li data-i18n="services.panel.item3">Supplier Search</li>
-            <li data-i18n="services.panel.item4">Buyer Search in Vietnam</li>
-            <li data-i18n="services.panel.item5">Logistics, Documents and Quality Support</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section service-section">
-      <div class="container">
-        <div class="service-grid services-overview-grid">
-          <article class="service-card" data-reveal>
-            <span>01</span>
-            <h3 data-i18n="services.card1.title">Export from Vietnam</h3>
-            <p data-i18n="services.card1.text">We help international buyers identify Vietnamese suppliers, review products, align documents, and prepare export shipments.</p>
-            <a class="service-card-cta" href="contacts.html?category=export-vietnam#request" data-i18n="services.card1.button">Request export support</a>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>02</span>
-            <h3 data-i18n="services.card2.title">Import to Vietnam from Russia</h3>
-            <p data-i18n="services.card2.text">We help Vietnamese companies source Russian products within product categories that can move forward after customs, logistics, and document review.</p>
-            <a class="service-card-cta" href="contacts.html?category=russia-vietnam#request" data-i18n="services.card2.button">Arrange Russia → Vietnam supply</a>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>03</span>
-            <h3 data-i18n="services.card3.title">Supplier Search</h3>
-            <p data-i18n="services.card3.text">We identify Vietnamese manufacturers for export projects and Russian suppliers interested in the Vietnamese market.</p>
-            <a class="service-card-cta" href="contacts.html?category=supplier-search#request" data-i18n="services.card3.button">Find a supplier</a>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>04</span>
-            <h3 data-i18n="services.card4.title">Buyer Search in Vietnam</h3>
-            <p data-i18n="services.card4.text">We help suppliers approach importers, distributors, trading companies, and other buyers in Vietnam.</p>
-            <a class="service-card-cta" href="contacts.html?category=buyer-search#request" data-i18n="services.card4.button">Find buyers in Vietnam</a>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>05</span>
-            <h3 data-i18n="services.card5.title">Logistics, Documents &amp; Quality</h3>
-            <p data-i18n="services.card5.text">We coordinate communication, specifications, certification, shipment readiness, and quality control at the operating level.</p>
-            <a class="service-card-cta" href="contacts.html?category=logistics-quality#request" data-i18n="services.card5.button">Request trade support</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section detail-section" id="export-vietnam">
-      <div class="container detail-grid">
-        <div class="detail-main" data-reveal>
-          <p class="section-kicker" data-i18n="services.export.kicker">Vietnam → international markets</p>
-          <h2 data-i18n="services.export.title">Export support from Vietnam for international buyers.</h2>
-          <p data-i18n="services.export.text">We help international buyers work with Vietnam through a structured operating process: sourcing, verification, commercial review, documents, and shipment preparation.</p>
-
-          <div class="corridor-route" aria-label="Vietnam to international markets route">
-            <div>
-              <span data-i18n="services.export.origin.label">Origin</span>
-              <strong data-i18n="services.export.origin.value">Vietnam</strong>
-            </div>
-            <span class="corridor-route-line" aria-hidden="true"></span>
-            <div>
-              <span data-i18n="services.export.destination.label">Destination</span>
-              <strong data-i18n="services.export.destination.value">International markets</strong>
-            </div>
-          </div>
-
-          <p data-i18n="services.export.note">The work can cover supplier search, commercial comparison, samples, documents, quality control, and shipment preparation.</p>
-          <a class="btn btn-primary" href="contacts.html#request" data-i18n="services.export.button">Discuss sourcing from Vietnam</a>
-        </div>
-
-        <aside class="detail-panel" data-reveal>
-          <span data-i18n="services.export.panel.title">Typical export support</span>
-          <ul class="detail-list">
-            <li data-i18n="services.export.panel.item1">Supplier search and shortlist</li>
-            <li data-i18n="services.export.panel.item2">Commercial comparison and sample coordination</li>
-            <li data-i18n="services.export.panel.item3">Export documents and labeling alignment</li>
-            <li data-i18n="services.export.panel.item4">Batch, packaging, and dispatch control</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section trade-corridor" id="russia-to-vietnam" aria-labelledby="russia-to-vietnam-title">
-      <div class="container">
-        <div class="trade-corridor-shell">
-          <div class="corridor-copy" data-reveal>
-            <p class="section-kicker" data-i18n="russiaVietnam.kicker">Russia → Vietnam supply</p>
-            <h2 id="russia-to-vietnam-title" data-i18n="russiaVietnam.title">A structured supply route for Russian products entering Vietnam.</h2>
-            <p data-i18n="russiaVietnam.text">We coordinate supplier review, product eligibility, commercial documents, origin, labeling, certification requirements, and cargo handover for agreed product categories.</p>
-
-            <div class="corridor-route" aria-label="Russia to Vietnam route">
-              <div>
-                <span data-i18n="russiaVietnam.origin.label">Origin</span>
-                <strong data-i18n="russiaVietnam.origin.value">Russia</strong>
-              </div>
-              <span class="corridor-route-line" aria-hidden="true"></span>
-              <div>
-                <span data-i18n="russiaVietnam.destination.label">Destination</span>
-                <strong data-i18n="russiaVietnam.destination.value">Vietnam</strong>
-              </div>
-            </div>
-
-            <a class="btn btn-primary" href="contacts.html#request" data-i18n="services.cta.button">Send request</a>
-          </div>
-
-          <aside class="corridor-panel" data-reveal>
-            <span class="corridor-panel-kicker" data-i18n="russiaVietnam.framework.kicker">Trade framework</span>
-            <strong data-i18n="russiaVietnam.framework.title">Product-specific market access review</strong>
-            <p data-i18n="russiaVietnam.framework.text">Eligible goods may use preferences under the EAEU–Vietnam Free Trade Agreement when origin rules and supporting documents are met.</p>
-            <ul class="corridor-tags">
-              <li data-i18n="russiaVietnam.food.title">Food &amp; agricultural products</li>
-              <li data-i18n="russiaVietnam.timber.title">Timber, pulp &amp; packaging</li>
-              <li data-i18n="russiaVietnam.industrial.title">Industrial raw materials</li>
-              <li data-i18n="russiaVietnam.equipment.title">Equipment &amp; components</li>
-            </ul>
-            <p class="corridor-note" data-i18n="russiaVietnam.compliance.text">Every request is reviewed by HS code, origin, Vietnamese import requirements, foreign-trade restrictions, payment feasibility, and available transport route.</p>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="section service-section" id="search-services">
+    <section class="section services-directory" aria-labelledby="services-directory-title">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="services.search.kicker">Supplier and buyer search</p>
-          <h2 data-i18n="services.search.title">Search support for manufacturers, suppliers, and market-entry projects.</h2>
-          <p data-i18n="services.search.text">We help companies find the right commercial counterpart: exporters in Vietnam, suppliers in Russia, or buyers in Vietnam for selected product categories.</p>
+          <p class="section-kicker" data-i18n="servicesPage.intro.kicker">Complete service structure</p>
+          <h2 id="services-directory-title" data-i18n="servicesPage.intro.title">Eleven coordinated services for international B2B trade.</h2>
+          <p data-i18n="servicesPage.intro.text">Choose a specific module or combine several services into one coordinated trade project. The scope is defined around the product, market, counterparties, documents, and route.</p>
         </div>
 
-        <div class="service-grid services-search-grid">
-          <article class="service-card" data-reveal>
-            <span>01</span>
-            <h3 data-i18n="services.search.supplier.title">Supplier Search</h3>
-            <p data-i18n="services.search.supplier.text">We look for Vietnamese manufacturers ready to export, Russian suppliers ready to sell into Vietnam, and companies interested in structured international cooperation.</p>
+        <div class="services-detail-list">
+          <article class="service-detail-card" id="supplier-search" data-reveal>
+            <span class="service-detail-index">01</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service1.title">Supplier Search</h2>
+              <p data-i18n="servicesPage.service1.description">We identify manufacturers, exporters, and trading companies that match the product, volume, commercial terms, and export-readiness requirements.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service1.item1">Supplier research and preliminary shortlist</li>
+                <li data-i18n="servicesPage.service1.item2">Company, capacity, MOQ, and commercial term review</li>
+                <li data-i18n="servicesPage.service1.item3">Initial communication and request coordination</li>
+              </ul>
+            </div>
           </article>
-          <article class="service-card" data-reveal>
-            <span>02</span>
-            <h3 data-i18n="services.search.buyer.title">Buyer Search in Vietnam</h3>
-            <p data-i18n="services.search.buyer.text">We help review the product and search for potential importers, distributors, trading partners, and commercial buyers in Vietnam.</p>
+
+          <article class="service-detail-card" id="buyer-search" data-reveal>
+            <span class="service-detail-index">02</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service2.title">Buyer Search</h2>
+              <p data-i18n="servicesPage.service2.description">We support suppliers entering Vietnam by identifying potential importers, distributors, industrial buyers, retailers, and commercial partners.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service2.item1">Product and market-entry readiness review</li>
+                <li data-i18n="servicesPage.service2.item2">Target buyer and importer research</li>
+                <li data-i18n="servicesPage.service2.item3">Structured outreach and introduction support</li>
+              </ul>
+            </div>
           </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="section market-entry-detail" id="buyer-search-vietnam" aria-labelledby="market-entry-detail-title">
-      <div class="container">
-        <div class="section-head market-entry-head" data-reveal>
-          <p class="section-kicker" data-i18n="marketEntry.kicker">Vietnam market entry</p>
-          <h2 id="market-entry-detail-title" data-i18n="marketEntry.title">We are looking for manufacturers and suppliers ready to introduce their products to Vietnam.</h2>
-          <p data-i18n="marketEntry.text">GLOBERION GROUP welcomes proposals from companies interested in entering the Vietnamese market. We review the product, assess baseline import conditions, and help organize a targeted search for potential buyers, importers, distributors, and commercial partners in Vietnam.</p>
-        </div>
-
-        <div class="market-entry-process">
-          <div class="market-entry-process-intro" data-reveal>
-            <p class="section-kicker" data-i18n="marketEntry.steps.kicker">Market-entry process</p>
-            <h3 data-i18n="marketEntry.steps.title">From product review to targeted buyer outreach.</h3>
-            <p data-i18n="marketEntry.steps.text">The work is organized around product readiness, import feasibility, and a focused commercial approach to the Vietnamese market.</p>
-          </div>
-
-          <div class="market-entry-step-grid">
-            <article class="market-entry-step" data-reveal>
-              <span>01</span>
-              <h3 data-i18n="marketEntry.step1.title">Product assessment</h3>
-              <p data-i18n="marketEntry.step1.text">We review product specifications, origin, packaging, MOQ, pricing, production capacity, and the supplier’s export readiness.</p>
-            </article>
-            <article class="market-entry-step" data-reveal>
-              <span>02</span>
-              <h3 data-i18n="marketEntry.step2.title">Market review</h3>
-              <p data-i18n="marketEntry.step2.text">We conduct a preliminary review of product-market fit, Vietnamese import requirements, documentation, labeling, and possible restrictions.</p>
-            </article>
-            <article class="market-entry-step" data-reveal>
-              <span>03</span>
-              <h3 data-i18n="marketEntry.step3.title">Offer preparation</h3>
-              <p data-i18n="marketEntry.step3.text">We structure a clear offer for Vietnamese companies: description, specifications, pricing, supply terms, and presentation materials.</p>
-            </article>
-            <article class="market-entry-step" data-reveal>
-              <span>04</span>
-              <h3 data-i18n="marketEntry.step4.title">Buyer search</h3>
-              <p data-i18n="marketEntry.step4.text">We conduct targeted outreach to importers, distributors, retail networks, industrial buyers, and other potential partners in Vietnam.</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="market-entry-offer" data-reveal>
-          <div>
-            <p class="section-kicker" data-i18n="marketEntry.categories.kicker">Suitable product directions</p>
-            <h3 data-i18n="marketEntry.categories.title">We consider products with a clear commercial proposition and realistic import pathway.</h3>
-            <ul class="market-entry-category-list">
-              <li data-i18n="marketEntry.categories.item1">Food &amp; agricultural products</li>
-              <li data-i18n="marketEntry.categories.item2">Ingredients &amp; raw materials</li>
-              <li data-i18n="marketEntry.categories.item3">Timber, paper &amp; packaging</li>
-              <li data-i18n="marketEntry.categories.item4">Industrial raw materials</li>
-              <li data-i18n="marketEntry.categories.item5">Equipment, components &amp; tools</li>
-              <li data-i18n="marketEntry.categories.item6">Consumer goods</li>
-              <li data-i18n="marketEntry.categories.item7">Other categories after preliminary review</li>
-            </ul>
-          </div>
-
-          <aside class="market-entry-action">
-            <p data-i18n="marketEntry.disclaimer">Buyer search does not guarantee a contract. The feasibility of promoting a product is determined after reviewing the product, documents, commercial terms, Vietnamese import requirements, and current market conditions.</p>
-            <a class="btn btn-primary" href="contacts.html?category=buyer-search#request" data-i18n="marketEntry.button">Propose a product for Vietnam</a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="section detail-section" id="logistics-quality">
-      <div class="container detail-grid">
-        <div class="detail-main" data-reveal>
-          <p class="section-kicker" data-i18n="logisticsPage.intro.kicker">Operating support</p>
-          <h2 data-i18n="logisticsPage.intro.title">Logistics only works when documents and quality move with it.</h2>
-          <p data-i18n="logisticsPage.intro.text1">Shipment planning affects documents, packaging, labeling, inspections, and cargo timing. That is why logistics, documents, and quality support are coordinated together.</p>
-          <p data-i18n="logisticsPage.intro.text2">We structure the operational side of the deal around the product, the route, the supplier or buyer, and the destination market.</p>
-        </div>
-
-        <aside class="detail-panel" data-reveal>
-          <span data-i18n="logisticsPage.panel.title">Support modules</span>
-          <ul class="detail-list">
-            <li data-i18n="logisticsPage.panel.item1">Route and shipping mode</li>
-            <li data-i18n="logisticsPage.panel.item2">Documents and labeling</li>
-            <li data-i18n="logisticsPage.panel.item3">Quality checks and inspection points</li>
-            <li data-i18n="logisticsPage.panel.item4">Cargo readiness and dispatch control</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section service-section">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="logisticsPage.scope.kicker">Trade execution</p>
-          <h2 data-i18n="logisticsPage.scope.title">We help coordinate the parts of the shipment that most often create delays.</h2>
-          <p data-i18n="logisticsPage.scope.text">The support scope can cover transport setup, documents, labeling, inspection coordination, and handover readiness.</p>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card" data-reveal>
-            <span>01</span>
-            <h3 data-i18n="logisticsPage.service1.title">Route and timing</h3>
-            <p data-i18n="logisticsPage.service1.text">We align port or airport, transit logic, consolidation, booking timing, and dispatch sequence.</p>
+          <article class="service-detail-card" id="export-vietnam" data-reveal>
+            <span class="service-detail-index">03</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service3.title">Export from Vietnam</h2>
+              <p data-i18n="servicesPage.service3.description">We help international buyers organize sourcing and export preparation from Vietnam through one locally coordinated process.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service3.item1">Vietnamese supplier and product coordination</li>
+                <li data-i18n="servicesPage.service3.item2">Commercial, packaging, and export-document alignment</li>
+                <li data-i18n="servicesPage.service3.item3">Shipment readiness and cargo handover support</li>
+              </ul>
+            </div>
           </article>
-          <article class="service-card" data-reveal>
-            <span>02</span>
-            <h3 data-i18n="logisticsPage.service2.title">Documents and compliance</h3>
-            <p data-i18n="logisticsPage.service2.text">We help structure invoice data, packing details, product descriptions, certificates, origin, and labeling requirements.</p>
+
+          <article class="service-detail-card" id="import-russia-vietnam" data-reveal>
+            <span class="service-detail-index">04</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service4.title">Import to Vietnam from Russia</h2>
+              <p data-i18n="servicesPage.service4.description">We help Vietnamese buyers and Russian suppliers structure eligible Russia-to-Vietnam trade projects after product-specific import and logistics review.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service4.item1">Russian supplier and product proposal review</li>
+                <li data-i18n="servicesPage.service4.item2">Vietnamese import requirement and route assessment</li>
+                <li data-i18n="servicesPage.service4.item3">Commercial documents and shipment coordination</li>
+              </ul>
+            </div>
           </article>
-          <article class="service-card" data-reveal>
-            <span>03</span>
-            <h3 data-i18n="logisticsPage.service3.title">Quality and shipment checks</h3>
-            <p data-i18n="logisticsPage.service3.text">We coordinate sample review, batch checks, packaging status, labeling accuracy, and shipment readiness before handover.</p>
+
+          <article class="service-detail-card" id="product-sourcing" data-reveal>
+            <span class="service-detail-index">05</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service5.title">Product Sourcing</h2>
+              <p data-i18n="servicesPage.service5.description">We turn a product request into a structured sourcing task with specifications, target pricing, volumes, packaging, and delivery requirements.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service5.item1">Product specification and sourcing brief</li>
+                <li data-i18n="servicesPage.service5.item2">Offer collection and commercial comparison</li>
+                <li data-i18n="servicesPage.service5.item3">Sample, packaging, and order requirement coordination</li>
+              </ul>
+            </div>
           </article>
-          <article class="service-card" data-reveal>
-            <span>04</span>
-            <h3 data-i18n="logisticsPage.service4.title">Operational coordination</h3>
-            <p data-i18n="logisticsPage.service4.text">We keep communication aligned between supplier, buyer, logistics, and documentation requirements until dispatch.</p>
+
+          <article class="service-detail-card" id="logistics-coordination" data-reveal>
+            <span class="service-detail-index">06</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service6.title">Logistics Coordination</h2>
+              <p data-i18n="servicesPage.service6.description">We coordinate the movement of goods around the product, shipment size, schedule, supplier location, and destination requirements.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service6.item1">Route, mode, consolidation, and timing planning</li>
+                <li data-i18n="servicesPage.service6.item2">Cargo data and carrier handover preparation</li>
+                <li data-i18n="servicesPage.service6.item3">Key shipment milestone coordination</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-detail-card" id="documentation-certificates" data-reveal>
+            <span class="service-detail-index">07</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service7.title">Documentation &amp; Certificates</h2>
+              <p data-i18n="servicesPage.service7.description">We help align commercial, transport, origin, product, and certification documents required for the agreed shipment.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service7.item1">Invoice, packing list, and product-description review</li>
+                <li data-i18n="servicesPage.service7.item2">Origin, certificate, and labeling requirement checks</li>
+                <li data-i18n="servicesPage.service7.item3">Document consistency before dispatch</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-detail-card" id="quality-control" data-reveal>
+            <span class="service-detail-index">08</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service8.title">Quality Control</h2>
+              <p data-i18n="servicesPage.service8.description">We coordinate practical quality checkpoints before production, during order preparation, and before cargo handover.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service8.item1">Sample and specification alignment</li>
+                <li data-i18n="servicesPage.service8.item2">Batch, packaging, labeling, and quantity checks</li>
+                <li data-i18n="servicesPage.service8.item3">Inspection status and issue reporting</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-detail-card" id="market-research" data-reveal>
+            <span class="service-detail-index">09</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service9.title">Market Research</h2>
+              <p data-i18n="servicesPage.service9.description">We conduct focused preliminary research to understand product fit, market participants, commercial positioning, and possible entry constraints.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service9.item1">Target market and competitor overview</li>
+                <li data-i18n="servicesPage.service9.item2">Indicative demand and channel assessment</li>
+                <li data-i18n="servicesPage.service9.item3">Import conditions and commercial risk observations</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-detail-card" id="business-communication" data-reveal>
+            <span class="service-detail-index">10</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service10.title">Business Communication &amp; Negotiations</h2>
+              <p data-i18n="servicesPage.service10.description">We support structured communication between international buyers, suppliers, importers, and partners across language and business-practice differences.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service10.item1">Multilingual business communication support</li>
+                <li data-i18n="servicesPage.service10.item2">Clarification of specifications and commercial terms</li>
+                <li data-i18n="servicesPage.service10.item3">Meeting, follow-up, and negotiation coordination</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-detail-card service-detail-card-featured" id="full-b2b-support" data-reveal>
+            <span class="service-detail-index">11</span>
+            <div class="service-detail-copy">
+              <h2 data-i18n="servicesPage.service11.title">Full B2B Trade Support</h2>
+              <p data-i18n="servicesPage.service11.description">We combine the required modules into one coordinated workflow from the initial request to commercial preparation and shipment readiness.</p>
+            </div>
+            <div class="service-detail-inclusions">
+              <strong data-i18n="servicesPage.included">Included services</strong>
+              <ul>
+                <li data-i18n="servicesPage.service11.item1">Single point of coordination for the project</li>
+                <li data-i18n="servicesPage.service11.item2">Supplier or buyer search, documents, quality, and logistics</li>
+                <li data-i18n="servicesPage.service11.item3">Structured status updates and next-step management</li>
+              </ul>
+            </div>
           </article>
         </div>
       </div>
