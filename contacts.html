@@ -10,8 +10,8 @@
   <meta name="theme-color" content="#071412" />
   <title>GLOBERION GROUP — contacts</title>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260619-products-3" />
-  <script src="script.js?v=20260619-products-3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260619-products-5" />
+  <script src="script.js?v=20260619-products-5" defer></script>
 </head>
 
 <body data-page="contacts">
@@ -126,17 +126,33 @@
           </div>
         </div>
 
-        <form class="request-form" data-reveal>
+        <form
+          class="request-form"
+          action="https://formspree.io/f/mdavqgga"
+          method="POST"
+          accept-charset="UTF-8"
+          data-formspree-form
+          data-reveal
+        >
+          <input type="hidden" name="_subject" value="New website request — GLOBERION GROUP" />
+          <input type="hidden" name="language" value="EN" data-form-language />
+          <input type="hidden" name="sourcePage" value="" data-form-source />
+          <input type="hidden" name="productCategory" value="" data-product-category />
+          <div class="form-honeypot" aria-hidden="true">
+            <label for="company-website">Website</label>
+            <input id="company-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
           <div class="field">
-            <label for="name" data-i18n="form.name">Contact person</label>
-            <input id="name" name="name" type="text" placeholder="Name and position" data-i18n-placeholder="form.name.placeholder" required />
+            <label for="name" data-i18n="form.name">First and last name</label>
+            <input id="name" name="name" type="text" placeholder="First and last name" data-i18n-placeholder="form.name.placeholder" autocomplete="name" required />
           </div>
           <div class="field">
-            <label for="contact" data-i18n="form.contact">Contact</label>
+            <label for="contact" data-i18n="form.contact">Phone or email</label>
             <input id="contact" name="contact" type="text" placeholder="Phone or email" data-i18n-placeholder="form.contact.placeholder" required />
           </div>
           <div class="field">
-            <label for="category" data-i18n="form.category">Service direction</label>
+            <label for="category" data-i18n="form.category">Service</label>
             <select id="category" name="category" required>
               <option value="" data-i18n="form.category.placeholder">Choose a service</option>
               <option value="export-vietnam" data-i18n="form.category.exportVietnam">Export from Vietnam</option>
@@ -147,71 +163,12 @@
             </select>
           </div>
 
-          <div class="market-entry-form-fields" data-product-inquiry-fields hidden>
-            <p class="form-section-title" data-i18n="form.productInquiry.intro">Product information for preliminary trade review</p>
-
-            <div class="field">
-              <label for="company-country" data-i18n="form.companyCountry">Company and country</label>
-              <input id="company-country" name="companyCountry" type="text" placeholder="Company name and country of registration" data-i18n-placeholder="form.companyCountry.placeholder" data-market-entry-required />
-            </div>
-
-            <div class="field">
-              <label for="product-name" data-i18n="form.productName">Product name</label>
-              <input id="product-name" name="productName" type="text" placeholder="Commercial product name" data-i18n-placeholder="form.productName.placeholder" data-market-entry-required />
-            </div>
-
-            <div class="field">
-              <label for="product-category" data-i18n="form.productCategory">Selected product category</label>
-              <input id="product-category" name="productCategory" type="text" placeholder="Product category or direction" data-i18n-placeholder="form.productCategory.placeholder" data-product-category data-market-entry-required />
-            </div>
-
-            <div class="field">
-              <label for="product-specs" data-i18n="form.productSpecs">Description and specifications</label>
-              <textarea id="product-specs" name="productSpecs" placeholder="Composition, format, packaging, shelf life, technical parameters" data-i18n-placeholder="form.productSpecs.placeholder" data-market-entry-required></textarea>
-            </div>
-
-            <div class="field">
-              <label for="required-volume" data-i18n="form.requiredVolume">Required volume</label>
-              <input id="required-volume" name="requiredVolume" type="text" placeholder="Quantity, unit, and preferred order frequency" data-i18n-placeholder="form.requiredVolume.placeholder" data-market-entry-required />
-            </div>
-
-            <div class="field">
-              <label for="packaging-requirements" data-i18n="form.packagingRequirements">Preferred packaging</label>
-              <input id="packaging-requirements" name="packagingRequirements" type="text" placeholder="Bulk, industrial, retail, private label, or other format" data-i18n-placeholder="form.packagingRequirements.placeholder" />
-            </div>
-
-            <div class="field">
-              <label for="target-budget" data-i18n="form.targetBudget">Target price or budget</label>
-              <input id="target-budget" name="targetBudget" type="text" placeholder="Target price, currency, budget, and preferred Incoterms" data-i18n-placeholder="form.targetBudget.placeholder" />
-            </div>
-
-            <div class="field">
-              <label for="destination-market" data-i18n="form.destinationMarket">Destination country or city</label>
-              <input id="destination-market" name="destinationMarket" type="text" placeholder="Country, city, port, or delivery point" data-i18n-placeholder="form.destinationMarket.placeholder" data-market-entry-required />
-            </div>
-
-            <div class="field">
-              <label for="product-capacity" data-i18n="form.productCapacity">Production capabilities</label>
-              <textarea id="product-capacity" name="productCapacity" placeholder="Monthly capacity, lead time, and available volume" data-i18n-placeholder="form.productCapacity.placeholder"></textarea>
-            </div>
-
-            <div class="field">
-              <label for="export-experience" data-i18n="form.exportExperience">Export experience</label>
-              <textarea id="export-experience" name="exportExperience" placeholder="Markets, shipment history, or no previous exports" data-i18n-placeholder="form.exportExperience.placeholder"></textarea>
-            </div>
-
-            <div class="field">
-              <label for="product-documents" data-i18n="form.productDocuments">Certificates and documents</label>
-              <textarea id="product-documents" name="productDocuments" placeholder="Available certificates, test reports, origin, and export documents" data-i18n-placeholder="form.productDocuments.placeholder"></textarea>
-            </div>
-          </div>
-
           <div class="field">
-            <label for="details" data-i18n="form.details">Brief task details</label>
-            <textarea id="details" name="details" placeholder="Product, volume, origin, destination, timing" data-i18n-placeholder="form.details.placeholder"></textarea>
+            <label for="details" data-i18n="form.details">Task description</label>
+            <textarea id="details" name="details" placeholder="Briefly describe what you need" data-i18n-placeholder="form.details.placeholder" required></textarea>
           </div>
           <button class="btn btn-primary" type="submit" data-i18n="form.submit">Send request</button>
-          <p class="form-note" role="status" aria-live="polite"></p>
+          <p class="form-note" role="status" aria-live="polite" aria-atomic="true"></p>
         </form>
       </div>
     </section>

@@ -313,7 +313,7 @@ const translations = {
     "documentsPage.service4.text": "We synchronize documents with packaging, labeling, route, and carrier data.",
     "documentsPage.service4.title": "Shipping data",
     "footer.copy": "GLOBERION GROUP. B2B trade services with Vietnam.",
-    "form.category": "Service direction",
+    "form.category": "Service",
     "form.category.exportVietnam": "Export from Vietnam",
     "form.category.logisticsQuality": "Logistics, documents & quality support",
     "form.category.placeholder": "Choose a service",
@@ -322,10 +322,10 @@ const translations = {
     "form.category.supplier": "Supplier search",
     "form.companyCountry": "Company and country",
     "form.companyCountry.placeholder": "Company name and country of registration",
-    "form.contact": "Contact",
+    "form.contact": "Phone or email",
     "form.contact.placeholder": "Phone or email",
-    "form.details": "Brief task details",
-    "form.details.placeholder": "Product, volume, origin, destination, timing",
+    "form.details": "Task description",
+    "form.details.placeholder": "Briefly describe what you need",
     "form.exportExperience": "Export experience",
     "form.exportExperience.placeholder": "Markets, shipment history, or no previous exports",
     "form.marketEntry.intro": "Product information for preliminary Vietnam market review",
@@ -339,9 +339,12 @@ const translations = {
     "form.productName.placeholder": "Commercial product name",
     "form.productSpecs": "Description and specifications",
     "form.productSpecs.placeholder": "Composition, format, packaging, shelf life, technical parameters",
-    "form.name": "Contact person",
-    "form.name.placeholder": "Name and position",
+    "form.name": "First and last name",
+    "form.name.placeholder": "First and last name",
     "form.submit": "Send request",
+    "form.submit.sending": "Sending…",
+    "form.submit.success": "Thank you. Your request has been sent successfully. We will contact you using the details provided.",
+    "form.submit.error": "The request could not be sent. Please check your connection and try again, or email info@globeriongroup.com.",
     "home.hero.eyebrow": "International trade operations with Vietnam",
     "home.hero.title": "B2B trade support between Vietnam, Russia, and international markets.",
     "home.hero.intel.control.label": "Control",
@@ -703,7 +706,7 @@ const translations = {
     "suppliers.service4.text": "We synchronize documents, dispatch, and communication between supplier, client, and logistics.",
     "suppliers.service4.title": "Export coordination",
     "nav.contacts": "Contacts",
-    "form.note": "The request is prepared. At the next stage, the form can be connected to CRM or email."
+    "form.note": "Thank you. Your request has been sent successfully."
   },
   ru: {
     "meta.home.title": "GLOBERION GROUP — B2B-услуги международной торговли между Вьетнамом, Россией и внешними рынками",
@@ -961,7 +964,7 @@ const translations = {
     "documentsPage.service4.text": "Синхронизируем документы с упаковкой, маркировкой, маршрутом и данными перевозчика.",
     "documentsPage.service4.title": "Отгрузочные данные",
     "footer.copy": "GLOBERION GROUP. B2B-услуги для торговли с Вьетнамом.",
-    "form.category": "Направление услуги",
+    "form.category": "Услуга",
     "form.category.exportVietnam": "Экспорт из Вьетнама",
     "form.category.logisticsQuality": "Логистика, документы и контроль качества",
     "form.category.placeholder": "Выберите услугу",
@@ -970,10 +973,10 @@ const translations = {
     "form.category.supplier": "Поиск поставщиков",
     "form.companyCountry": "Компания и страна",
     "form.companyCountry.placeholder": "Название компании и страна регистрации",
-    "form.contact": "Контакт",
+    "form.contact": "Телефон или email",
     "form.contact.placeholder": "Телефон или email",
-    "form.details": "Кратко о задаче",
-    "form.details.placeholder": "Товар, объем, страна отправления и назначения, сроки",
+    "form.details": "Описание задачи",
+    "form.details.placeholder": "Кратко опишите, что вам необходимо",
     "form.exportExperience": "Экспортный опыт",
     "form.exportExperience.placeholder": "Рынки, история поставок или отсутствие экспортного опыта",
     "form.marketEntry.intro": "Информация о товаре для предварительной оценки рынка Вьетнама",
@@ -987,9 +990,12 @@ const translations = {
     "form.productName.placeholder": "Коммерческое наименование товара",
     "form.productSpecs": "Описание и характеристики",
     "form.productSpecs.placeholder": "Состав, формат, упаковка, срок годности, технические параметры",
-    "form.name": "Контактное лицо",
-    "form.name.placeholder": "Имя и должность",
+    "form.name": "Имя и фамилия",
+    "form.name.placeholder": "Имя и фамилия",
     "form.submit": "Отправить запрос",
+    "form.submit.sending": "Отправка…",
+    "form.submit.success": "Спасибо. Ваш запрос успешно отправлен. Мы свяжемся с вами по указанным контактам.",
+    "form.submit.error": "Не удалось отправить запрос. Проверьте соединение и повторите попытку или напишите на info@globeriongroup.com.",
     "home.hero.eyebrow": "Международные торговые операции с Вьетнамом",
     "home.hero.title": "B2B-поддержка торговли между Вьетнамом, Россией и международными рынками.",
     "home.hero.intel.control.label": "Контроль",
@@ -1407,7 +1413,7 @@ const translations = {
     "suppliers.service4.text": "Синхронизируем документы, отгрузку и коммуникацию между поставщиком, клиентом и логистикой.",
     "suppliers.service4.title": "Экспортная связка",
     "nav.contacts": "Контакты",
-    "form.note": "Запрос подготовлен. На следующем этапе форму можно подключить к системе учета или почте."
+    "form.note": "Спасибо. Ваш запрос успешно отправлен."
   },
   vi: {
     "meta.home.title": "GLOBERION GROUP — dịch vụ thương mại B2B giữa Việt Nam, Nga và các thị trường quốc tế",
@@ -1665,7 +1671,7 @@ const translations = {
     "documentsPage.service4.text": "Đồng bộ chứng từ với bao bì, nhãn mác, tuyến vận chuyển và dữ liệu đơn vị vận chuyển.",
     "documentsPage.service4.title": "Dữ liệu giao hàng",
     "footer.copy": "GLOBERION GROUP. Dịch vụ thương mại B2B với Việt Nam.",
-    "form.category": "Hướng dịch vụ",
+    "form.category": "Dịch vụ",
     "form.category.exportVietnam": "Xuất khẩu từ Việt Nam",
     "form.category.logisticsQuality": "Logistics, chứng từ & chất lượng",
     "form.category.placeholder": "Chọn dịch vụ",
@@ -1674,10 +1680,10 @@ const translations = {
     "form.category.supplier": "Tìm kiếm nhà cung cấp",
     "form.companyCountry": "Doanh nghiệp và quốc gia",
     "form.companyCountry.placeholder": "Tên doanh nghiệp và quốc gia đăng ký",
-    "form.contact": "Liên hệ",
+    "form.contact": "Số điện thoại hoặc email",
     "form.contact.placeholder": "Số điện thoại hoặc email",
-    "form.details": "Tóm tắt nhu cầu",
-    "form.details.placeholder": "Sản phẩm, khối lượng, nước đi, nước đến, thời hạn",
+    "form.details": "Mô tả yêu cầu",
+    "form.details.placeholder": "Mô tả ngắn gọn nội dung bạn cần",
     "form.exportExperience": "Kinh nghiệm xuất khẩu",
     "form.exportExperience.placeholder": "Thị trường, lịch sử giao hàng hoặc chưa từng xuất khẩu",
     "form.marketEntry.intro": "Thông tin sản phẩm để đánh giá sơ bộ thị trường Việt Nam",
@@ -1691,9 +1697,12 @@ const translations = {
     "form.productName.placeholder": "Tên thương mại của sản phẩm",
     "form.productSpecs": "Mô tả và thông số",
     "form.productSpecs.placeholder": "Thành phần, quy cách, bao bì, hạn sử dụng, thông số kỹ thuật",
-    "form.name": "Người liên hệ",
-    "form.name.placeholder": "Họ tên và chức vụ",
+    "form.name": "Họ và tên",
+    "form.name.placeholder": "Họ và tên",
     "form.submit": "Gửi yêu cầu",
+    "form.submit.sending": "Đang gửi…",
+    "form.submit.success": "Cảm ơn bạn. Yêu cầu đã được gửi thành công. Chúng tôi sẽ liên hệ theo thông tin đã cung cấp.",
+    "form.submit.error": "Không thể gửi yêu cầu. Vui lòng kiểm tra kết nối và thử lại hoặc gửi email đến info@globeriongroup.com.",
     "home.hero.eyebrow": "Vận hành thương mại quốc tế với Việt Nam",
     "home.hero.title": "Hỗ trợ thương mại B2B giữa Việt Nam, Nga và các thị trường quốc tế.",
     "home.hero.intel.control.label": "Kiểm soát",
@@ -2111,7 +2120,7 @@ const translations = {
     "suppliers.service4.text": "Đồng bộ chứng từ, giao hàng và trao đổi giữa nhà cung cấp, khách hàng và logistics.",
     "suppliers.service4.title": "Điều phối xuất khẩu",
     "nav.contacts": "Liên hệ",
-    "form.note": "Yêu cầu đã được chuẩn bị. Ở bước tiếp theo, biểu mẫu có thể kết nối với CRM hoặc email."
+    "form.note": "Cảm ơn bạn. Yêu cầu đã được gửi thành công."
   }
 };
 
@@ -2321,6 +2330,15 @@ const applyLanguage = (language) => {
 
   document.querySelectorAll(".form-note").forEach((note) => {
     note.textContent = "";
+    note.classList.remove("is-success", "is-error");
+  });
+
+  document.querySelectorAll("[data-form-language]").forEach((field) => {
+    field.value = currentLanguage.toUpperCase();
+  });
+
+  document.querySelectorAll('[data-submit-state="sending"]').forEach((button) => {
+    button.textContent = translate(currentLanguage, "form.submit.sending");
   });
 
   syncProductCategoryLanguage(currentLanguage);
@@ -2428,12 +2446,6 @@ const requestCategories = new Set([
   "logistics-quality"
 ]);
 
-const productInquiryCategories = new Set([
-  "export-vietnam",
-  "russia-vietnam",
-  "buyer-search"
-]);
-
 const productCodeTranslationKeys = {
   "vietnam-coffee-spices": "productDirections.vietnamCoffee.title",
   "vietnam-rice-agro": "productDirections.vietnamRice.title",
@@ -2468,25 +2480,10 @@ const syncProductCategoryLanguage = (language) => {
   });
 };
 
-const syncMarketEntryFields = (form) => {
-  const category = form.querySelector('select[name="category"]');
-  const fields = form.querySelector("[data-product-inquiry-fields]");
-
-  if (!category || !fields) {
-    return;
-  }
-
-  const isProductInquiry = productInquiryCategories.has(category.value);
-  fields.hidden = !isProductInquiry;
-
-  fields.querySelectorAll("[data-market-entry-required]").forEach((field) => {
-    field.required = isProductInquiry;
-  });
-};
-
 document.querySelectorAll(".request-form").forEach((form) => {
   const category = form.querySelector('select[name="category"]');
   const productCategory = form.querySelector("[data-product-category]");
+  const sourcePage = form.querySelector("[data-form-source]");
   const requestParams = new URLSearchParams(window.location.search);
   const requestedCategory = requestParams.get("category");
   const requestedProduct = requestParams.get("product");
@@ -2503,24 +2500,89 @@ document.querySelectorAll(".request-form").forEach((form) => {
     productCategory.dataset.productCategoryCode = requestedProduct;
   }
 
-  productCategory?.addEventListener("input", () => {
-    delete productCategory.dataset.productCategoryCode;
-  });
+  if (sourcePage) {
+    sourcePage.value = window.location.href;
+  }
 
-  syncMarketEntryFields(form);
-  category?.addEventListener("change", () => syncMarketEntryFields(form));
-
-  form.addEventListener("submit", (event) => {
+  form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    const currentLanguage = document.documentElement.lang || "ru";
-    const note = form.querySelector(".form-note");
 
-    if (note) {
-      note.textContent = translate(currentLanguage, "form.note");
+    if (!form.reportValidity()) {
+      return;
     }
 
-    form.reset();
-    syncMarketEntryFields(form);
+    const currentLanguage = document.documentElement.lang || "ru";
+    const note = form.querySelector(".form-note");
+    const submitButton = form.querySelector('button[type="submit"]');
+    const formData = new FormData(form);
+    const contactValue = String(formData.get("contact") || "").trim();
+
+    if (note) {
+      note.textContent = "";
+      note.classList.remove("is-success", "is-error");
+    }
+
+    formData.set("language", currentLanguage.toUpperCase());
+    formData.set("sourcePage", window.location.href);
+    formData.set("service", category?.selectedOptions[0]?.textContent.trim() || "");
+
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactValue)) {
+      formData.set("email", contactValue);
+    }
+
+    form.setAttribute("aria-busy", "true");
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.dataset.submitState = "sending";
+      submitButton.textContent = translate(currentLanguage, "form.submit.sending");
+    }
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`Form submission failed with status ${response.status}`);
+      }
+
+      if (note) {
+        note.textContent = translate(currentLanguage, "form.submit.success");
+        note.classList.add("is-success");
+      }
+
+      form.reset();
+
+      const languageField = form.querySelector("[data-form-language]");
+
+      if (languageField) {
+        languageField.value = currentLanguage.toUpperCase();
+      }
+
+      if (sourcePage) {
+        sourcePage.value = window.location.href;
+      }
+
+      syncProductCategoryLanguage(currentLanguage);
+    } catch {
+      if (note) {
+        note.textContent = translate(currentLanguage, "form.submit.error");
+        note.classList.add("is-error");
+      }
+    } finally {
+      form.removeAttribute("aria-busy");
+
+      if (submitButton) {
+        submitButton.disabled = false;
+        delete submitButton.dataset.submitState;
+        submitButton.textContent = translate(currentLanguage, "form.submit");
+      }
+    }
   });
 });
 
