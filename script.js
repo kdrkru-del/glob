@@ -81,6 +81,9 @@ const translations = {
     "productDirections.russiaOther.text": "Other categories may be considered after reviewing the supplier, specifications, documents, HS code, and Vietnamese import requirements.",
     "productDirections.russiaOther.format": "Supply format is defined after the product, volume, packaging, and route review.",
     "productDirections.request": "Request an offer",
+    "productDirections.switcher.label": "Choose a product route",
+    "productDirections.switcher.vietnam": "Products from Vietnam",
+    "productDirections.switcher.russia": "Products from Russia",
     "productDirections.legal.kicker": "Preliminary product review",
     "productDirections.legal.title": "Every supply project is confirmed individually.",
     "productDirections.legal.text": "The product list is indicative and does not constitute a public offer. Supply feasibility is determined after reviewing the manufacturer or supplier, product specifications, order volume, documents, export and import requirements, certification, labeling, applicable restrictions, payment feasibility, and logistics route. GLOBERION GROUP does not guarantee product availability, permits, or contract conclusion before the preliminary review is completed.",
@@ -191,6 +194,7 @@ const translations = {
     "brandLegal.title": "Brand and legal entity",
     "contacts.details.address": "Address",
     "contacts.details.channels": "Phone / WhatsApp / Zalo",
+    "contacts.details.email": "Email",
     "contacts.details.kicker": "Company details",
     "contacts.details.russian": "Russian language",
     "contacts.details.taxCode": "Tax code",
@@ -493,6 +497,7 @@ const translations = {
     "nav.services.buyerSearch": "Buyer Search",
     "nav.services.exportVietnam": "Export from Vietnam",
     "nav.services.importRussiaVietnam": "Import to Vietnam from Russia",
+    "nav.services.productDirections": "Product Directions",
     "nav.services.productSourcing": "Product Sourcing",
     "nav.services.logisticsCoordination": "Logistics Coordination",
     "nav.services.documentationCertificates": "Documentation & Certificates",
@@ -780,6 +785,9 @@ const translations = {
     "productDirections.russiaOther.text": "Другие категории могут рассматриваться после проверки поставщика, характеристик, документов, кода ТН ВЭД и требований импорта во Вьетнам.",
     "productDirections.russiaOther.format": "Формат поставки определяется после проверки товара, объёма, упаковки и маршрута.",
     "productDirections.request": "Запросить предложение",
+    "productDirections.switcher.label": "Выбор товарного направления",
+    "productDirections.switcher.vietnam": "Товары из Вьетнама",
+    "productDirections.switcher.russia": "Товары из России",
     "productDirections.legal.kicker": "Предварительная проверка товара",
     "productDirections.legal.title": "Каждый проект поставки подтверждается индивидуально.",
     "productDirections.legal.text": "Перечень товаров является ориентировочным и не представляет собой публичную оферту. Возможность поставки определяется после проверки производителя или поставщика, характеристик товара, объёма заказа, документов, требований экспорта и импорта, сертификации, маркировки, применимых ограничений, возможности расчётов и логистического маршрута. GLOBERION GROUP не гарантирует наличие товара, получение разрешений или заключение контракта до завершения предварительной проверки.",
@@ -845,6 +853,7 @@ const translations = {
     "brandLegal.title": "Бренд и юридическое лицо",
     "contacts.details.address": "Адрес",
     "contacts.details.channels": "Телефон / WhatsApp / Zalo",
+    "contacts.details.email": "Email",
     "contacts.details.kicker": "Реквизиты компании",
     "contacts.details.russian": "Русский язык",
     "contacts.details.taxCode": "Налоговый код",
@@ -1192,6 +1201,7 @@ const translations = {
     "nav.services.buyerSearch": "Поиск покупателей",
     "nav.services.exportVietnam": "Экспорт из Вьетнама",
     "nav.services.importRussiaVietnam": "Импорт во Вьетнам из России",
+    "nav.services.productDirections": "Товарные направления",
     "nav.services.productSourcing": "Поиск и подбор товаров",
     "nav.services.logisticsCoordination": "Координация логистики",
     "nav.services.documentationCertificates": "Документы и сертификаты",
@@ -1479,6 +1489,9 @@ const translations = {
     "productDirections.russiaOther.text": "Các nhóm khác có thể được xem xét sau khi kiểm tra nhà cung cấp, thông số, chứng từ, mã HS và yêu cầu nhập khẩu của Việt Nam.",
     "productDirections.russiaOther.format": "Hình thức cung ứng được xác định sau khi kiểm tra sản phẩm, khối lượng, bao bì và tuyến vận chuyển.",
     "productDirections.request": "Yêu cầu báo giá",
+    "productDirections.switcher.label": "Chọn tuyến sản phẩm",
+    "productDirections.switcher.vietnam": "Sản phẩm từ Việt Nam",
+    "productDirections.switcher.russia": "Sản phẩm từ Nga",
     "productDirections.legal.kicker": "Kiểm tra sơ bộ sản phẩm",
     "productDirections.legal.title": "Mỗi dự án cung ứng được xác nhận riêng.",
     "productDirections.legal.text": "Danh mục sản phẩm chỉ mang tính tham khảo và không phải là chào hàng công khai. Khả năng cung ứng được xác định sau khi kiểm tra nhà sản xuất hoặc nhà cung cấp, thông số sản phẩm, khối lượng đặt hàng, chứng từ, yêu cầu xuất nhập khẩu, chứng nhận, nhãn mác, các hạn chế áp dụng, khả năng thanh toán và tuyến logistics. GLOBERION GROUP không bảo đảm tình trạng sẵn có của hàng hóa, việc cấp phép hoặc ký kết hợp đồng trước khi hoàn tất kiểm tra sơ bộ.",
@@ -1544,6 +1557,7 @@ const translations = {
     "brandLegal.title": "Thương hiệu và pháp nhân",
     "contacts.details.address": "Địa chỉ",
     "contacts.details.channels": "Điện thoại / WhatsApp / Zalo",
+    "contacts.details.email": "Email",
     "contacts.details.kicker": "Thông tin doanh nghiệp",
     "contacts.details.russian": "Tiếng Nga",
     "contacts.details.taxCode": "Mã số thuế",
@@ -1891,6 +1905,7 @@ const translations = {
     "nav.services.buyerSearch": "Tìm kiếm người mua",
     "nav.services.exportVietnam": "Xuất khẩu từ Việt Nam",
     "nav.services.importRussiaVietnam": "Nhập khẩu vào Việt Nam từ Nga",
+    "nav.services.productDirections": "Ngành hàng thương mại",
     "nav.services.productSourcing": "Tìm nguồn sản phẩm",
     "nav.services.logisticsCoordination": "Điều phối logistics",
     "nav.services.documentationCertificates": "Chứng từ & Chứng nhận",
@@ -2174,6 +2189,7 @@ const renderSharedChrome = () => {
               <a class="nav-submenu-link" href="services.html#buyer-search" data-i18n="nav.services.buyerSearch">Buyer Search</a>
               <a class="nav-submenu-link" href="services.html#export-vietnam" data-i18n="nav.services.exportVietnam">Export from Vietnam</a>
               <a class="nav-submenu-link" href="services.html#import-russia-vietnam" data-i18n="nav.services.importRussiaVietnam">Import to Vietnam from Russia</a>
+              <a class="nav-submenu-link${pageName === "catalog" ? " is-current" : ""}" href="catalog.html" data-i18n="nav.services.productDirections">Product Directions</a>
               <a class="nav-submenu-link" href="services.html#product-sourcing" data-i18n="nav.services.productSourcing">Product Sourcing</a>
               <a class="nav-submenu-link" href="services.html#logistics-coordination" data-i18n="nav.services.logisticsCoordination">Logistics Coordination</a>
               <a class="nav-submenu-link" href="services.html#documentation-certificates" data-i18n="nav.services.documentationCertificates">Documentation & Certificates</a>
@@ -2210,6 +2226,7 @@ const renderSharedChrome = () => {
             <strong>${footerCompanyName}</strong>
             <span><span data-i18n="contacts.details.taxCode">Tax code</span>: 0319519047</span>
             <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
+            <span><span data-i18n="contacts.details.email">Email</span>: <a href="mailto:info@globeriongroup.com">info@globeriongroup.com</a></span>
             <span><a href="tel:+84794689910">+84 794 689 910</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.russian">Russian language</span></span>
             <span><a href="tel:+84779199274">+84 779 199 274</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.vietnameseEnglish">Vietnamese and English language</span></span>
           </div>
@@ -2360,6 +2377,44 @@ navigation?.querySelectorAll("a").forEach((link) => {
     closeNavigationSubmenus();
   });
 });
+
+const productRouteSwitcher = document.querySelector("[data-product-route-switcher]");
+
+if (productRouteSwitcher) {
+  const routeLinks = [...productRouteSwitcher.querySelectorAll("[data-product-route-link]")];
+  const routeSections = routeLinks
+    .map((link) => document.getElementById(link.dataset.productRouteLink))
+    .filter(Boolean);
+
+  const activateRouteLink = (routeId) => {
+    routeLinks.forEach((link) => {
+      const isActive = link.dataset.productRouteLink === routeId;
+      link.classList.toggle("is-active", isActive);
+      link.setAttribute("aria-current", isActive ? "true" : "false");
+    });
+  };
+
+  routeLinks.forEach((link) => {
+    link.addEventListener("click", () => activateRouteLink(link.dataset.productRouteLink));
+  });
+
+  if ("IntersectionObserver" in window) {
+    const routeObserver = new IntersectionObserver((entries) => {
+      const visibleSection = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+      if (visibleSection) {
+        activateRouteLink(visibleSection.target.id);
+      }
+    }, {
+      rootMargin: "-28% 0px -56% 0px",
+      threshold: [0.05, 0.2, 0.45]
+    });
+
+    routeSections.forEach((section) => routeObserver.observe(section));
+  }
+}
 
 document.querySelectorAll("[data-year]").forEach((element) => {
   element.textContent = new Date().getFullYear();

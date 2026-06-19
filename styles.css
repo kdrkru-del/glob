@@ -2147,6 +2147,69 @@ h3 {
   background: var(--porcelain);
 }
 
+.product-route-switcher-shell {
+  position: sticky;
+  top: 76px;
+  z-index: 20;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(229, 189, 102, 0.18);
+  background: rgba(7, 20, 18, 0.94);
+  box-shadow: 0 14px 34px rgba(3, 12, 13, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.product-route-switcher {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 880px;
+  margin-inline: auto;
+  padding: 5px;
+  border: 1px solid rgba(229, 189, 102, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.product-route-switcher a {
+  display: grid;
+  gap: 3px;
+  padding: 11px 18px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.74);
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-route-switcher a span {
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.product-route-switcher a small {
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.product-route-switcher a:hover,
+.product-route-switcher a:focus-visible {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.07);
+  outline: none;
+}
+
+.product-route-switcher a.is-active {
+  color: var(--obsidian);
+  background: linear-gradient(135deg, var(--champagne), var(--gold));
+  box-shadow: 0 8px 22px rgba(184, 130, 46, 0.22);
+}
+
+.product-route-switcher a.is-active small {
+  color: rgba(7, 20, 18, 0.68);
+}
+
 .product-route-russia {
   background:
     radial-gradient(circle at 92% 8%, rgba(229, 189, 102, 0.1), transparent 26rem),
@@ -3099,6 +3162,27 @@ html.js [data-reveal].is-visible {
     padding: 22px;
   }
 
+  .product-route-switcher-shell {
+    top: 74px;
+    padding: 8px 0;
+  }
+
+  .product-route-switcher {
+    width: 100%;
+  }
+
+  .product-route-switcher a {
+    padding: 10px 8px;
+  }
+
+  .product-route-switcher a span {
+    font-size: 0.78rem;
+  }
+
+  .product-route-switcher a small {
+    display: none;
+  }
+
   .home-product-route,
   .product-route-head,
   .product-direction-card {
@@ -3369,7 +3453,7 @@ html.js [data-reveal].is-visible {
   }
 
   .nav-submenu-services.is-open .nav-submenu-panel {
-    max-height: 620px;
+    max-height: 680px;
     padding-bottom: 6px;
     overflow-y: auto;
   }
