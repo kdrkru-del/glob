@@ -1539,6 +1539,7 @@ h3 {
 .footer-company {
   display: grid;
   gap: 14px;
+  min-width: 0;
   max-width: 760px;
 }
 
@@ -1556,8 +1557,10 @@ h3 {
   font-size: 0.84rem;
 }
 
-.company-details-footer span {
+.company-details-footer > span {
   position: relative;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .footer-links {
@@ -2974,6 +2977,26 @@ html.js [data-reveal].is-visible {
     grid-column: span 2;
     grid-row: auto;
   }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-company {
+    width: 100%;
+    max-width: none;
+  }
+
+  .company-details-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 640px) {
@@ -3165,16 +3188,6 @@ html.js [data-reveal].is-visible {
   .company-details-request dl div {
     grid-template-columns: 1fr;
     gap: 4px;
-  }
-
-  .company-details-footer {
-    display: grid;
-    gap: 7px;
-  }
-
-  .footer-inner,
-  .footer-links {
-    justify-content: flex-start;
   }
 
   .page-hero-inner {
