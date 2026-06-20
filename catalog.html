@@ -51,18 +51,13 @@
             <span class="nav-submenu-icon" aria-hidden="true"></span>
           </button>
           <div class="nav-submenu-panel">
-              <a class="nav-submenu-link" href="services.html#supplier-search" data-i18n="nav.services.supplierSearch">Supplier Search</a>
-              <a class="nav-submenu-link" href="services.html#buyer-search" data-i18n="nav.services.buyerSearch">Buyer Search</a>
+              <a class="nav-submenu-link" href="services.html#product-sourcing" data-i18n="nav.services.productSourcingSupplierVerification">Product Sourcing &amp; Supplier Verification</a>
               <a class="nav-submenu-link" href="services.html#export-vietnam" data-i18n="nav.services.exportVietnam">Export from Vietnam</a>
-              <a class="nav-submenu-link" href="services.html#import-russia-vietnam" data-i18n="nav.services.importRussiaVietnam">Import to Vietnam from Russia</a>
-              <a class="nav-submenu-link is-current" href="catalog.html" data-i18n="nav.services.productDirections">Product Directions</a>
-              <a class="nav-submenu-link" href="services.html#product-sourcing" data-i18n="nav.services.productSourcing">Product Sourcing</a>
-              <a class="nav-submenu-link" href="services.html#logistics-coordination" data-i18n="nav.services.logisticsCoordination">Logistics Coordination</a>
-              <a class="nav-submenu-link" href="services.html#documentation-certificates" data-i18n="nav.services.documentationCertificates">Documentation &amp; Certificates</a>
-              <a class="nav-submenu-link" href="services.html#quality-control" data-i18n="nav.services.qualityControl">Quality Control</a>
-              <a class="nav-submenu-link" href="services.html#market-research" data-i18n="nav.services.marketResearch">Market Research</a>
-              <a class="nav-submenu-link" href="services.html#business-communication" data-i18n="nav.services.businessCommunication">Business Communication &amp; Negotiations</a>
+              <a class="nav-submenu-link" href="services.html#import-vietnam" data-i18n="nav.services.importVietnam">Import to Vietnam</a>
+              <a class="nav-submenu-link" href="services.html#buyer-search-market-development" data-i18n="nav.services.buyerMarketDevelopment">Buyer Search &amp; Market Development</a>
+              <a class="nav-submenu-link" href="services.html#logistics-documentation-quality" data-i18n="nav.services.logisticsDocumentationQuality">Logistics, Documentation &amp; Quality Control</a>
               <a class="nav-submenu-link" href="services.html#full-b2b-support" data-i18n="nav.services.fullB2BSupport">Full B2B Trade Support</a>
+              <a class="nav-submenu-link is-current" href="catalog.html" data-i18n="nav.services.productDirections">Product Directions</a>
           </div>
         </div>
         <a class="nav-link" href="logistics.html" data-i18n="nav.logisticsQuality">Logistics &amp; Quality</a>
@@ -82,9 +77,9 @@
   <main>
     <section class="page-hero catalog-hero" aria-labelledby="catalog-title">
       <div class="container page-hero-inner" data-reveal>
-        <p class="eyebrow" data-i18n="productDirections.hero.eyebrow">Product directions</p>
-        <h1 id="catalog-title" data-i18n="productDirections.hero.title">Products for international B2B supply.</h1>
-        <p data-i18n="productDirections.hero.text">GLOBERION GROUP reviews requests for exports from Vietnam to international markets and supplies from Russia to Vietnam. The categories below show our core working directions without limiting the possible product scope.</p>
+        <p class="eyebrow" data-i18n="productDirections.hero.eyebrow">Products We Source</p>
+        <h1 id="catalog-title" data-i18n="productDirections.hero.title">Product Categories for International B2B Supply.</h1>
+        <p data-i18n="productDirections.hero.text">This catalog presents the product directions GLOBERION GROUP sources and coordinates for international supply. It is not an online store: every inquiry is reviewed by product, supplier, volume, documents, and route.</p>
       </div>
     </section>
 
@@ -92,11 +87,11 @@
       <div class="container">
         <nav class="product-route-switcher" aria-label="Choose a product route" data-i18n-aria-label="productDirections.switcher.label">
           <a class="is-active" href="#export-vietnam-products" data-product-route-link="export-vietnam-products" aria-current="true">
-            <span data-i18n="productDirections.switcher.vietnam">Products from Vietnam</span>
+            <span data-i18n="productDirections.switcher.vietnam">Export Products</span>
             <small data-i18n="productDirections.vietnam.kicker">Vietnam → international markets</small>
           </a>
           <a href="#russia-vietnam-products" data-product-route-link="russia-vietnam-products" aria-current="false">
-            <span data-i18n="productDirections.switcher.russia">Products from Russia</span>
+            <span data-i18n="productDirections.switcher.russia">Products for Import to Vietnam</span>
             <small data-i18n="productDirections.russia.kicker">Russia → Vietnam</small>
           </a>
         </nav>
@@ -108,13 +103,13 @@
         <div class="product-route-head" data-reveal>
           <div>
             <p class="section-kicker" data-i18n="productDirections.vietnam.kicker">Vietnam → international markets</p>
-            <h2 id="export-vietnam-products-title" data-i18n="productDirections.vietnam.title">Export product directions from Vietnam</h2>
+            <h2 id="export-vietnam-products-title" data-i18n="productDirections.vietnam.title">Export Products from Vietnam</h2>
           </div>
-          <p data-i18n="productDirections.vietnam.text">Shelf-stable food products, agricultural goods, materials, consumer goods, and industrial products available for supplier search and export preparation.</p>
+          <p data-i18n="productDirections.vietnam.text">Product categories available for supplier search, verification, commercial review, and export preparation from Vietnam.</p>
         </div>
 
         <div class="product-direction-grid">
-          <article class="product-direction-card" data-reveal>
+          <article class="product-direction-card" id="vietnam-coffee-spices" data-reveal>
             <figure class="product-direction-media">
               <img src="assets/products/vietnam-coffee-spices.jpg" alt="Coffee, tea, cocoa and spices" data-i18n-alt="productDirections.vietnamCoffee.title" loading="lazy" decoding="async" />
             </figure>
@@ -122,7 +117,7 @@
             <h3 data-i18n="productDirections.vietnamCoffee.title">Coffee, tea, cocoa &amp; spices</h3>
             <p data-i18n="productDirections.vietnamCoffee.text">Green and roasted coffee, tea, cocoa products, black and white pepper, cinnamon, star anise, and dried spices.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamCoffee.format">Supply formats: bags, cartons, retail packs, or private-label packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-coffee-spices#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-coffee-spices#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -133,10 +128,10 @@
             <h3 data-i18n="productDirections.vietnamRice.title">Rice &amp; dry agricultural products</h3>
             <p data-i18n="productDirections.vietnamRice.text">Different rice varieties, dried legumes, grain products, and shelf-stable agricultural raw materials.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamRice.format">Supply formats: bulk bags, industrial sacks, or branded retail packs.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-rice-agro#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-rice-agro#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
-          <article class="product-direction-card" data-reveal>
+          <article class="product-direction-card" id="vietnam-nuts-dried" data-reveal>
             <figure class="product-direction-media">
               <img src="assets/products/vietnam-nuts-dried.jpg" alt="Nuts, seeds and dried products" data-i18n-alt="productDirections.vietnamNuts.title" loading="lazy" decoding="async" />
             </figure>
@@ -144,7 +139,7 @@
             <h3 data-i18n="productDirections.vietnamNuts.title">Nuts, seeds &amp; dried products</h3>
             <p data-i18n="productDirections.vietnamNuts.text">Cashews, peanuts, seeds, dried fruit, coconut flakes, and other dry coconut products.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamNuts.format">Supply formats: vacuum packs, cartons, food-service packs, or bulk packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-nuts-dried#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-nuts-dried#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -155,7 +150,7 @@
             <h3 data-i18n="productDirections.vietnamFood.title">Shelf-stable food &amp; dry ingredients</h3>
             <p data-i18n="productDirections.vietnamFood.text">Noodles, dry foods, spice blends, dry ingredients, canned goods, sauces, and long-life industrial food products.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamFood.format">Supply formats: retail, food-service, industrial, or private-label packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-shelf-stable-food#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-shelf-stable-food#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -166,7 +161,7 @@
             <h3 data-i18n="productDirections.vietnamTextiles.title">Textiles &amp; apparel</h3>
             <p data-i18n="productDirections.vietnamTextiles.text">Fabrics, finished garments, home textiles, workwear, and contract textile manufacturing.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamTextiles.format">Supply formats: finished goods, production batches, OEM, or buyer specifications.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-textiles#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-textiles#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -177,7 +172,7 @@
             <h3 data-i18n="productDirections.vietnamFurniture.title">Furniture &amp; wood products</h3>
             <p data-i18n="productDirections.vietnamFurniture.text">Wooden furniture, furniture components, interior products, wood blanks, and household products.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamFurniture.format">Supply formats: assembled, flat-pack, components, or contract production.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-furniture-wood#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-furniture-wood#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -188,7 +183,7 @@
             <h3 data-i18n="productDirections.vietnamRubber.title">Rubber &amp; plastic products</h3>
             <p data-i18n="productDirections.vietnamRubber.text">Technical rubber products, plastic components, household goods, and industrial or consumer products.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamRubber.format">Supply formats: standard products, components, molded parts, or custom production.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-rubber-plastic#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-rubber-plastic#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -199,7 +194,7 @@
             <h3 data-i18n="productDirections.vietnamPackaging.title">Packaging materials</h3>
             <p data-i18n="productDirections.vietnamPackaging.text">Cardboard and plastic packaging, bags, labels, and packaging for industrial or consumer products.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamPackaging.format">Supply formats: standard sizes, printed packaging, custom dimensions, or production batches.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-packaging#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-packaging#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -210,7 +205,7 @@
             <h3 data-i18n="productDirections.vietnamIndustrial.title">Industrial goods &amp; components</h3>
             <p data-i18n="productDirections.vietnamIndustrial.text">Metal products, electrical components, mechanical parts, cable products, and production components.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamIndustrial.format">Supply formats: standard components, production lots, technical specifications, or contract manufacturing.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-industrial-components#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-industrial-components#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card product-direction-card-featured" data-reveal>
@@ -221,7 +216,7 @@
             <h3 data-i18n="productDirections.vietnamPrivateLabel.title">Private-label products</h3>
             <p data-i18n="productDirections.vietnamPrivateLabel.text">OEM production, private label, packaging adaptation, and manufacturing to the buyer’s specification.</p>
             <p class="product-direction-format" data-i18n="productDirections.vietnamPrivateLabel.format">Supply formats: branded production, custom packaging, specification-based manufacturing, or pilot batches.</p>
-            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-private-label#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=export-vietnam&amp;product=vietnam-private-label#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
         </div>
       </div>
@@ -246,7 +241,7 @@
             <h3 data-i18n="productDirections.russiaGrain.title">Grain, flour &amp; dry processed products</h3>
             <p data-i18n="productDirections.russiaGrain.text">Wheat and other grains, flour, cereals, dry mixes, and other shelf-stable processed products.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaGrain.format">Supply formats: bulk, industrial sacks, cartons, or retail packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-grain-flour#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-grain-flour#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -257,7 +252,7 @@
             <h3 data-i18n="productDirections.russiaOils.title">Vegetable oils</h3>
             <p data-i18n="productDirections.russiaOils.text">Sunflower, rapeseed, and other vegetable oils suitable for export and import review.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaOils.format">Supply formats: retail bottles, food-service containers, drums, flexitanks, or industrial packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-oils#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-oils#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -268,7 +263,7 @@
             <h3 data-i18n="productDirections.russiaConfectionery.title">Confectionery &amp; shelf-stable foods</h3>
             <p data-i18n="productDirections.russiaConfectionery.text">Chocolate, sweets, biscuits, wafers, dry snacks, and other products with a long shelf life.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaConfectionery.format">Supply formats: retail cartons, multipacks, food-service packs, or private label.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-confectionery#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-confectionery#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -279,7 +274,7 @@
             <h3 data-i18n="productDirections.russiaIngredients.title">Dry food ingredients</h3>
             <p data-i18n="productDirections.russiaIngredients.text">Dry mixes, starch, flour-based and powdered ingredients, food additives, and ingredients for industrial food production.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaIngredients.format">Supply formats: bags, drums, cartons, or specification-based industrial packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-dry-ingredients#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-dry-ingredients#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -290,7 +285,7 @@
             <h3 data-i18n="productDirections.russiaTimber.title">Timber, paper &amp; packaging</h3>
             <p data-i18n="productDirections.russiaTimber.text">Sawn timber, plywood, paper, cardboard, pulp products, and industrial or transport packaging.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaTimber.format">Supply formats: pallets, bundles, rolls, sheets, boxes, or custom industrial formats.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-timber-paper#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-timber-paper#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -301,7 +296,7 @@
             <h3 data-i18n="productDirections.russiaMaterials.title">Industrial raw materials &amp; materials</h3>
             <p data-i18n="productDirections.russiaMaterials.text">Metals, polymers, mineral raw materials, construction materials, and materials for manufacturing companies.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaMaterials.format">Supply formats: bulk cargo, pallets, coils, sheets, bags, or industrial lots.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-industrial-materials#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-industrial-materials#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -312,7 +307,7 @@
             <h3 data-i18n="productDirections.russiaChemicals.title">Chemical products</h3>
             <p data-i18n="productDirections.russiaChemicals.text">Industrial chemicals, technical fluids, production raw materials, and chemical products permitted for the selected route.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaChemicals.format">Reviewed only after composition, classification, documentation, restrictions, and transport-condition checks.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-chemicals#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-chemicals#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -323,7 +318,7 @@
             <h3 data-i18n="productDirections.russiaEquipment.title">Equipment &amp; tools</h3>
             <p data-i18n="productDirections.russiaEquipment.text">Production equipment, measuring instruments, hand and power tools, and technological equipment for enterprises.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaEquipment.format">Supply formats: individual units, production sets, crated cargo, or project deliveries.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-equipment-tools#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-equipment-tools#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -334,7 +329,7 @@
             <h3 data-i18n="productDirections.russiaComponents.title">Components &amp; spare parts</h3>
             <p data-i18n="productDirections.russiaComponents.text">Mechanical components, industrial spare parts, bearings, fasteners, and electrical components.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaComponents.format">Supply formats: itemized lots, kits, pallets, cartons, or specification-based orders.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-components-parts#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-components-parts#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card" data-reveal>
@@ -345,7 +340,7 @@
             <h3 data-i18n="productDirections.russiaConsumer.title">Non-food consumer goods</h3>
             <p data-i18n="productDirections.russiaConsumer.text">Household goods, home products, stationery, and plastic or metal consumer products.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaConsumer.format">Supply formats: retail cartons, mixed lots, branded goods, or private-label packaging.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-consumer-goods#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-consumer-goods#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
 
           <article class="product-direction-card product-direction-card-featured" data-reveal>
@@ -356,7 +351,7 @@
             <h3 data-i18n="productDirections.russiaOther.title">Other permitted products</h3>
             <p data-i18n="productDirections.russiaOther.text">Other categories may be considered after reviewing the supplier, specifications, documents, HS code, and Vietnamese import requirements.</p>
             <p class="product-direction-format" data-i18n="productDirections.russiaOther.format">Supply format is defined after the product, volume, packaging, and route review.</p>
-            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-other-approved#request" data-i18n="productDirections.request">Request an offer</a>
+            <a class="product-direction-action" href="contacts.html?category=russia-vietnam&amp;product=russia-other-approved#request" data-i18n="productDirections.request">Request a Quote</a>
           </article>
         </div>
       </div>
@@ -370,7 +365,7 @@
             <h2 data-i18n="productDirections.legal.title">Every supply project is confirmed individually.</h2>
           </div>
           <p data-i18n="productDirections.legal.text">The product list is indicative and does not constitute a public offer. Supply feasibility is determined after reviewing the manufacturer or supplier, product specifications, order volume, documents, export and import requirements, certification, labeling, applicable restrictions, payment feasibility, and logistics route. GLOBERION GROUP does not guarantee product availability, permits, or contract conclusion before the preliminary review is completed.</p>
-          <a class="btn btn-primary" href="contacts.html#request" data-i18n="productDirections.legal.button">Discuss a product request</a>
+          <a class="btn btn-primary" href="contacts.html#request" data-i18n="productDirections.legal.button">Contact Us</a>
         </div>
       </div>
     </section>
