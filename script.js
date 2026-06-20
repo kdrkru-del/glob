@@ -737,6 +737,10 @@ const translations = {
     "suppliers.service4.text": "We synchronize documents, dispatch, and communication between supplier, client, and logistics.",
     "suppliers.service4.title": "Export coordination",
     "nav.contacts": "Contacts",
+    "nav.about.documents": "Documents",
+    "nav.solutions": "Solutions",
+    "nav.solutions.importers": "For Importers",
+    "nav.solutions.suppliers": "For Suppliers",
     "form.note": "Thank you. Your request has been sent successfully."
   },
   ru: {
@@ -1475,6 +1479,10 @@ const translations = {
     "suppliers.service4.text": "Синхронизируем документы, отгрузку и коммуникацию между поставщиком, клиентом и логистикой.",
     "suppliers.service4.title": "Экспортная связка",
     "nav.contacts": "Контакты",
+    "nav.about.documents": "Документы",
+    "nav.solutions": "Решения",
+    "nav.solutions.importers": "Для импортёров",
+    "nav.solutions.suppliers": "Для поставщиков",
     "form.note": "Спасибо. Ваш запрос успешно отправлен."
   },
   vi: {
@@ -2213,6 +2221,10 @@ const translations = {
     "suppliers.service4.text": "Đồng bộ chứng từ, giao hàng và trao đổi giữa nhà cung cấp, khách hàng và logistics.",
     "suppliers.service4.title": "Điều phối xuất khẩu",
     "nav.contacts": "Liên hệ",
+    "nav.about.documents": "Tài liệu",
+    "nav.solutions": "Giải pháp",
+    "nav.solutions.importers": "Cho nhà nhập khẩu",
+    "nav.solutions.suppliers": "Cho nhà cung cấp",
     "form.note": "Cảm ơn bạn. Yêu cầu đã được gửi thành công."
   }
 };
@@ -2236,15 +2248,15 @@ const setStoredLanguage = (language) => {
 };
 
 const pageName = document.body.dataset.page || "home";
-const currentNavPage = ["importers", "suppliers", "catalog", "services"].includes(pageName)
+const currentNavPage = ["catalog", "services"].includes(pageName)
   ? "services"
-  : ["logistics", "quality", "documents"].includes(pageName)
-    ? "logistics"
-    : pageName;
+  : ["importers", "suppliers"].includes(pageName)
+    ? "solutions"
+    : ["logistics", "quality", "documents"].includes(pageName)
+      ? "logistics"
+      : pageName;
 const requestHref = pageName === "contacts" ? "#request" : "contacts.html#request";
-const footerCompanyName = pageName === "contacts"
-  ? "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED"
-  : "GLOBERION GROUP";
+const footerCompanyName = "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED";
 
 const renderSharedChrome = () => {
   const header = document.querySelector(".site-header");
@@ -2279,6 +2291,7 @@ const renderSharedChrome = () => {
               <a class="nav-submenu-link" href="about.html#about-history" data-i18n="nav.about.history">Corporation History</a>
               <a class="nav-submenu-link" href="about.html#about-certificate" data-i18n="nav.about.certificate">Certificate</a>
               <a class="nav-submenu-link" href="about.html#about-mission" data-i18n="nav.about.mission">Mission</a>
+              <a class="nav-submenu-link${pageName === "documents" ? " is-current" : ""}" href="documents.html" data-i18n="nav.about.documents">Documents</a>
             </div>
           </div>
           <div class="nav-submenu nav-submenu-services${currentNavPage === "services" ? " is-current" : ""}" data-mobile-submenu>
@@ -2294,6 +2307,16 @@ const renderSharedChrome = () => {
               <a class="nav-submenu-link" href="services.html#logistics-documentation-quality" data-i18n="nav.services.logisticsDocumentationQuality">Logistics, Documentation & Quality Control</a>
               <a class="nav-submenu-link" href="services.html#full-b2b-support" data-i18n="nav.services.fullB2BSupport">Full B2B Trade Support</a>
               <a class="nav-submenu-link${pageName === "catalog" ? " is-current" : ""}" href="catalog.html" data-i18n="nav.services.productDirections">Product Directions</a>
+            </div>
+          </div>
+          <div class="nav-submenu${currentNavPage === "solutions" ? " is-current" : ""}" data-mobile-submenu>
+            <button class="nav-link nav-submenu-toggle${currentNavPage === "solutions" ? " is-current" : ""}" type="button" aria-expanded="false">
+              <span data-i18n="nav.solutions">Solutions</span>
+              <span class="nav-submenu-icon" aria-hidden="true"></span>
+            </button>
+            <div class="nav-submenu-panel">
+              <a class="nav-submenu-link${pageName === "importers" ? " is-current" : ""}" href="importers.html" data-i18n="nav.solutions.importers">For Importers</a>
+              <a class="nav-submenu-link${pageName === "suppliers" ? " is-current" : ""}" href="suppliers.html" data-i18n="nav.solutions.suppliers">For Suppliers</a>
             </div>
           </div>
           <a class="nav-link${currentNavPage === "logistics" ? " is-current" : ""}" href="logistics.html" data-i18n="nav.logisticsQuality">Logistics & Quality</a>
@@ -2332,6 +2355,8 @@ const renderSharedChrome = () => {
           <a href="index.html" data-i18n="nav.home">Home</a>
           <a href="about.html" data-i18n="nav.about">About us</a>
           <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="importers.html" data-i18n="nav.solutions.importers">For Importers</a>
+          <a href="suppliers.html" data-i18n="nav.solutions.suppliers">For Suppliers</a>
           <a href="logistics.html" data-i18n="nav.logisticsQuality">Logistics & Quality</a>
           <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
         </div>
