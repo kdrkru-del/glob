@@ -1556,22 +1556,30 @@ h3 {
 
 .company-details-footer {
   display: flex;
-  gap: 8px 16px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
   color: rgba(255, 255, 255, 0.62);
   font-size: 0.82rem;
 }
 
 .company-details-footer strong {
-  flex-basis: 100%;
   color: rgba(244, 230, 193, 0.88);
   font-size: 0.84rem;
+  margin-bottom: 4px;
 }
 
 .company-details-footer > span {
   position: relative;
   min-width: 0;
   overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+
+/* Visual separator between address/email block and phone block */
+.company-details-footer > span:nth-child(5) {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-links {

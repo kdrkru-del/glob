@@ -2346,7 +2346,7 @@ const renderSharedChrome = () => {
             <strong>${footerCompanyName}</strong>
             <span><span data-i18n="contacts.details.taxCode">Tax code</span>: 0319519047</span>
             <span>2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune, Ho Chi Minh City, Vietnam</span>
-            <span><span data-i18n="contacts.details.email">Email</span>: <a href="mailto:info@globeriongroup.com">info@globeriongroup.com</a></span>
+            <span><a href="mailto:info@globeriongroup.com">info@globeriongroup.com</a></span>
             <span><a href="tel:+84794689910">+84 794 689 910</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.russian">Russian language</span></span>
             <span><a href="tel:+84779199274">+84 779 199 274</a> — <span data-i18n="contacts.details.channels">Phone / WhatsApp / Zalo</span>, <span data-i18n="contacts.details.vietnameseEnglish">Vietnamese and English language</span></span>
           </div>
