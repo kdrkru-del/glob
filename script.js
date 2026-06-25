@@ -552,9 +552,9 @@ const translations = {
     "nav.services.productDirections": "Product Directions",
     "nav.services.logisticsDocumentationQuality": "Logistics, Documentation & Quality Control",
     "nav.services.fullB2BSupport": "Full B2B Trade Support",
-    "servicesPage.intro.kicker": "6 core services",
+    "servicesPage.intro.kicker": "Core services",
     "servicesPage.intro.title": "International B2B trade support",
-    "servicesPage.intro.text": "Six clear service areas cover the full trade workflow without overlapping responsibilities.",
+    "servicesPage.intro.text": "Clear service areas cover the full trade workflow without overlapping responsibilities.",
     "servicesPage.quickNav": "Services navigation",
     "servicesPage.included": "Included services",
     "servicesPage.service1.title": "Product Sourcing & Supplier Verification",
@@ -633,7 +633,7 @@ const translations = {
     "services.export.text": "We help international buyers work with Vietnam through a structured operating process: sourcing, verification, commercial review, documents, and shipment preparation.",
     "services.export.title": "Export support from Vietnam for international buyers.",
     "services.hero.eyebrow": "Services",
-    "services.hero.text": "Based in Vietnam, GLOBERION GROUP helps international companies find suppliers and buyers, organize export and import, verify product quality, and coordinate trade projects through six integrated services.",
+    "services.hero.text": "Based in Vietnam, GLOBERION GROUP helps international companies find suppliers and buyers, organize export and import, verify product quality, and coordinate trade projects.",
     "services.hero.title": "B2B trade services built around real import and export tasks.",
     "services.intro.kicker": "Service model",
     "services.intro.text1": "The company helps international buyers source from Vietnam and helps Russian suppliers and Vietnamese buyers develop Russia → Vietnam trade projects.",
@@ -1294,9 +1294,9 @@ const translations = {
     "nav.services.productDirections": "Товарные направления",
     "nav.services.logisticsDocumentationQuality": "Логистика, документация и контроль качества",
     "nav.services.fullB2BSupport": "Полное B2B-сопровождение торговли",
-    "servicesPage.intro.kicker": "6 основных услуг",
+    "servicesPage.intro.kicker": "Основные услуги",
     "servicesPage.intro.title": "B2B-сопровождение международной торговли",
-    "servicesPage.intro.text": "Шесть понятных направлений охватывают весь торговый процесс без дублирования функций.",
+    "servicesPage.intro.text": "Понятные направления охватывают весь торговый процесс без дублирования функций.",
     "servicesPage.quickNav": "Навигация по услугам",
     "servicesPage.included": "Что входит в услугу",
     "servicesPage.service1.title": "Поиск товаров и проверка поставщиков",
@@ -1375,7 +1375,7 @@ const translations = {
     "services.export.text": "Помогаем зарубежным покупателям работать с Вьетнамом через структурированный процесс: поиск, проверка, коммерческое согласование, документы и подготовка отгрузки.",
     "services.export.title": "Экспортное сопровождение из Вьетнама для зарубежных покупателей.",
     "services.hero.eyebrow": "Услуги",
-    "services.hero.text": "Работая во Вьетнаме, GLOBERION GROUP помогает международным компаниям искать поставщиков и покупателей, организовывать экспорт и импорт, контролировать качество и координировать сделки в рамках шести услуг.",
+    "services.hero.text": "Работая во Вьетнаме, GLOBERION GROUP помогает международным компаниям искать поставщиков и покупателей, организовывать экспорт и импорт, контролировать качество и координировать сделки.",
     "services.hero.title": "B2B-услуги, выстроенные вокруг реальных задач импорта и экспорта.",
     "services.intro.kicker": "Сервисная модель",
     "services.intro.text1": "Компания помогает зарубежным покупателям закупать во Вьетнаме и помогает российским поставщикам и вьетнамским покупателям развивать проекты Россия → Вьетнам.",
@@ -2036,9 +2036,9 @@ const translations = {
     "nav.services.productDirections": "Ngành hàng thương mại",
     "nav.services.logisticsDocumentationQuality": "Logistics, chứng từ & kiểm soát chất lượng",
     "nav.services.fullB2BSupport": "Hỗ trợ thương mại B2B toàn diện",
-    "servicesPage.intro.kicker": "6 dịch vụ cốt lõi",
+    "servicesPage.intro.kicker": "Dịch vụ cốt lõi",
     "servicesPage.intro.title": "Hỗ trợ thương mại B2B quốc tế",
-    "servicesPage.intro.text": "Sáu nhóm dịch vụ rõ ràng bao quát toàn bộ quy trình thương mại mà không chồng chéo chức năng.",
+    "servicesPage.intro.text": "Các nhóm dịch vụ rõ ràng bao quát toàn bộ quy trình thương mại mà không chồng chéo chức năng.",
     "servicesPage.quickNav": "Điều hướng dịch vụ",
     "servicesPage.included": "Nội dung dịch vụ",
     "servicesPage.service1.title": "Tìm nguồn sản phẩm & xác minh nhà cung cấp",
@@ -2117,7 +2117,7 @@ const translations = {
     "services.export.text": "Chúng tôi giúp người mua quốc tế làm việc với Việt Nam theo quy trình có cấu trúc: tìm nguồn, xác minh, rà soát thương mại, chứng từ và chuẩn bị giao hàng.",
     "services.export.title": "Hỗ trợ xuất khẩu từ Việt Nam cho người mua quốc tế.",
     "services.hero.eyebrow": "Dịch vụ",
-    "services.hero.text": "Hoạt động tại Việt Nam, GLOBERION GROUP giúp doanh nghiệp quốc tế tìm nhà cung cấp và người mua, tổ chức xuất nhập khẩu, kiểm soát chất lượng và điều phối giao dịch qua sáu nhóm dịch vụ.",
+    "services.hero.text": "Hoạt động tại Việt Nam, GLOBERION GROUP giúp doanh nghiệp quốc tế tìm nhà cung cấp và người mua, tổ chức xuất nhập khẩu, kiểm soát chất lượng và điều phối giao dịch.",
     "services.hero.title": "Dịch vụ thương mại B2B được xây dựng quanh các nhiệm vụ nhập khẩu và xuất khẩu thực tế.",
     "services.intro.kicker": "Mô hình dịch vụ",
     "services.intro.text1": "Công ty hỗ trợ người mua quốc tế tìm nguồn hàng từ Việt Nam, đồng thời hỗ trợ nhà cung cấp Nga và người mua Việt Nam phát triển các dự án Nga → Việt Nam.",
@@ -2359,6 +2359,7 @@ const renderSharedChrome = () => {
           <a href="suppliers.html" data-i18n="nav.solutions.suppliers">For Suppliers</a>
           <a href="logistics.html" data-i18n="nav.logisticsQuality">Logistics & Quality</a>
           <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+          <a href="https://www.linkedin.com/in/globerion-group-2a6916418/" target="_blank" rel="noopener noreferrer" class="footer-social-link">LinkedIn</a>
         </div>
       </div>
     `;
