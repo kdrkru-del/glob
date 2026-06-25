@@ -207,8 +207,8 @@ select {
 .lang-btn:hover,
 .lang-btn:focus-visible,
 .lang-btn.is-active {
-  color: var(--obsidian);
-  background: var(--gold);
+  color: var(--white);
+  background: linear-gradient(135deg, #5a3e12, #3d290c);
   outline: none;
 }
 
@@ -230,17 +230,17 @@ select {
 
 .nav-action,
 .btn-primary {
-  color: var(--obsidian);
-  background: linear-gradient(135deg, #f7da8f, #dca94c 52%, var(--bronze));
-  border-color: rgba(255, 238, 190, 0.42);
-  box-shadow: 0 18px 44px rgba(184, 130, 46, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.38);
+  color: var(--white);
+  background: linear-gradient(135deg, #5a3e12, #3d290c);
+  border-color: rgba(90, 62, 18, 0.35);
+  box-shadow: 0 18px 44px rgba(102, 68, 15, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .btn-secondary {
-  color: rgba(255, 255, 255, 0.88);
-  background: rgba(255, 255, 255, 0.075);
-  border-color: rgba(244, 230, 193, 0.32);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: var(--white);
+  background: linear-gradient(135deg, #5a3e12, #3d290c);
+  border-color: rgba(90, 62, 18, 0.35);
+  box-shadow: 0 18px 44px rgba(102, 68, 15, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .btn:hover,
@@ -256,15 +256,17 @@ select {
 .btn-primary:focus-visible,
 .nav-action:hover,
 .nav-action:focus-visible {
-  border-color: rgba(255, 245, 214, 0.72);
-  box-shadow: 0 24px 64px rgba(184, 130, 46, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.44);
+  background: linear-gradient(135deg, #6e4d1a, #4a3511);
+  border-color: rgba(110, 77, 26, 0.55);
+  box-shadow: 0 24px 64px rgba(74, 53, 17, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus-visible {
   color: var(--white);
-  border-color: rgba(229, 189, 102, 0.58);
-  background: rgba(255, 255, 255, 0.12);
+  background: linear-gradient(135deg, #6e4d1a, #4a3511);
+  border-color: rgba(110, 77, 26, 0.55);
+  box-shadow: 0 24px 64px rgba(74, 53, 17, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .btn-icon {
@@ -1597,6 +1599,35 @@ h3 {
   color: var(--white);
 }
 
+.footer-social-link {
+  margin-left: 10px;
+  padding-left: 18px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.72);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-social-link::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z'/%3E%3C/svg%3E") center / contain no-repeat;
+  opacity: 0.72;
+  flex-shrink: 0;
+}
+
+.footer-social-link:hover {
+  color: #70b5f9 !important;
+}
+
+.footer-social-link:hover::before {
+  opacity: 1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2370b5f9'%3E%3Cpath d='M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z'/%3E%3C/svg%3E");
+}
+
 .page-hero {
   position: relative;
   color: var(--white);
@@ -1856,7 +1887,7 @@ h3 {
 
 .service-detail-card {
   display: grid;
-  grid-template-columns: 72px minmax(0, 0.9fr) minmax(340px, 0.72fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 0.72fr);
   gap: 30px;
   align-items: start;
   padding: 34px;
@@ -2243,9 +2274,7 @@ h3 {
 }
 
 .featured-products-action .btn-secondary {
-  color: var(--deep);
-  border-color: rgba(13, 106, 85, 0.28);
-  background: rgba(232, 238, 231, 0.72);
+  /* Inherit main button styles */
 }
 
 .home-product-route li {
@@ -2334,13 +2363,13 @@ h3 {
 }
 
 .product-route-switcher a.is-active {
-  color: var(--obsidian);
-  background: linear-gradient(135deg, var(--champagne), var(--gold));
-  box-shadow: 0 8px 22px rgba(184, 130, 46, 0.22);
+  color: var(--white);
+  background: linear-gradient(135deg, #5a3e12, #3d290c);
+  box-shadow: 0 8px 22px rgba(90, 62, 18, 0.35);
 }
 
 .product-route-switcher a.is-active small {
-  color: rgba(7, 20, 18, 0.68);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .product-route-russia {
@@ -2505,10 +2534,10 @@ h3 {
   min-height: 38px;
   margin-top: auto;
   padding: 9px 13px;
-  border: 1px solid rgba(184, 130, 46, 0.28);
+  border: 1px solid rgba(90, 62, 18, 0.35);
   border-radius: 8px;
-  color: var(--deep);
-  background: rgba(229, 189, 102, 0.11);
+  color: var(--white);
+  background: linear-gradient(135deg, #5a3e12, #3d290c);
   font-size: 0.78rem;
   font-weight: 900;
   text-decoration: none;
@@ -2518,9 +2547,9 @@ h3 {
 .product-direction-action:hover,
 .product-direction-action:focus-visible,
 .product-direction-card-featured .product-direction-action {
-  color: var(--obsidian);
-  border-color: var(--champagne);
-  background: var(--champagne);
+  color: var(--white);
+  border-color: rgba(110, 77, 26, 0.55);
+  background: linear-gradient(135deg, #6e4d1a, #4a3511);
   outline: none;
 }
 
@@ -2948,11 +2977,11 @@ html.js [data-reveal].is-visible {
   }
 
   .service-detail-card {
-    grid-template-columns: 58px minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .service-detail-inclusions {
-    grid-column: 2;
+    grid-column: auto;
   }
 
   .product-direction-grid {
@@ -4186,4 +4215,19 @@ html.js [data-reveal].is-visible {
   opacity: 1 !important;
   pointer-events: auto;
   transform: translateY(0) !important;
+}
+
+/* Скрываем порядковые номера услуг (01, 02 и т.д.) */
+.process-card > span,
+.market-entry-mini-grid article > span,
+.directory-card > span,
+.service-detail-index,
+.product-direction-index,
+.history-card > span,
+.certificate-card > span,
+.mission-card > span,
+.introduction-index,
+.service-card > span,
+.market-entry-step > span {
+  display: none !important;
 }
