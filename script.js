@@ -2360,6 +2360,7 @@ const renderSharedChrome = () => {
           <a href="logistics.html" data-i18n="nav.logisticsQuality">Logistics & Quality</a>
           <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
           <a href="https://www.linkedin.com/in/globerion-group-2a6916418/" target="_blank" rel="noopener noreferrer" class="footer-social-link">LinkedIn</a>
+          <a href="https://www.tiktok.com/@globerion_group" target="_blank" rel="noopener noreferrer" class="footer-social-link">TikTok</a>
         </div>
       </div>
     `;
