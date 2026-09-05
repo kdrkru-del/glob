@@ -4231,3 +4231,30 @@ html.js [data-reveal].is-visible {
 .market-entry-step > span {
   display: none !important;
 }
+
+/* Header tools & responsive language switch */
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header-mobile-lang {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .header-mobile-lang {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding: 2px;
+  }
+  .header-mobile-lang .lang-btn {
+    min-width: 32px;
+    min-height: 28px;
+    font-size: 0.72rem;
+    padding: 0 4px;
+  }
+  .nav .lang-switch {
+    display: none;
+  }
+}

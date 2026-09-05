@@ -361,6 +361,7 @@ const translations = {
     "documentsPage.service4.text": "We synchronize documents with packaging, labeling, route, and carrier data.",
     "documentsPage.service4.title": "Shipping data",
     "footer.copy": "GLOBERION GROUP. B2B trade services with Vietnam.",
+    "footer.dev": "Website creation & promotion:",
     "form.category": "Service",
     "form.category.exportVietnam": "Export from Vietnam",
     "form.category.logisticsQuality": "Logistics, Documentation & Quality Control",
@@ -1047,6 +1048,7 @@ const translations = {
     "documentsPage.service4.text": "Синхронизируем документы с упаковкой, маркировкой, маршрутом и данными перевозчика.",
     "documentsPage.service4.title": "Отгрузочные данные",
     "footer.copy": "GLOBERION GROUP. B2B-услуги для торговли с Вьетнамом.",
+    "footer.dev": "Создание и продвижение сайта:",
     "form.category": "Услуга",
     "form.category.exportVietnam": "Экспорт из Вьетнама",
     "form.category.logisticsQuality": "Логистика, документация и контроль качества",
@@ -1789,6 +1791,7 @@ const translations = {
     "documentsPage.service4.text": "Đồng bộ chứng từ với bao bì, nhãn mác, tuyến vận chuyển và dữ liệu đơn vị vận chuyển.",
     "documentsPage.service4.title": "Dữ liệu giao hàng",
     "footer.copy": "GLOBERION GROUP. Dịch vụ thương mại B2B với Việt Nam.",
+    "footer.dev": "Thiết kế & phát triển website:",
     "form.category": "Dịch vụ",
     "form.category.exportVietnam": "Xuất khẩu từ Việt Nam",
     "form.category.logisticsQuality": "Logistics, chứng từ & kiểm soát chất lượng",
@@ -2273,11 +2276,18 @@ const renderSharedChrome = () => {
           </span>
         </a>
 
-        <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-aria-label="aria.menu.open" aria-expanded="false" aria-controls="site-nav">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </button>
+        <div class="header-tools">
+          <div class="lang-switch header-mobile-lang" aria-label="Language selection" data-i18n-aria-label="aria.languageSelection">
+            <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+            <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
+          </div>
+          <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-aria-label="aria.menu.open" aria-expanded="false" aria-controls="site-nav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
 
         <nav class="nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.nav.main">
           <a class="nav-link${currentNavPage === "home" ? " is-current" : ""}" href="index.html" data-i18n="nav.home">Home</a>
@@ -2341,6 +2351,9 @@ const renderSharedChrome = () => {
           <div class="footer-brand-line">
             <img class="footer-logo-mark" src="assets/logo-mark.png" alt="" aria-hidden="true" />
             <span>© <span data-year></span> <span data-i18n="footer.copy">GLOBERION GROUP. B2B trade services with Vietnam.</span></span>
+          </div>
+          <div class="footer-dev-credit" style="margin: 12px 0; font-size: 0.85rem; color: rgba(255, 255, 255, 0.7);">
+            <span data-i18n="footer.dev">Website creation & promotion:</span> <a href="https://voltrena.ru" target="_blank" rel="noopener noreferrer" style="color: #e5a93b; font-weight: 600; text-decoration: underline; text-underline-offset: 3px;">voltrena.ru</a>
           </div>
           <div class="company-details company-details-footer" aria-label="Official company details" data-i18n-aria-label="aria.companyDetails">
             <strong>${footerCompanyName}</strong>
@@ -2742,4 +2755,15 @@ if ("IntersectionObserver" in window) {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
 
-applyLanguage(getStoredLanguage() || "en");
+const detectInitialLanguage = () => {
+  const stored = getStoredLanguage();
+  if (stored && ["en", "ru", "vi"].includes(stored)) {
+    return stored;
+  }
+  const browser = (navigator.language || navigator.userLanguage || "").toLowerCase();
+  if (browser.startsWith("ru") || browser.startsWith("be") || browser.startsWith("uk") || browser.startsWith("kk")) return "ru";
+  if (browser.startsWith("vi")) return "vi";
+  return "en";
+};
+
+applyLanguage(detectInitialLanguage());
