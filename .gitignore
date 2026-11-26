@@ -1,1 +1,11 @@
 .site-audit/
+
+# Not part of globeriongroup.com — keep out of the published site
+techucht-site/
+tree-service-site/
+.techucht-backup-*/
+.tree-service-backup-*/
+.footer-edge-profile/
+__pycache__/
+*_tmp.py
+PERSONAL_DATA_COMPLIANCE.md

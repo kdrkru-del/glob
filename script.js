@@ -8,6 +8,42 @@ const translations = {
     "meta.about.description": "About GLOBERION GROUP: sourcing, supplier verification, export support, logistics, and quality control for shipments from Vietnam.",
     "meta.catalog.title": "GLOBERION GROUP — product directions for trade with Vietnam",
     "meta.catalog.description": "Shelf-stable product directions for export from Vietnam and supply from Russia to Vietnam, including agricultural goods, materials, equipment, components, packaging, and consumer products.",
+    "nav.products": "Products",
+    "nav.products.coffee": "Coffee",
+    "nav.products.greenCoffee": "Green Coffee",
+    "nav.products.roastedCoffee": "Roasted Coffee",
+    "nav.products.coffeeBlends": "Coffee Blends",
+    "nav.products.groundCoffee": "Ground Coffee",
+    "nav.products.instantCoffee": "Instant Coffee",
+    "nav.products.spices": "Spices",
+    "nav.products.blackPepper": "Black Pepper",
+    "nav.products.cinnamon": "Cinnamon",
+    "nav.products.nuts": "Nuts & Cashew",
+    "nav.products.cashew": "Cashew",
+    "nav.products.driedFruits": "Dried Fruits",
+    "nav.products.driedMango": "Dried Mango",
+    "nav.products.coconut": "Coconut Products",
+    "nav.products.viewAll": "Explore Full Products Catalog →",
+    "nav.privateLabel": "Private Label",
+    "nav.logistics": "Logistics",
+    "nav.aboutUs": "About Us",
+    "nav.contact": "Contact",
+    "nav.requestQuote": "Request a Quote",
+    "home.hero.b2bEyebrow": "International B2B Supply from Vietnam",
+    "home.hero.b2bTitle": "Vietnamese Coffee & Agricultural Products for Global Markets",
+    "home.hero.b2bLead": "Bulk supply, private label and export solutions for international buyers.",
+    "home.hero.pills": "Green Coffee • Roasted Coffee • Coffee Blends • Spices • Cashew • Dried Fruits",
+    "home.hero.exploreProducts": "Explore Products",
+    "home.hero.requestQuote": "Request a Quote",
+    "home.hero.metricFcl": "FCL & LCL Bulk Supply",
+    "home.hero.metricOrigin": "Origin & Phyto Certificates",
+    "home.hero.metricQc": "SGS Quality Inspection",
+    "categories.kicker": "Product Categories",
+    "categories.title": "Our Products",
+    "categories.lead": "Direct plantation sourcing, strict grade selection, and export packaging across core agricultural directions.",
+    "featured.b2bKicker": "Featured Products",
+    "featured.b2bTitle": "Featured Products",
+    "featured.b2bLead": "Selected export-grade lots ready for container shipments and customized private label production.",
     "productDirections.hero.eyebrow": "Products We Source",
     "productDirections.hero.title": "Product Categories for International B2B Supply.",
     "productDirections.hero.text": "This catalog presents the product directions GLOBERION GROUP sources and coordinates for international supply. It is not an online store: every inquiry is reviewed by product, supplier, volume, documents, and route.",
@@ -391,6 +427,7 @@ const translations = {
     "form.productSpecs.placeholder": "Composition, format, packaging, shelf life, technical parameters",
     "form.name": "First and last name",
     "form.name.placeholder": "First and last name",
+    "form.consent": "I consent to the processing of personal data in accordance with the <a href='privacy.html' target='_blank'>Privacy Policy</a>.",
     "form.submit": "Send request",
     "form.submit.sending": "Sending…",
     "form.submit.success": "Thank you. Your request has been sent successfully. We will contact you using the details provided.",
@@ -751,6 +788,42 @@ const translations = {
     "meta.about.description": "О компании GLOBERION GROUP: сорсинг, проверка поставщиков, экспортное сопровождение, логистика и контроль качества поставок из Вьетнама.",
     "meta.catalog.title": "GLOBERION GROUP — товарные направления для торговли с Вьетнамом",
     "meta.catalog.description": "Товарные направления длительного хранения для экспорта из Вьетнама и поставок из России во Вьетнам: агропродукция, материалы, оборудование, комплектующие, упаковка и потребительские товары.",
+    "nav.products": "Продукция",
+    "nav.products.coffee": "Кофе",
+    "nav.products.greenCoffee": "Зеленый кофе",
+    "nav.products.roastedCoffee": "Жареный кофе",
+    "nav.products.coffeeBlends": "Кофейные бленды",
+    "nav.products.groundCoffee": "Молотый кофе",
+    "nav.products.instantCoffee": "Растворимый кофе",
+    "nav.products.spices": "Специи",
+    "nav.products.blackPepper": "Черный перец",
+    "nav.products.cinnamon": "Корица",
+    "nav.products.nuts": "Орехи и кешью",
+    "nav.products.cashew": "Кешью",
+    "nav.products.driedFruits": "Сушеные фрукты",
+    "nav.products.driedMango": "Сушеное манго",
+    "nav.products.coconut": "Кокосовая продукция",
+    "nav.products.viewAll": "Перейти в полный каталог продукции →",
+    "nav.privateLabel": "Private Label",
+    "nav.logistics": "Логистика",
+    "nav.aboutUs": "О компании",
+    "nav.contact": "Контакты",
+    "nav.requestQuote": "Запросить КП",
+    "home.hero.b2bEyebrow": "Международные B2B-поставки из Вьетнама",
+    "home.hero.b2bTitle": "Вьетнамский кофе и сельскохозяйственная продукция для мировых рынков",
+    "home.hero.b2bLead": "Оптовые поставки, Private Label и экспортные решения для международных покупателей.",
+    "home.hero.pills": "Зеленый кофе • Жареный кофе • Кофейные бленды • Специи • Кешью • Сушеные фрукты",
+    "home.hero.exploreProducts": "Смотреть продукцию",
+    "home.hero.requestQuote": "Запросить расчет",
+    "home.hero.metricFcl": "Поставки FCL и LCL (контейнеры)",
+    "home.hero.metricOrigin": "Сертификаты происхождения и фитосанитарии",
+    "home.hero.metricQc": "Контроль качества SGS и лабораторные тесты",
+    "categories.kicker": "Категории продукции",
+    "categories.title": "Наша продукция",
+    "categories.lead": "Прямые закупки с плантаций, строгий отбор сортов и экспортная упаковка ключевых категорий.",
+    "featured.b2bKicker": "Популярные товары",
+    "featured.b2bTitle": "Популярные позиции",
+    "featured.b2bLead": "Отобранные экспортные партии для контейнерных отгрузок и контрактного производства под вашей маркой.",
     "productDirections.hero.eyebrow": "Товары, которые мы подбираем",
     "productDirections.hero.title": "Товарные категории для международных B2B-поставок.",
     "productDirections.hero.text": "Каталог показывает товарные направления, по которым GLOBERION GROUP организует поиск и международные поставки. Это не интернет-магазин: каждый запрос проверяется по товару, поставщику, объёму, документам и маршруту.",
@@ -1078,6 +1151,7 @@ const translations = {
     "form.productSpecs.placeholder": "Состав, формат, упаковка, срок годности, технические параметры",
     "form.name": "Имя и фамилия",
     "form.name.placeholder": "Имя и фамилия",
+    "form.consent": "Даю согласие на обработку персональных данных в соответствии с <a href='privacy.html' target='_blank'>Политикой конфиденциальности</a>.",
     "form.submit": "Отправить запрос",
     "form.submit.sending": "Отправка…",
     "form.submit.success": "Спасибо. Ваш запрос успешно отправлен. Мы свяжемся с вами по указанным контактам.",
@@ -1494,6 +1568,42 @@ const translations = {
     "meta.about.description": "Về GLOBERION GROUP: tìm nguồn hàng, xác minh nhà cung cấp, hỗ trợ xuất khẩu, logistics và kiểm soát chất lượng cho lô hàng từ Việt Nam.",
     "meta.catalog.title": "GLOBERION GROUP — ngành hàng thương mại với Việt Nam",
     "meta.catalog.description": "Các ngành hàng có thời hạn bảo quản dài để xuất khẩu từ Việt Nam và cung ứng từ Nga vào Việt Nam, gồm nông sản, vật liệu, thiết bị, linh kiện, bao bì và hàng tiêu dùng.",
+    "nav.products": "Sản phẩm",
+    "nav.products.coffee": "Cà phê",
+    "nav.products.greenCoffee": "Cà phê nhân",
+    "nav.products.roastedCoffee": "Cà phê rang",
+    "nav.products.coffeeBlends": "Cà phê Blend",
+    "nav.products.groundCoffee": "Cà phê bột",
+    "nav.products.instantCoffee": "Cà phê hòa tan",
+    "nav.products.spices": "Gia vị",
+    "nav.products.blackPepper": "Tiêu đen",
+    "nav.products.cinnamon": "Quế",
+    "nav.products.nuts": "Hạt điều & Các loại hạt",
+    "nav.products.cashew": "Hạt điều",
+    "nav.products.driedFruits": "Trái cây sấy",
+    "nav.products.driedMango": "Xoài sấy dẻo",
+    "nav.products.coconut": "Sản phẩm từ dừa",
+    "nav.products.viewAll": "Xem toàn bộ danh mục sản phẩm →",
+    "nav.privateLabel": "Gia công nhãn riêng",
+    "nav.logistics": "Logistics & Vận tải",
+    "nav.aboutUs": "Về chúng tôi",
+    "nav.contact": "Liên hệ",
+    "nav.requestQuote": "Nhận báo giá",
+    "home.hero.b2bEyebrow": "Cung ứng xuất khẩu B2B từ Việt Nam",
+    "home.hero.b2bTitle": "Cà phê & Nông sản Việt Nam Cho Thị trường Quốc tế",
+    "home.hero.b2bLead": "Cung ứng số lượng lớn, gia công nhãn riêng và giải pháp xuất khẩu cho đối tác toàn cầu.",
+    "home.hero.pills": "Cà phê nhân • Cà phê rang • Cà phê Blend • Gia vị • Hạt điều • Trái cây sấy",
+    "home.hero.exploreProducts": "Khám phá sản phẩm",
+    "home.hero.requestQuote": "Yêu cầu báo giá",
+    "home.hero.metricFcl": "Cung ứng FCL & LCL số lượng lớn",
+    "home.hero.metricOrigin": "Chứng nhận kiểm dịch & C/O xuất xứ",
+    "home.hero.metricQc": "Kiểm định chất lượng SGS độc lập",
+    "categories.kicker": "Danh mục sản phẩm",
+    "categories.title": "Sản phẩm của chúng tôi",
+    "categories.lead": "Nguồn hàng trực tiếp từ vùng trồng, chọn lọc chất lượng và đóng gói xuất khẩu tiêu chuẩn.",
+    "featured.b2bKicker": "Sản phẩm tiêu biểu",
+    "featured.b2bTitle": "Sản phẩm tiêu biểu",
+    "featured.b2bLead": "Các lô hàng xuất khẩu tiêu chuẩn sẵn sàng cho vận chuyển container và gia công OEM.",
     "productDirections.hero.eyebrow": "Sản phẩm chúng tôi tìm nguồn",
     "productDirections.hero.title": "Nhóm sản phẩm cho cung ứng B2B quốc tế.",
     "productDirections.hero.text": "Danh mục trình bày các hướng sản phẩm GLOBERION GROUP tìm nguồn và điều phối cho cung ứng quốc tế. Đây không phải cửa hàng trực tuyến: mỗi yêu cầu được xem xét theo sản phẩm, nhà cung cấp, khối lượng, chứng từ và tuyến vận chuyển.",
@@ -1821,6 +1931,7 @@ const translations = {
     "form.productSpecs.placeholder": "Thành phần, quy cách, bao bì, hạn sử dụng, thông số kỹ thuật",
     "form.name": "Họ và tên",
     "form.name.placeholder": "Họ và tên",
+    "form.consent": "Tôi đồng ý với việc xử lý dữ liệu cá nhân theo <a href='privacy.html' target='_blank'>Chính sách bảo mật</a>.",
     "form.submit": "Gửi yêu cầu",
     "form.submit.sending": "Đang gửi…",
     "form.submit.success": "Cảm ơn bạn. Yêu cầu đã được gửi thành công. Chúng tôi sẽ liên hệ theo thông tin đã cung cấp.",
@@ -2493,6 +2604,9 @@ const applyLanguage = (language) => {
   });
 
   syncProductCategoryLanguage(currentLanguage);
+  if (window.GLOBERION_ENGINE && window.GLOBERION_ENGINE.updateAllDynamicComponents) {
+    window.GLOBERION_ENGINE.updateAllDynamicComponents(currentLanguage);
+  }
   setStoredLanguage(currentLanguage);
 };
 
@@ -2738,10 +2852,9 @@ document.querySelectorAll(".request-form").forEach((form) => {
   });
 });
 
-const revealItems = document.querySelectorAll("[data-reveal]");
-
+let revealObserver = null;
 if ("IntersectionObserver" in window) {
-  const revealObserver = new IntersectionObserver((entries) => {
+  revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("is-visible");
@@ -2749,11 +2862,18 @@ if ("IntersectionObserver" in window) {
       }
     });
   }, { threshold: 0.14 });
-
-  revealItems.forEach((item) => revealObserver.observe(item));
-} else {
-  revealItems.forEach((item) => item.classList.add("is-visible"));
 }
+
+window.__refreshReveal = () => {
+  const items = document.querySelectorAll("[data-reveal]:not(.is-visible)");
+  if (revealObserver) {
+    items.forEach((item) => revealObserver.observe(item));
+  } else {
+    items.forEach((item) => item.classList.add("is-visible"));
+  }
+};
+
+window.__refreshReveal();
 
 const detectInitialLanguage = () => {
   const stored = getStoredLanguage();
@@ -2767,3 +2887,32 @@ const detectInitialLanguage = () => {
 };
 
 applyLanguage(detectInitialLanguage());
+
+
+  // Cookie banner for Globerion
+  function initGloberionCookieBanner() {
+    if (typeof localStorage !== 'undefined' && !localStorage.getItem('globerion_cookie_accepted')) {
+      const lang = document.documentElement.lang || 'en';
+      const text = lang === 'ru' 
+        ? 'Мы используем cookie для корректной работы сайта. Подробнее в <a href="privacy.html" target="_blank" style="color:#38bdf8;text-decoration:underline;">Политике конфиденциальности</a>.'
+        : 'We use cookies to ensure proper website functionality. Learn more in our <a href="privacy.html" target="_blank" style="color:#38bdf8;text-decoration:underline;">Privacy Policy</a>.';
+      const btnText = lang === 'ru' ? 'Принять' : 'Accept';
+      const banner = document.createElement('div');
+      banner.id = 'glob-cookie-banner';
+      banner.style.cssText = 'position:fixed;bottom:20px;left:20px;right:20px;max-width:540px;background:#0f172a;color:#f8fafc;padding:16px 20px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,0.3);z-index:9999;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:12.5px;line-height:1.4;';
+      banner.innerHTML = `
+        <div>${text}</div>
+        <button type="button" style="background:#2563eb;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-weight:600;cursor:pointer;white-space:nowrap;font-size:12px;">${btnText}</button>
+      `;
+      banner.querySelector('button').addEventListener('click', () => {
+        localStorage.setItem('globerion_cookie_accepted', 'true');
+        banner.remove();
+      });
+      document.body.appendChild(banner);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGloberionCookieBanner);
+  } else {
+    initGloberionCookieBanner();
+  }

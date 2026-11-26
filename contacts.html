@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJL19YBL46"></script>
   <script>
@@ -21,7 +22,6 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/110024571" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
@@ -34,7 +34,10 @@
   <meta property="og:url" content="https://globeriongroup.com/contacts.html" />
   <meta property="og:title" content="GLOBERION GROUP — contacts" />
   <meta property="og:description" content="Contact GLOBERION GROUP to discuss sourcing, export support, quality control, documents, and logistics from Vietnam." />
-  <meta property="og:image" content="https://globeriongroup.com/assets/logo-mark.png" />
+  <meta property="og:image" content="https://globeriongroup.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://globeriongroup.com/assets/og-image.jpg" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://globeriongroup.com/contacts.html" />
@@ -169,11 +172,11 @@
 
           <div class="field">
             <label for="name" data-i18n="form.name">First and last name</label>
-            <input id="name" name="name" type="text" placeholder="First and last name" data-i18n-placeholder="form.name.placeholder" autocomplete="name" required />
+            <input id="name" name="name" type="text" class="ym-disable-keys" placeholder="First and last name" data-i18n-placeholder="form.name.placeholder" autocomplete="name" required />
           </div>
           <div class="field">
             <label for="contact" data-i18n="form.contact">Phone or email</label>
-            <input id="contact" name="contact" type="text" placeholder="Phone or email" data-i18n-placeholder="form.contact.placeholder" required />
+            <input id="contact" name="contact" type="text" class="ym-disable-keys" placeholder="Phone or email" data-i18n-placeholder="form.contact.placeholder" required />
           </div>
           <div class="field">
             <label for="category" data-i18n="form.category">Service</label>
@@ -191,6 +194,13 @@
           <div class="field">
             <label for="details" data-i18n="form.details">Task description</label>
             <textarea id="details" name="details" placeholder="Briefly describe what you need" data-i18n-placeholder="form.details.placeholder" required></textarea>
+          </div>
+
+          <div class="field" style="display:flex;align-items:flex-start;gap:10px;margin-top:14px;margin-bottom:14px;">
+            <input type="checkbox" id="contact-consent" name="consent" required style="margin-top:4px;cursor:pointer;flex-shrink:0;">
+            <label for="contact-consent" style="font-size:12px;line-height:1.4;color:#64748b;cursor:pointer;">
+              <span data-i18n="form.consent">I consent to the processing of personal data under the <a href="privacy.html" target="_blank" style="text-decoration:underline;color:inherit;">Privacy Policy</a>.</span>
+            </label>
           </div>
           <button class="btn btn-primary" type="submit" data-i18n="form.submit">Send request</button>
           <p class="form-note" role="status" aria-live="polite" aria-atomic="true"></p>

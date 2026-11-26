@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJL19YBL46"></script>
   <script>
@@ -21,7 +22,6 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/110024571" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
@@ -34,13 +34,59 @@
   <meta property="og:url" content="https://globeriongroup.com/" />
   <meta property="og:title" content="GLOBERION GROUP — trade and supply operations with Vietnam" />
   <meta property="og:description" content="GLOBERION GROUP coordinates sourcing from Vietnam and structured supply projects from Russia to Vietnam: product review, documents, quality control, and logistics." />
-  <meta property="og:image" content="https://globeriongroup.com/assets/logo-mark.png" />
+  <meta property="og:image" content="https://globeriongroup.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://globeriongroup.com/assets/og-image.jpg" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://globeriongroup.com/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://globeriongroup.com/#organization",
+    "name": "GLOBERION GROUP",
+    "legalName": "VIET BRIDGE TRADING IMPORT EXPORT COMPANY LIMITED",
+    "alternateName": "CÔNG TY TNHH XUẤT NHẬP KHẨU THƯƠNG MẠI VIET BRIDGE",
+    "url": "https://globeriongroup.com/",
+    "logo": "https://globeriongroup.com/assets/logo-mark.png",
+    "image": "https://globeriongroup.com/assets/og-image.jpg",
+    "description": "B2B sourcing and supply coordination between Vietnam and international markets, including Russia to Vietnam supply projects: supplier verification, documents, quality control, and logistics.",
+    "taxID": "0319519047",
+    "email": "info@globeriongroup.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2/11 Ba Diem 4D Street, Tien Lan 3 Hamlet, Ba Diem Commune",
+      "addressLocality": "Ho Chi Minh City",
+      "addressCountry": "VN"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+84794689910",
+        "contactType": "sales",
+        "availableLanguage": ["Russian"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+84779199274",
+        "contactType": "sales",
+        "availableLanguage": ["Vietnamese", "English"]
+      }
+    ],
+    "areaServed": ["VN", "RU", "Worldwide"],
+    "sameAs": [
+      "https://www.linkedin.com/company/globerion-group/",
+      "https://www.tiktok.com/@globerion_group"
+    ]
+  }
+  </script>
   <link rel="icon" type="image/png" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="styles.css?v=20260619-products-5" />
-  <script src="script.js?v=20260619-products-5" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260916-b2b-1" />
+  <script src="products-data.js?v=20260916-b2b-1" defer></script>
+  <script src="catalog-engine.js?v=20260916-b2b-1" defer></script>
+  <script src="script.js?v=20260916-b2b-1" defer></script>
 </head>
 
 <body data-page="home">
@@ -61,10 +107,80 @@
       </button>
 
       <nav class="nav" id="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.nav.main">
-        <a class="nav-link is-current" href="index.html" data-i18n="nav.home">Home</a>
+        <!-- Products Mega Menu -->
+        <div class="nav-submenu nav-submenu-mega nav-submenu-products" data-mobile-submenu>
+          <button class="nav-link nav-submenu-toggle is-current" type="button" aria-expanded="false">
+            <span data-i18n="nav.products">Products</span>
+            <span class="nav-submenu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-submenu-panel">
+            <div class="mega-menu-grid">
+              <div class="mega-col">
+                <a class="mega-col-head" href="products.html?category=coffee">
+                  <span data-i18n="nav.products.coffee">Coffee</span>
+                </a>
+                <ul class="mega-col-list">
+                  <li><a class="mega-sublink" href="products.html?category=coffee&sub=green-coffee" data-i18n="nav.products.greenCoffee">Green Coffee</a></li>
+                  <li><a class="mega-sublink" href="products.html?category=coffee&sub=roasted-coffee" data-i18n="nav.products.roastedCoffee">Roasted Coffee</a></li>
+                  <li><a class="mega-sublink" href="products.html?category=coffee&sub=coffee-blends" data-i18n="nav.products.coffeeBlends">Coffee Blends</a></li>
+                  <li><a class="mega-sublink" href="products.html?category=coffee&sub=ground-coffee" data-i18n="nav.products.groundCoffee">Ground Coffee</a></li>
+                  <li><a class="mega-sublink" href="products.html?category=coffee&sub=instant-coffee" data-i18n="nav.products.instantCoffee">Instant Coffee</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <a class="mega-col-head" href="products.html?category=spices">
+                  <span data-i18n="nav.products.spices">Spices</span>
+                </a>
+                <ul class="mega-col-list">
+                  <li><a class="mega-sublink" href="products.html?category=spices&sub=black-pepper" data-i18n="nav.products.blackPepper">Black Pepper</a></li>
+                  <li><a class="mega-sublink" href="products.html?category=spices&sub=cinnamon" data-i18n="nav.products.cinnamon">Cinnamon</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <a class="mega-col-head" href="products.html?category=cashew">
+                  <span data-i18n="nav.products.nuts">Nuts</span>
+                </a>
+                <ul class="mega-col-list">
+                  <li><a class="mega-sublink" href="products.html?category=cashew" data-i18n="nav.products.cashew">Cashew</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <a class="mega-col-head" href="products.html?category=dried-fruits">
+                  <span data-i18n="nav.products.driedFruits">Dried Fruits</span>
+                </a>
+                <ul class="mega-col-list">
+                  <li><a class="mega-sublink" href="products.html?category=dried-fruits" data-i18n="nav.products.driedMango">Dried Mango</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <a class="mega-col-head" href="products.html?category=coconut">
+                  <span data-i18n="nav.products.coconut">Coconut Products</span>
+                </a>
+                <ul class="mega-col-list">
+                  <li><a class="mega-sublink" href="products.html?category=coconut" data-i18n="nav.products.coconut">Coconut Products</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mega-menu-footer">
+              <span class="mega-footer-tagline">Direct plantation sourcing & bulk container supply from Vietnam</span>
+              <a class="mega-footer-link" href="products.html" data-i18n="nav.products.viewAll">
+                <span>Explore Full Products Catalog →</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a class="nav-link" href="services.html#product-sourcing" data-i18n="nav.privateLabel">Private Label</a>
+        <a class="nav-link" href="logistics.html" data-i18n="nav.logistics">Logistics</a>
+
         <div class="nav-submenu" data-mobile-submenu>
           <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
-            <span data-i18n="nav.about">About us</span>
+            <span data-i18n="nav.aboutUs">About Us</span>
             <span class="nav-submenu-icon" aria-hidden="true"></span>
           </button>
           <div class="nav-submenu-panel">
@@ -74,23 +190,8 @@
             <a class="nav-submenu-link" href="about.html#about-mission" data-i18n="nav.about.mission">Mission</a>
           </div>
         </div>
-        <div class="nav-submenu nav-submenu-services" data-mobile-submenu>
-          <button class="nav-link nav-submenu-toggle" type="button" aria-expanded="false">
-            <span data-i18n="nav.services">Services</span>
-            <span class="nav-submenu-icon" aria-hidden="true"></span>
-          </button>
-          <div class="nav-submenu-panel">
-              <a class="nav-submenu-link" href="services.html#product-sourcing" data-i18n="nav.services.productSourcingSupplierVerification">Product Sourcing &amp; Supplier Verification</a>
-              <a class="nav-submenu-link" href="services.html#export-vietnam" data-i18n="nav.services.exportVietnam">Export from Vietnam</a>
-              <a class="nav-submenu-link" href="services.html#import-vietnam" data-i18n="nav.services.importVietnam">Import to Vietnam</a>
-              <a class="nav-submenu-link" href="services.html#buyer-search-market-development" data-i18n="nav.services.buyerMarketDevelopment">Buyer Search &amp; Market Development</a>
-              <a class="nav-submenu-link" href="services.html#logistics-documentation-quality" data-i18n="nav.services.logisticsDocumentationQuality">Logistics, Documentation &amp; Quality Control</a>
-              <a class="nav-submenu-link" href="services.html#full-b2b-support" data-i18n="nav.services.fullB2BSupport">Full B2B Trade Support</a>
-              <a class="nav-submenu-link" href="catalog.html" data-i18n="nav.services.productDirections">Product Directions</a>
-          </div>
-        </div>
-        <a class="nav-link" href="logistics.html" data-i18n="nav.logisticsQuality">Logistics &amp; Quality</a>
-        <a class="nav-link" href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+
+        <a class="nav-link" href="contacts.html" data-i18n="nav.contact">Contact</a>
 
         <div class="lang-switch" aria-label="Language selection" data-i18n-aria-label="aria.languageSelection">
           <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
@@ -98,7 +199,7 @@
           <button class="lang-btn" type="button" data-lang="vi" aria-pressed="false">VI</button>
         </div>
 
-        <a class="nav-action" href="contacts.html#request" data-i18n="nav.request">Send request</a>
+        <button class="nav-action" type="button" data-open-quote data-i18n="nav.requestQuote">Request a Quote</button>
       </nav>
     </div>
   </header>
@@ -121,17 +222,42 @@
 
       <div class="container hero-inner">
         <div class="hero-content" data-reveal>
-          <p class="eyebrow" data-i18n="home.hero.eyebrow">International trade operations with Vietnam</p>
-          <h1 id="hero-title" data-i18n="home.hero.title">Sourcing and supply coordination between Vietnam and international markets.</h1>
-          <p class="hero-lead" data-i18n="home.hero.lead">Based in Vietnam, we help companies find suppliers and buyers, organize export and import projects, and coordinate documents, quality control, logistics, and delivery.</p>
+          <p class="eyebrow" data-i18n="home.hero.b2bEyebrow">International B2B Supply from Vietnam</p>
+          <h1 id="hero-title" data-i18n="home.hero.b2bTitle">Vietnamese Coffee &amp; Agricultural Products for Global Markets</h1>
+          <p class="hero-lead" data-i18n="home.hero.b2bLead">Bulk supply, private label and export solutions for international buyers.</p>
+
+          <div class="hero-highlights-pills" data-i18n="home.hero.pills">
+            <span>Green Coffee</span>
+            <span>Roasted Coffee</span>
+            <span>Coffee Blends</span>
+            <span>Spices</span>
+            <span>Cashew</span>
+            <span>Dried Fruits</span>
+          </div>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="contacts.html#request">
-              <span data-i18n="home.hero.primary">Discuss a Shipment</span>
+            <a class="btn btn-primary" href="products.html">
+              <span data-i18n="home.hero.exploreProducts">Explore Products</span>
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </a>
-            <a class="btn btn-secondary" href="services.html" data-i18n="home.hero.secondary">View Services</a>
+            <button class="btn btn-secondary" type="button" data-open-quote data-i18n="home.hero.requestQuote">Request a Quote</button>
+          </div>
+
+          <div class="hero-b2b-metrics">
+            <div class="hero-metric-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+              <span data-i18n="home.hero.metricFcl">FCL &amp; LCL Bulk Supply</span>
+            </div>
+            <div class="hero-metric-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+              <span data-i18n="home.hero.metricOrigin">Origin &amp; Phyto Certificates</span>
+            </div>
+            <div class="hero-metric-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              <span data-i18n="home.hero.metricQc">SGS Quality Inspection</span>
+            </div>
           </div>
         </div>
 
@@ -148,6 +274,101 @@
             <span data-i18n="home.hero.intel.control.label">Control</span>
             <strong data-i18n="home.hero.intel.control.value">Sourcing · QC · Docs</strong>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: OUR PRODUCTS (PRODUCT CATEGORIES) -->
+    <section class="section home-b2b-categories" id="categories" aria-labelledby="home-categories-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker" data-i18n="categories.kicker">Product Categories</p>
+          <h2 id="home-categories-title" data-i18n="categories.title">Our Products</h2>
+          <p data-i18n="categories.lead">Direct plantation sourcing, strict grade selection, and export packaging across core agricultural directions.</p>
+        </div>
+
+        <div id="category-showcase-container" class="category-b2b-grid">
+          <!-- Fallback semantic cards / hydrated by catalog-engine.js -->
+          <article class="category-b2b-card" data-reveal>
+            <div class="category-b2b-media">
+              <img src="assets/products/vietnam-green-coffee.jpg" alt="Coffee" loading="lazy" class="category-b2b-img" />
+              <div class="category-b2b-overlay"></div>
+            </div>
+            <div class="category-b2b-content">
+              <span class="category-b2b-tagline">Vietnam Robusta &amp; Specialty Arabica</span>
+              <h3 class="category-b2b-title">Coffee</h3>
+              <p class="category-b2b-desc">Green beans, roasted beans, ground coffee, and private label blends sourced directly from Dak Lak and Lam Dong plantations.</p>
+              <a href="products.html?category=coffee" class="category-b2b-btn">View Products →</a>
+            </div>
+          </article>
+          <article class="category-b2b-card" data-reveal>
+            <div class="category-b2b-media">
+              <img src="assets/products/vietnam-black-pepper.jpg" alt="Spices" loading="lazy" class="category-b2b-img" />
+              <div class="category-b2b-overlay"></div>
+            </div>
+            <div class="category-b2b-content">
+              <span class="category-b2b-tagline">Black Pepper &amp; Cinnamon</span>
+              <h3 class="category-b2b-title">Spices</h3>
+              <p class="category-b2b-desc">High-density black pepper (FAQ / Clean 500-550 g/l) and split cassia cinnamon selected for industrial and spice processors.</p>
+              <a href="products.html?category=spices" class="category-b2b-btn">View Products →</a>
+            </div>
+          </article>
+          <article class="category-b2b-card" data-reveal>
+            <div class="category-b2b-media">
+              <img src="assets/products/vietnam-nuts-dried.jpg" alt="Cashew" loading="lazy" class="category-b2b-img" />
+              <div class="category-b2b-overlay"></div>
+            </div>
+            <div class="category-b2b-content">
+              <span class="category-b2b-tagline">Binh Phuoc Premium Cashew</span>
+              <h3 class="category-b2b-title">Cashew</h3>
+              <p class="category-b2b-desc">Export grades W240, W320, LP, and roasted salted cashew packed in vacuum bags or bulk master cartons.</p>
+              <a href="products.html?category=cashew" class="category-b2b-btn">View Products →</a>
+            </div>
+          </article>
+          <article class="category-b2b-card" data-reveal>
+            <div class="category-b2b-media">
+              <img src="assets/products/vietnam-dried-fruits.jpg" alt="Dried Fruits" loading="lazy" class="category-b2b-img" />
+              <div class="category-b2b-overlay"></div>
+            </div>
+            <div class="category-b2b-content">
+              <span class="category-b2b-tagline">Tropical Soft-Dried Fruits</span>
+              <h3 class="category-b2b-title">Dried Fruits</h3>
+              <p class="category-b2b-desc">Low-sugar soft-dried Keo and Cat Chu mango, dragon fruit, and passion fruit packed for bulk wholesale and private label.</p>
+              <a href="products.html?category=dried-fruits" class="category-b2b-btn">View Products →</a>
+            </div>
+          </article>
+          <article class="category-b2b-card" data-reveal>
+            <div class="category-b2b-media">
+              <img src="assets/products/vietnam-shelf-stable-food.jpg" alt="Coconut Products" loading="lazy" class="category-b2b-img" />
+              <div class="category-b2b-overlay"></div>
+            </div>
+            <div class="category-b2b-content">
+              <span class="category-b2b-tagline">Ben Tre Coconut Processing</span>
+              <h3 class="category-b2b-title">Coconut Products</h3>
+              <p class="category-b2b-desc">High-fat desiccated coconut, extra virgin coconut oil, and coconut milk for confectionery and food manufacturers.</p>
+              <a href="products.html?category=coconut" class="category-b2b-btn">View Products →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FEATURED PRODUCTS -->
+    <section class="section home-b2b-featured" id="featured" aria-labelledby="home-featured-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker" data-i18n="featured.b2bKicker">Featured Products</p>
+          <h2 id="home-featured-title" data-i18n="featured.b2bTitle">Featured Products</h2>
+          <p data-i18n="featured.b2bLead">Selected export-grade lots ready for container shipments and customized private label production.</p>
+        </div>
+
+        <div id="featured-products-container" class="product-b2b-grid">
+          <!-- Populated dynamically from products-data.js by catalog-engine.js -->
+        </div>
+
+        <div class="featured-products-action" data-reveal style="margin-top: 36px; text-align: center; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+          <a class="btn btn-primary" href="products.html" data-i18n="nav.products.viewAll">Explore Full Products Catalog</a>
+          <button class="btn btn-secondary" type="button" data-open-quote data-i18n="home.hero.requestQuote">Request a Quote</button>
         </div>
       </div>
     </section>
@@ -345,51 +566,7 @@
       </div>
     </section>
 
-    <section class="section featured-products" aria-labelledby="featured-products-title">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="featured.kicker">Featured products</p>
-          <h2 id="featured-products-title" data-i18n="featured.title">Products we source from Vietnam.</h2>
-          <p data-i18n="featured.text">These directions show practical areas of specialization. Product specifications, suppliers, volumes, and export conditions are confirmed for each inquiry.</p>
-        </div>
-        <div class="featured-products-grid">
-          <a class="featured-product-card" href="catalog.html#vietnam-coffee-spices" data-reveal>
-            <img src="assets/products/vietnam-green-coffee.jpg" alt="Green coffee" data-i18n-alt="featured.item1.title" loading="lazy" decoding="async" />
-            <span data-i18n="featured.item1.type">Export product</span>
-            <h3 data-i18n="featured.item1.title">Green Coffee</h3>
-            <p data-i18n="featured.item1.text">Green coffee sourcing by origin, grade, processing method, volume, and export requirements.</p>
-          </a>
-          <a class="featured-product-card" href="catalog.html#vietnam-coffee-spices" data-reveal>
-            <img src="assets/products/vietnam-roasted-coffee.jpg" alt="Roasted coffee" data-i18n-alt="featured.item2.title" loading="lazy" decoding="async" />
-            <span data-i18n="featured.item2.type">Products we source</span>
-            <h3 data-i18n="featured.item2.title">Roasted Coffee</h3>
-            <p data-i18n="featured.item2.text">Roasted coffee, blends, retail formats, food-service packs, and private-label options.</p>
-          </a>
-          <a class="featured-product-card" href="catalog.html#vietnam-nuts-dried" data-reveal>
-            <img src="assets/products/vietnam-nuts-dried.jpg" alt="Cashew nuts" data-i18n-alt="featured.item3.title" loading="lazy" decoding="async" />
-            <span data-i18n="featured.item3.type">Export product</span>
-            <h3 data-i18n="featured.item3.title">Cashew Nuts</h3>
-            <p data-i18n="featured.item3.text">Cashew sourcing for bulk, food-service, retail, and buyer-specific packaging formats.</p>
-          </a>
-          <a class="featured-product-card" href="catalog.html#vietnam-coffee-spices" data-reveal>
-            <img src="assets/products/vietnam-black-pepper.jpg" alt="Black pepper" data-i18n-alt="featured.item4.title" loading="lazy" decoding="async" />
-            <span data-i18n="featured.item4.type">Export product</span>
-            <h3 data-i18n="featured.item4.title">Black Pepper</h3>
-            <p data-i18n="featured.item4.text">Black pepper sourcing with specification, packaging, quality, and shipment coordination.</p>
-          </a>
-          <a class="featured-product-card" href="catalog.html#vietnam-nuts-dried" data-reveal>
-            <img src="assets/products/vietnam-dried-fruits.jpg" alt="Dried fruits" data-i18n-alt="featured.item5.title" loading="lazy" decoding="async" />
-            <span data-i18n="featured.item5.type">Products we source</span>
-            <h3 data-i18n="featured.item5.title">Dried Fruits</h3>
-            <p data-i18n="featured.item5.text">Dried fruit and coconut products for wholesale, food-service, retail, and private-label supply.</p>
-          </a>
-        </div>
-        <div class="featured-products-action" data-reveal>
-          <a class="btn btn-primary" href="catalog.html#export-vietnam-products" data-i18n="featured.button">View Product Categories</a>
-          <a class="btn btn-secondary" href="contacts.html?category=export-vietnam#request" data-i18n="featured.inquiry">Send Inquiry</a>
-        </div>
-      </div>
-    </section>
+
 
     <section class="section site-directory" aria-labelledby="directory-title">
       <div class="container">
@@ -447,7 +624,10 @@
           <h2 data-i18n="home.request.title">Describe the shipment you want to prepare.</h2>
         </div>
         <p data-reveal data-i18n="home.request.text">Share the product, volume, destination market, and timing. We will identify the questions needed to structure the next step.</p>
-        <a class="btn btn-primary" href="contacts.html#request" data-i18n="home.request.button">Send Inquiry</a>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <button class="btn btn-primary" type="button" data-open-quote data-i18n="home.hero.requestQuote">Request a Quote</button>
+          <a class="btn btn-secondary" href="contacts.html#request" data-i18n="home.request.button">Send Inquiry</a>
+        </div>
       </div>
     </section>
   </main>
@@ -470,6 +650,7 @@
       </div>
       <div class="footer-links">
         <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="products.html" data-i18n="nav.products">Products</a>
         <a href="about.html" data-i18n="nav.about">About us</a>
         <a href="services.html" data-i18n="nav.services">Services</a>
         <a href="logistics.html" data-i18n="nav.logisticsQuality">Logistics &amp; Quality</a>
